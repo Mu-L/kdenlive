@@ -69,11 +69,6 @@ SequenceClip::SequenceClip(const QString &id, const QIcon &thumb, const std::sha
     // Initialize path for thumbnails playlist
     m_sequenceUuid = QUuid(m_masterProducer->get("kdenlive:uuid"));
     m_clipType = ClipType::Timeline;
-    // Generate audio thumbnail
-    if (KdenliveSettings::audiothumbnails() && producer->get_int("kdenlive:duration") > 0) {
-        ObjectId oid(KdenliveObjectType::BinClip, m_binId.toInt(), QUuid());
-        AudioLevelsTask::start(oid, this, false);
-    }
     if (model->hasSequenceId(m_sequenceUuid)) {
         // We already have a sequence with this uuid, this is probably a duplicate, update uuid
         const QUuid prevUuid = m_sequenceUuid;
@@ -254,7 +249,7 @@ void SequenceClip::setProperties(const QMap<QString, QString> &properties, bool 
         }
     }
     if (properties.contains("length")) {
-        discardAudioThumb(true);
+        discardAudioThumb();
         if (pCore->taskManager.displayedClip == m_binId.toInt()) {
             // Refresh monitor duration
             pCore->getMonitor(Kdenlive::ClipMonitor)->adjustRulerSize(properties.value("length").toInt());
