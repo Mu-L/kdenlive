@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-02 02:39+0000\n"
+"POT-Creation-Date: 2026-02-03 02:46+0000\n"
 "PO-Revision-Date: 2025-11-30 13:55+0100\n"
 "Last-Translator: Łukasz Wojniłowicz <lukasz.wojnilowicz@gmail.com>\n"
 "Language-Team: pl\n"
@@ -19569,14 +19569,14 @@ msgstr "Brak prawidłowych wycinków do wstawienia"
 msgid "Select a clip to apply an effect"
 msgstr "Wybierz wycinek, na który chcesz nałożyć efekt"
 
-#: src/bin/bin.cpp:4352 src/effects/effectstack/model/effectstackmodel.cpp:742
-#: src/effects/effectstack/model/effectstackmodel.cpp:748
+#: src/bin/bin.cpp:4352 src/effects/effectstack/model/effectstackmodel.cpp:739
+#: src/effects/effectstack/model/effectstackmodel.cpp:745
 #: src/timeline2/model/timelineitemmodel.cpp:738
 #, kde-format
 msgid "Cannot add effect to clip"
 msgstr "Nie można dodać efektu do wycinka"
 
-#: src/bin/bin.cpp:4426 src/effects/effectstack/model/effectstackmodel.cpp:698
+#: src/bin/bin.cpp:4426 src/effects/effectstack/model/effectstackmodel.cpp:695
 #, kde-format
 msgid "Paste effect"
 msgstr "Wklej efekt"
@@ -22391,7 +22391,7 @@ msgid "Downloading multilingual model…"
 msgstr "Pobieranie wielojęzycznego modelu…"
 
 #: src/dialogs/settings/pluginssettings.cpp:194
-#: src/dialogs/settings/pluginssettings.cpp:895
+#: src/dialogs/settings/pluginssettings.cpp:902
 #, kde-format
 msgid "Please add a speech model."
 msgstr "Dodaj model mowy."
@@ -22424,7 +22424,7 @@ msgid ""
 "plugin."
 msgstr ""
 
-#: src/dialogs/settings/pluginssettings.cpp:477
+#: src/dialogs/settings/pluginssettings.cpp:484
 #, kde-format
 msgid ""
 "This will delete the installed models\n"
@@ -22433,8 +22433,8 @@ msgstr ""
 "Usunie to wczytane modele\n"
 "Możesz je wgrać ponownie później."
 
-#: src/dialogs/settings/pluginssettings.cpp:494
-#: src/dialogs/settings/pluginssettings.cpp:508
+#: src/dialogs/settings/pluginssettings.cpp:501
+#: src/dialogs/settings/pluginssettings.cpp:515
 #, fuzzy, kde-format
 #| msgid ""
 #| "This will delete the plugin python environment from:<br/><b>%1</b><br/"
@@ -22450,76 +22450,76 @@ msgstr ""
 "włączyć tę wtyczkę ponownie."
 
 #. i18n: ectx: property (text), widget (QPushButton, install_seamless)
-#: src/dialogs/settings/pluginssettings.cpp:523 src/ui/configspeech_ui.ui:369
+#: src/dialogs/settings/pluginssettings.cpp:530 src/ui/configspeech_ui.ui:369
 #, kde-format
 msgid "Install multilingual translation"
 msgstr "Wgraj wielojęzyczne tłumaczenie"
 
-#: src/dialogs/settings/pluginssettings.cpp:532
+#: src/dialogs/settings/pluginssettings.cpp:539
 #, kde-format
 msgid "Install a speech model - we recommend <b>turbo</b>"
 msgstr "Wgraj model mowy - zalecamy <b>turbo</b>"
 
-#: src/dialogs/settings/pluginssettings.cpp:587
+#: src/dialogs/settings/pluginssettings.cpp:594
 #, kde-format
 msgid "Select model to download"
 msgstr "Wybierz model do pobrania"
 
-#: src/dialogs/settings/pluginssettings.cpp:603
+#: src/dialogs/settings/pluginssettings.cpp:610
 #, kde-format
 msgid "All models are already installed"
 msgstr "Wszystkie modele są już wgrane"
 
-#: src/dialogs/settings/pluginssettings.cpp:623
+#: src/dialogs/settings/pluginssettings.cpp:630
 #, kde-format
 msgid "Downloading…"
 msgstr "Pobieranie…"
 
-#: src/dialogs/settings/pluginssettings.cpp:633
+#: src/dialogs/settings/pluginssettings.cpp:640
 #, kde-format
 msgid "Downloading smallest model…"
 msgstr "Pobieranie najmniejszego modelu…"
 
 #. i18n: ectx: property (text), widget (QPushButton, downloadSamButton)
-#: src/dialogs/settings/pluginssettings.cpp:652 src/ui/configspeech_ui.ui:832
+#: src/dialogs/settings/pluginssettings.cpp:659 src/ui/configspeech_ui.ui:832
 #, kde-format
 msgid "Download models"
 msgstr "Pobierz modele"
 
-#: src/dialogs/settings/pluginssettings.cpp:704
-#: src/dialogs/settings/pluginssettings.cpp:717
+#: src/dialogs/settings/pluginssettings.cpp:711
+#: src/dialogs/settings/pluginssettings.cpp:724
 #, kde-format
 msgid "Install a model"
 msgstr "Wgraj model"
 
 #. i18n: ectx: property (text), widget (QPushButton, downloadButton)
-#: src/dialogs/settings/pluginssettings.cpp:719 src/ui/configspeech_ui.ui:463
+#: src/dialogs/settings/pluginssettings.cpp:726 src/ui/configspeech_ui.ui:463
 #, kde-format
 msgid "Manage models"
 msgstr "Zarządzaj modelami"
 
-#: src/dialogs/settings/pluginssettings.cpp:778
+#: src/dialogs/settings/pluginssettings.cpp:785
 #, kde-format
 msgid "Enter url for the new dictionary"
 msgstr "Podaj adres URL dla nowego słownika"
 
-#: src/dialogs/settings/pluginssettings.cpp:784
+#: src/dialogs/settings/pluginssettings.cpp:791
 #, kde-format
 msgid "Downloading model…"
 msgstr "Pobieranie modelu…"
 
-#: src/dialogs/settings/pluginssettings.cpp:794
+#: src/dialogs/settings/pluginssettings.cpp:801
 #, kde-format
 msgid "We do not allow deleting custom folder models, please do it manually."
 msgstr "Nie zezwalamy na usuwanie katalogu własnych modeli, zrób to ręcznie."
 
-#: src/dialogs/settings/pluginssettings.cpp:800
-#: src/dialogs/settings/pluginssettings.cpp:854
+#: src/dialogs/settings/pluginssettings.cpp:807
+#: src/dialogs/settings/pluginssettings.cpp:861
 #, kde-format
 msgid "Cannot access dictionary folder."
 msgstr "Nie można uzyskać dostępu do katalogu słownika."
 
-#: src/dialogs/settings/pluginssettings.cpp:809
+#: src/dialogs/settings/pluginssettings.cpp:816
 #, kde-format
 msgid ""
 "Delete folder:\n"
@@ -22528,27 +22528,27 @@ msgstr ""
 "Usuń katalog:\n"
 "%1"
 
-#: src/dialogs/settings/pluginssettings.cpp:829
+#: src/dialogs/settings/pluginssettings.cpp:836
 #, kde-format
 msgid "Download error"
 msgstr "Błąd pobierania"
 
-#: src/dialogs/settings/pluginssettings.cpp:833
+#: src/dialogs/settings/pluginssettings.cpp:840
 #, kde-format
 msgid "Download error %1"
 msgstr "Błąd pobierania %1"
 
-#: src/dialogs/settings/pluginssettings.cpp:861
+#: src/dialogs/settings/pluginssettings.cpp:868
 #, kde-format
 msgid "Extracting archive…"
 msgstr "Wypakowywanie archiwum…"
 
-#: src/dialogs/settings/pluginssettings.cpp:868
+#: src/dialogs/settings/pluginssettings.cpp:875
 #, kde-format
 msgid "New dictionary installed."
 msgstr "Wgrano nowy słownik."
 
-#: src/dialogs/settings/pluginssettings.cpp:996
+#: src/dialogs/settings/pluginssettings.cpp:1003
 #, kde-format
 msgid ""
 "Nvidia GPU support for %1\n"
@@ -22557,17 +22557,17 @@ msgstr ""
 "Obsługa GPU Nvidii dla %1\n"
 "Wybierz wersję CUDA do wgrania."
 
-#: src/dialogs/settings/pluginssettings.cpp:1000
+#: src/dialogs/settings/pluginssettings.cpp:1007
 #, kde-format
 msgid "CUDA %1"
 msgstr "CUDA %1"
 
-#: src/dialogs/settings/pluginssettings.cpp:1013
+#: src/dialogs/settings/pluginssettings.cpp:1020
 #, kde-format
 msgid "Detected version: %1"
 msgstr "Wykryta wersja: %1"
 
-#: src/dialogs/settings/pluginssettings.cpp:1016
+#: src/dialogs/settings/pluginssettings.cpp:1023
 #, kde-format
 msgid ""
 "Cannot determine CUDA version,\n"
@@ -22576,7 +22576,7 @@ msgstr ""
 "Nie można ustalić wersji CUDA,\n"
 "więc wybierz wersję dostępną na swoim systemie."
 
-#: src/dialogs/settings/pluginssettings.cpp:1030
+#: src/dialogs/settings/pluginssettings.cpp:1037
 #, kde-format
 msgid ""
 "Only use this install option if your GPU\n"
@@ -24993,26 +24993,26 @@ msgid "Copy effect"
 msgstr "Skopiuj efekt"
 
 #: src/effects/effectstack/model/effectstackmodel.cpp:410
-#: src/effects/effectstack/model/effectstackmodel.cpp:601
-#: src/effects/effectstack/model/effectstackmodel.cpp:728
-#: src/effects/effectstack/model/effectstackmodel.cpp:1500
+#: src/effects/effectstack/model/effectstackmodel.cpp:598
+#: src/effects/effectstack/model/effectstackmodel.cpp:725
+#: src/effects/effectstack/model/effectstackmodel.cpp:1497
 #, kde-format
 msgid "Effect %1 cannot be added twice."
 msgstr "Nie można dodać dwukrotnie efektu %1"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:714
+#: src/effects/effectstack/model/effectstackmodel.cpp:711
 #: src/effects/effectstack/view/effectstackview.cpp:229
 #: src/timeline2/model/timelinemodel.cpp:5197
 #, kde-format
 msgid "Add effect %1"
 msgstr "Dodaj efekt %1"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:724
+#: src/effects/effectstack/model/effectstackmodel.cpp:721
 #, kde-format
 msgid "Effect %1 can only be added to master"
 msgstr "Efek %1 można dodać tylko do głównej ścieżki"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:1284
+#: src/effects/effectstack/model/effectstackmodel.cpp:1281
 #, kde-format
 msgid "Move effect %1"
 msgstr "Przesuń efekt %1"
@@ -31622,17 +31622,17 @@ msgstr "Poszukaj uaktualnień"
 msgid "Checking configuration…"
 msgstr "Sprawdzanie ustawień…"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:213
+#: src/pythoninterfaces/abstractpythoninterface.cpp:219
 #, kde-format
 msgid "Successfully rebuilt environment"
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:266
+#: src/pythoninterfaces/abstractpythoninterface.cpp:272
 #, kde-format
 msgid "Corrupted plugin, trying to reinstall…"
 msgstr "Uszkodzona wtyczka, próba jej ponownego wgrania…"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:310
+#: src/pythoninterfaces/abstractpythoninterface.cpp:316
 #, kde-format
 msgid ""
 "Cannot find a compatible python version:\n"
@@ -31643,7 +31643,7 @@ msgstr ""
 "%1\n"
 "Wgraj jedną z nich na swoim systemie.\n"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:322
+#: src/pythoninterfaces/abstractpythoninterface.cpp:328
 #, kde-format
 msgid ""
 "Cannot find %1, please install it on your system.\n"
@@ -31654,7 +31654,7 @@ msgstr ""
 "Jeśli już jest wgrany, to upewnij się, że w katalogu wymienionym w zmiennej "
 "środowiskowej PATH"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:356
+#: src/pythoninterfaces/abstractpythoninterface.cpp:362
 #, kde-format
 msgid ""
 "Cannot find python3 in the kdenlive venv.\n"
@@ -31663,7 +31663,7 @@ msgstr ""
 "Nie można było znaleźć python3 w środowisku venv kdenlive.\n"
 "Spróbuj usunąć i wgrać tę wtyczkę na nowo."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:364
+#: src/pythoninterfaces/abstractpythoninterface.cpp:370
 #, kde-format
 msgid ""
 "Cannot find pip3 in the kdenlive venv.\n"
@@ -31672,12 +31672,12 @@ msgstr ""
 "Nie można było znaleźć pip3 w środowisku venv kdenlive.\n"
 "Spróbuj usunąć i wgrać tę wtyczkę na nowo."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:455
+#: src/pythoninterfaces/abstractpythoninterface.cpp:461
 #, kde-format
 msgid "Cannot find system python"
 msgstr "Nie można znaleźć Pythona w systemie"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:485
+#: src/pythoninterfaces/abstractpythoninterface.cpp:491
 #, kde-format
 msgid ""
 "Cannot create the python virtual environment:\n"
@@ -31686,22 +31686,22 @@ msgstr ""
 "Nie można utworzyć wirtualnego środowiska Pythona:\n"
 "%1"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:503
+#: src/pythoninterfaces/abstractpythoninterface.cpp:509
 #, kde-format
 msgid "The %1 script was not found, check your install."
 msgstr "Nie znaleziono skryptu %1, upewnij się, że go wgrałeś."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:578
+#: src/pythoninterfaces/abstractpythoninterface.cpp:586
 #, kde-kuit-format
 msgid "The <application>%1</application> python module is required."
 msgstr "Wymagany jest moduł Pythona <application>%1</application>."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:591
+#: src/pythoninterfaces/abstractpythoninterface.cpp:599
 #, kde-format
 msgid "Using python from %1"
 msgstr "Użyto pythona z %1"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:614
+#: src/pythoninterfaces/abstractpythoninterface.cpp:622
 #, kde-format
 msgid ""
 "This requires an internet connection and will take several minutes\n"
@@ -31712,57 +31712,57 @@ msgstr ""
 "zależności może zająć kilka minut.\n"
 "Po ich wgraniu, całe przetwarzanie będzie następowało bez udziału sieci."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:633
-#: src/pythoninterfaces/abstractpythoninterface.cpp:745
+#: src/pythoninterfaces/abstractpythoninterface.cpp:641
+#: src/pythoninterfaces/abstractpythoninterface.cpp:753
 #, kde-format
 msgid "Installation Issue: Cannot find dependency list for %1"
 msgstr "Błąd z wgrywaniem: Nie można znaleźć listy zależności dla %1"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:649
+#: src/pythoninterfaces/abstractpythoninterface.cpp:657
 #, kde-format
 msgid "Error while checking version of module %1"
 msgstr "Błąd podczas sprawdzania wersji modułu %1"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:653
+#: src/pythoninterfaces/abstractpythoninterface.cpp:661
 #, kde-format
 msgid ""
 "At least version %1 of module %2 is required, but your current version is %3"
 msgstr ""
 "Wymagany jest moduł Pythona %2 w wersji co najmniej %1, a obecna wersja to %3"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:657
+#: src/pythoninterfaces/abstractpythoninterface.cpp:665
 #, kde-format
 msgid "Please consider to update your setup."
 msgstr "Rozważ uaktualnienie swoich ustawień."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:679
+#: src/pythoninterfaces/abstractpythoninterface.cpp:687
 #, kde-format
 msgctxt "@item:intext indicates a missing dependency"
 msgid "missing (optional)"
 msgstr "brakuje (dodatkowo)"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:687
+#: src/pythoninterfaces/abstractpythoninterface.cpp:695
 #, kde-format
 msgctxt "@label:textbox"
 msgid "No version information available."
 msgstr "Szczegóły o wersji są niedostępne."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:769
+#: src/pythoninterfaces/abstractpythoninterface.cpp:777
 #, kde-format
 msgid "Installation issue: Cannot find %1 for %2"
 msgstr "Błąd z wgrywaniem: Nie można znaleźć %1 dla %2"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:804
+#: src/pythoninterfaces/abstractpythoninterface.cpp:812
 #, kde-format
 msgid "Python exec not found"
 msgstr "Nie znaleziono pliku wykonywalnego Pythona"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:808
+#: src/pythoninterfaces/abstractpythoninterface.cpp:816
 #, kde-format
 msgid "Failed to find script file %1"
 msgstr "Nie udało się znaleźć pliku skryptu %1"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:847
+#: src/pythoninterfaces/abstractpythoninterface.cpp:855
 #, kde-format
 msgid ""
 "Error while running python3 script:\n"
@@ -31773,7 +31773,7 @@ msgstr ""
 " %1\n"
 "%2"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:882
+#: src/pythoninterfaces/abstractpythoninterface.cpp:890
 #, kde-format
 msgid "Install missing dependencies"
 msgstr "Wgraj brakujące zależności"

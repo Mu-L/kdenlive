@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-02 02:39+0000\n"
+"POT-Creation-Date: 2026-02-03 02:46+0000\n"
 "PO-Revision-Date: 2020-06-05 19:51+0300\n"
 "Last-Translator: Marek Laane <qiilaq69@gmail.com>\n"
 "Language-Team: Estonian <kde-et@lists.linux.ee>\n"
@@ -19830,14 +19830,14 @@ msgstr "Pole töökorras klippi, mida lisada"
 msgid "Select a clip to apply an effect"
 msgstr "Efekti rakendamiseks vali klipp"
 
-#: src/bin/bin.cpp:4352 src/effects/effectstack/model/effectstackmodel.cpp:742
-#: src/effects/effectstack/model/effectstackmodel.cpp:748
+#: src/bin/bin.cpp:4352 src/effects/effectstack/model/effectstackmodel.cpp:739
+#: src/effects/effectstack/model/effectstackmodel.cpp:745
 #: src/timeline2/model/timelineitemmodel.cpp:738
 #, kde-format
 msgid "Cannot add effect to clip"
 msgstr "Klipile ei saa efekti lisada"
 
-#: src/bin/bin.cpp:4426 src/effects/effectstack/model/effectstackmodel.cpp:698
+#: src/bin/bin.cpp:4426 src/effects/effectstack/model/effectstackmodel.cpp:695
 #, fuzzy, kde-format
 #| msgid "Paste Effects"
 msgid "Paste effect"
@@ -22786,7 +22786,7 @@ msgid "Downloading multilingual model…"
 msgstr "Uute pühkimisefektide allalaadimine..."
 
 #: src/dialogs/settings/pluginssettings.cpp:194
-#: src/dialogs/settings/pluginssettings.cpp:895
+#: src/dialogs/settings/pluginssettings.cpp:902
 #, fuzzy, kde-format
 #| msgid "Select Transition"
 msgid "Please add a speech model."
@@ -22815,15 +22815,15 @@ msgid ""
 "plugin."
 msgstr ""
 
-#: src/dialogs/settings/pluginssettings.cpp:477
+#: src/dialogs/settings/pluginssettings.cpp:484
 #, kde-format
 msgid ""
 "This will delete the installed models\n"
 "You can reinstall them later."
 msgstr ""
 
-#: src/dialogs/settings/pluginssettings.cpp:494
-#: src/dialogs/settings/pluginssettings.cpp:508
+#: src/dialogs/settings/pluginssettings.cpp:501
+#: src/dialogs/settings/pluginssettings.cpp:515
 #, kde-format
 msgid ""
 "This will delete the plugin python environment from:<br/><b>%1</b><br/>The "
@@ -22832,86 +22832,86 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QPushButton, install_seamless)
-#: src/dialogs/settings/pluginssettings.cpp:523 src/ui/configspeech_ui.ui:369
+#: src/dialogs/settings/pluginssettings.cpp:530 src/ui/configspeech_ui.ui:369
 #, fuzzy, kde-format
 #| msgid "Invalid transition"
 msgid "Install multilingual translation"
 msgstr "Sobimatu üleminek"
 
-#: src/dialogs/settings/pluginssettings.cpp:532
+#: src/dialogs/settings/pluginssettings.cpp:539
 #, kde-format
 msgid "Install a speech model - we recommend <b>turbo</b>"
 msgstr ""
 
-#: src/dialogs/settings/pluginssettings.cpp:587
+#: src/dialogs/settings/pluginssettings.cpp:594
 #, fuzzy, kde-format
 #| msgid "Select a zone to play"
 msgid "Select model to download"
 msgstr "Vali esitatav tsoon"
 
-#: src/dialogs/settings/pluginssettings.cpp:603
+#: src/dialogs/settings/pluginssettings.cpp:610
 #, kde-format
 msgid "All models are already installed"
 msgstr ""
 
-#: src/dialogs/settings/pluginssettings.cpp:623
+#: src/dialogs/settings/pluginssettings.cpp:630
 #, fuzzy, kde-format
 #| msgid "Download New Wipes..."
 msgid "Downloading…"
 msgstr "Uute pühkimisefektide allalaadimine..."
 
-#: src/dialogs/settings/pluginssettings.cpp:633
+#: src/dialogs/settings/pluginssettings.cpp:640
 #, fuzzy, kde-format
 #| msgid "Download New Wipes..."
 msgid "Downloading smallest model…"
 msgstr "Uute pühkimisefektide allalaadimine..."
 
 #. i18n: ectx: property (text), widget (QPushButton, downloadSamButton)
-#: src/dialogs/settings/pluginssettings.cpp:652 src/ui/configspeech_ui.ui:832
+#: src/dialogs/settings/pluginssettings.cpp:659 src/ui/configspeech_ui.ui:832
 #, fuzzy, kde-format
 #| msgid "Download New Wipes..."
 msgid "Download models"
 msgstr "Uute pühkimisefektide allalaadimine..."
 
-#: src/dialogs/settings/pluginssettings.cpp:704
-#: src/dialogs/settings/pluginssettings.cpp:717
+#: src/dialogs/settings/pluginssettings.cpp:711
+#: src/dialogs/settings/pluginssettings.cpp:724
 #, fuzzy, kde-format
 #| msgid "Installed modules"
 msgid "Install a model"
 msgstr "Paigaldatud moodulid"
 
 #. i18n: ectx: property (text), widget (QPushButton, downloadButton)
-#: src/dialogs/settings/pluginssettings.cpp:719 src/ui/configspeech_ui.ui:463
+#: src/dialogs/settings/pluginssettings.cpp:726 src/ui/configspeech_ui.ui:463
 #, fuzzy, kde-format
 #| msgid "Edge mode"
 msgid "Manage models"
 msgstr "Servarežiim:"
 
-#: src/dialogs/settings/pluginssettings.cpp:778
+#: src/dialogs/settings/pluginssettings.cpp:785
 #, fuzzy, kde-format
 #| msgid "Enter a name for the clip in Library"
 msgid "Enter url for the new dictionary"
 msgstr "Kirjuta videoteegi klipi nimi"
 
-#: src/dialogs/settings/pluginssettings.cpp:784
+#: src/dialogs/settings/pluginssettings.cpp:791
 #, fuzzy, kde-format
 #| msgid "Download New Wipes..."
 msgid "Downloading model…"
 msgstr "Uute pühkimisefektide allalaadimine..."
 
-#: src/dialogs/settings/pluginssettings.cpp:794
+#: src/dialogs/settings/pluginssettings.cpp:801
 #, kde-format
 msgid "We do not allow deleting custom folder models, please do it manually."
 msgstr ""
 
-#: src/dialogs/settings/pluginssettings.cpp:800
-#: src/dialogs/settings/pluginssettings.cpp:854
+#: src/dialogs/settings/pluginssettings.cpp:807
+#: src/dialogs/settings/pluginssettings.cpp:861
 #, fuzzy, kde-format
 #| msgid "Cannot apply effects on folders"
 msgid "Cannot access dictionary folder."
 msgstr "Efekte ei saa kataloogidele rakendada"
 
-#: src/dialogs/settings/pluginssettings.cpp:809
+#: src/dialogs/settings/pluginssettings.cpp:816
 #, fuzzy, kde-format
 #| msgid "Delete folder"
 msgid ""
@@ -22919,55 +22919,55 @@ msgid ""
 "%1"
 msgstr "Kustuta kataloog"
 
-#: src/dialogs/settings/pluginssettings.cpp:829
+#: src/dialogs/settings/pluginssettings.cpp:836
 #, fuzzy, kde-format
 #| msgid "Download New Wipes..."
 msgid "Download error"
 msgstr "Uute pühkimisefektide allalaadimine..."
 
-#: src/dialogs/settings/pluginssettings.cpp:833
+#: src/dialogs/settings/pluginssettings.cpp:840
 #, fuzzy, kde-format
 #| msgid "Download New Wipes..."
 msgid "Download error %1"
 msgstr "Uute pühkimisefektide allalaadimine..."
 
-#: src/dialogs/settings/pluginssettings.cpp:861
+#: src/dialogs/settings/pluginssettings.cpp:868
 #, fuzzy, kde-format
 #| msgid "Extracting..."
 msgid "Extracting archive…"
 msgstr "Lahtipakkimine..."
 
-#: src/dialogs/settings/pluginssettings.cpp:868
+#: src/dialogs/settings/pluginssettings.cpp:875
 #, kde-format
 msgid "New dictionary installed."
 msgstr ""
 
-#: src/dialogs/settings/pluginssettings.cpp:996
+#: src/dialogs/settings/pluginssettings.cpp:1003
 #, kde-format
 msgid ""
 "Nvidia GPU support for %1\n"
 "Select the CUDA version to install."
 msgstr ""
 
-#: src/dialogs/settings/pluginssettings.cpp:1000
+#: src/dialogs/settings/pluginssettings.cpp:1007
 #, kde-format
 msgid "CUDA %1"
 msgstr ""
 
-#: src/dialogs/settings/pluginssettings.cpp:1013
+#: src/dialogs/settings/pluginssettings.cpp:1020
 #, fuzzy, kde-format
 #| msgid "Detected devices"
 msgid "Detected version: %1"
 msgstr "Tuvastatud seadmed"
 
-#: src/dialogs/settings/pluginssettings.cpp:1016
+#: src/dialogs/settings/pluginssettings.cpp:1023
 #, kde-format
 msgid ""
 "Cannot determine CUDA version,\n"
 "please select the version available on your system."
 msgstr ""
 
-#: src/dialogs/settings/pluginssettings.cpp:1030
+#: src/dialogs/settings/pluginssettings.cpp:1037
 #, kde-format
 msgid ""
 "Only use this install option if your GPU\n"
@@ -25522,26 +25522,26 @@ msgid "Copy effect"
 msgstr "Kopeeri efekt"
 
 #: src/effects/effectstack/model/effectstackmodel.cpp:410
-#: src/effects/effectstack/model/effectstackmodel.cpp:601
-#: src/effects/effectstack/model/effectstackmodel.cpp:728
-#: src/effects/effectstack/model/effectstackmodel.cpp:1500
+#: src/effects/effectstack/model/effectstackmodel.cpp:598
+#: src/effects/effectstack/model/effectstackmodel.cpp:725
+#: src/effects/effectstack/model/effectstackmodel.cpp:1497
 #, kde-format
 msgid "Effect %1 cannot be added twice."
 msgstr ""
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:714
+#: src/effects/effectstack/model/effectstackmodel.cpp:711
 #: src/effects/effectstack/view/effectstackview.cpp:229
 #: src/timeline2/model/timelinemodel.cpp:5197
 #, kde-format
 msgid "Add effect %1"
 msgstr "Lisa efekt %1"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:724
+#: src/effects/effectstack/model/effectstackmodel.cpp:721
 #, kde-format
 msgid "Effect %1 can only be added to master"
 msgstr ""
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:1284
+#: src/effects/effectstack/model/effectstackmodel.cpp:1281
 #, kde-format
 msgid "Move effect %1"
 msgstr "Liiguta efekti %1"
@@ -32336,17 +32336,17 @@ msgstr "Otseuuendamine"
 msgid "Checking configuration…"
 msgstr "Seadistamine..."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:213
+#: src/pythoninterfaces/abstractpythoninterface.cpp:219
 #, kde-format
 msgid "Successfully rebuilt environment"
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:266
+#: src/pythoninterfaces/abstractpythoninterface.cpp:272
 #, kde-format
 msgid "Corrupted plugin, trying to reinstall…"
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:310
+#: src/pythoninterfaces/abstractpythoninterface.cpp:316
 #, kde-format
 msgid ""
 "Cannot find a compatible python version:\n"
@@ -32354,7 +32354,7 @@ msgid ""
 "Please install it on your system.\n"
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:322
+#: src/pythoninterfaces/abstractpythoninterface.cpp:328
 #, fuzzy, kde-format
 #| msgid ""
 #| "Could not find \"otioconvert\" script.\n"
@@ -32375,27 +32375,27 @@ msgstr ""
 "ning kontrollida, kas skriptid paigaldati ikka kataloogi, mida loetleb "
 "keskkonnamuutuja PATH"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:356
+#: src/pythoninterfaces/abstractpythoninterface.cpp:362
 #, kde-format
 msgid ""
 "Cannot find python3 in the kdenlive venv.\n"
 "Try to uninstall and then reinstall the plugin."
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:364
+#: src/pythoninterfaces/abstractpythoninterface.cpp:370
 #, kde-format
 msgid ""
 "Cannot find pip3 in the kdenlive venv.\n"
 "Try to uninstall and then reinstall the plugin."
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:455
+#: src/pythoninterfaces/abstractpythoninterface.cpp:461
 #, fuzzy, kde-format
 #| msgid "Cannot find clip to cut"
 msgid "Cannot find system python"
 msgstr "Ei leitud klippi, mida lõigata"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:485
+#: src/pythoninterfaces/abstractpythoninterface.cpp:491
 #, fuzzy, kde-format
 #| msgid "Cannot create temporary directory %1"
 msgid ""
@@ -32403,23 +32403,23 @@ msgid ""
 "%1"
 msgstr "Ajutise kataloogi %1 loomine nurjus"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:503
+#: src/pythoninterfaces/abstractpythoninterface.cpp:509
 #, kde-format
 msgid "The %1 script was not found, check your install."
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:578
+#: src/pythoninterfaces/abstractpythoninterface.cpp:586
 #, kde-kuit-format
 msgid "The <application>%1</application> python module is required."
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:591
+#: src/pythoninterfaces/abstractpythoninterface.cpp:599
 #, fuzzy, kde-format
 #| msgid "Using MLT version %1"
 msgid "Using python from %1"
 msgstr "MLT versioon: %1"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:614
+#: src/pythoninterfaces/abstractpythoninterface.cpp:622
 #, kde-format
 msgid ""
 "This requires an internet connection and will take several minutes\n"
@@ -32427,61 +32427,61 @@ msgid ""
 "happen offline."
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:633
-#: src/pythoninterfaces/abstractpythoninterface.cpp:745
+#: src/pythoninterfaces/abstractpythoninterface.cpp:641
+#: src/pythoninterfaces/abstractpythoninterface.cpp:753
 #, kde-format
 msgid "Installation Issue: Cannot find dependency list for %1"
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:649
+#: src/pythoninterfaces/abstractpythoninterface.cpp:657
 #, kde-format
 msgid "Error while checking version of module %1"
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:653
+#: src/pythoninterfaces/abstractpythoninterface.cpp:661
 #, kde-format
 msgid ""
 "At least version %1 of module %2 is required, but your current version is %3"
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:657
+#: src/pythoninterfaces/abstractpythoninterface.cpp:665
 #, fuzzy, kde-format
 #| msgid "Select Transition"
 msgid "Please consider to update your setup."
 msgstr "Vali üleminek"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:679
+#: src/pythoninterfaces/abstractpythoninterface.cpp:687
 #, fuzzy, kde-format
 #| msgid "Drawing options"
 msgctxt "@item:intext indicates a missing dependency"
 msgid "missing (optional)"
 msgstr "Kujutamisvalikud"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:687
+#: src/pythoninterfaces/abstractpythoninterface.cpp:695
 #, fuzzy, kde-format
 #| msgid "No information in clipboard"
 msgctxt "@label:textbox"
 msgid "No version information available."
 msgstr "Lõikepuhvris teavet ei leidu"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:769
+#: src/pythoninterfaces/abstractpythoninterface.cpp:777
 #, kde-format
 msgid "Installation issue: Cannot find %1 for %2"
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:804
+#: src/pythoninterfaces/abstractpythoninterface.cpp:812
 #, fuzzy, kde-format
 #| msgid "Sequence not found"
 msgid "Python exec not found"
 msgstr "Seeriat ei leitud"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:808
+#: src/pythoninterfaces/abstractpythoninterface.cpp:816
 #, fuzzy, kde-format
 #| msgid "Failed to create file."
 msgid "Failed to find script file %1"
 msgstr "Faili loomine nurjus."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:847
+#: src/pythoninterfaces/abstractpythoninterface.cpp:855
 #, kde-format
 msgid ""
 "Error while running python3 script:\n"
@@ -32489,7 +32489,7 @@ msgid ""
 "%2"
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:882
+#: src/pythoninterfaces/abstractpythoninterface.cpp:890
 #, kde-format
 msgid "Install missing dependencies"
 msgstr ""

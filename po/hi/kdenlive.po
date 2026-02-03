@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-02 02:39+0000\n"
+"POT-Creation-Date: 2026-02-03 02:46+0000\n"
 "PO-Revision-Date: 2024-12-15 19:32+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
@@ -19789,14 +19789,14 @@ msgstr "डालने के लिए कोई वैध क्लिप न
 msgid "Select a clip to apply an effect"
 msgstr "प्रभाव लागू करने के लिए क्लिप का चयन करें"
 
-#: src/bin/bin.cpp:4352 src/effects/effectstack/model/effectstackmodel.cpp:742
-#: src/effects/effectstack/model/effectstackmodel.cpp:748
+#: src/bin/bin.cpp:4352 src/effects/effectstack/model/effectstackmodel.cpp:739
+#: src/effects/effectstack/model/effectstackmodel.cpp:745
 #: src/timeline2/model/timelineitemmodel.cpp:738
 #, kde-format
 msgid "Cannot add effect to clip"
 msgstr "क्लिप में प्रभाव नहीं जोड़ा जा सकता"
 
-#: src/bin/bin.cpp:4426 src/effects/effectstack/model/effectstackmodel.cpp:698
+#: src/bin/bin.cpp:4426 src/effects/effectstack/model/effectstackmodel.cpp:695
 #, kde-format
 msgid "Paste effect"
 msgstr "पेस्ट प्रभाव"
@@ -22611,7 +22611,7 @@ msgid "Downloading multilingual model…"
 msgstr "बहुभाषी मॉडल डाउनलोड हो रहा है…"
 
 #: src/dialogs/settings/pluginssettings.cpp:194
-#: src/dialogs/settings/pluginssettings.cpp:895
+#: src/dialogs/settings/pluginssettings.cpp:902
 #, kde-format
 msgid "Please add a speech model."
 msgstr "कृपया एक भाषण मॉडल जोड़ें."
@@ -22641,7 +22641,7 @@ msgid ""
 "plugin."
 msgstr ""
 
-#: src/dialogs/settings/pluginssettings.cpp:477
+#: src/dialogs/settings/pluginssettings.cpp:484
 #, fuzzy, kde-format
 #| msgid "This will delete the style <b>%1</b> and all its properties."
 msgid ""
@@ -22649,8 +22649,8 @@ msgid ""
 "You can reinstall them later."
 msgstr "इससे शैली <b>%1</b> और उसके सभी गुणधर्म हट जायेंगे।"
 
-#: src/dialogs/settings/pluginssettings.cpp:494
-#: src/dialogs/settings/pluginssettings.cpp:508
+#: src/dialogs/settings/pluginssettings.cpp:501
+#: src/dialogs/settings/pluginssettings.cpp:515
 #, fuzzy, kde-format
 #| msgid ""
 #| "This will delete the python virtual environment from:<br/><b>%1</b><br/"
@@ -22666,81 +22666,81 @@ msgstr ""
 "हो जाएंगे।"
 
 #. i18n: ectx: property (text), widget (QPushButton, install_seamless)
-#: src/dialogs/settings/pluginssettings.cpp:523 src/ui/configspeech_ui.ui:369
+#: src/dialogs/settings/pluginssettings.cpp:530 src/ui/configspeech_ui.ui:369
 #, kde-format
 msgid "Install multilingual translation"
 msgstr "बहुभाषी अनुवाद स्थापित करें"
 
-#: src/dialogs/settings/pluginssettings.cpp:532
+#: src/dialogs/settings/pluginssettings.cpp:539
 #, fuzzy, kde-format
 #| msgid "Install a speech model - we recommand <b>turbo</b>"
 msgid "Install a speech model - we recommend <b>turbo</b>"
 msgstr "एक भाषण मॉडल स्थापित करें - हम <b>टर्बो की</b> सिफारिश करते हैं"
 
-#: src/dialogs/settings/pluginssettings.cpp:587
+#: src/dialogs/settings/pluginssettings.cpp:594
 #, fuzzy, kde-format
 #| msgid "Select new models to download"
 msgid "Select model to download"
 msgstr "डाउनलोड करने के लिए नए मॉडल चुनें"
 
-#: src/dialogs/settings/pluginssettings.cpp:603
+#: src/dialogs/settings/pluginssettings.cpp:610
 #, kde-format
 msgid "All models are already installed"
 msgstr ""
 
-#: src/dialogs/settings/pluginssettings.cpp:623
+#: src/dialogs/settings/pluginssettings.cpp:630
 #, fuzzy, kde-format
 #| msgid "Downloading"
 msgid "Downloading…"
 msgstr "डाउनलोड"
 
-#: src/dialogs/settings/pluginssettings.cpp:633
+#: src/dialogs/settings/pluginssettings.cpp:640
 #, fuzzy, kde-format
 #| msgid "Downloading model…"
 msgid "Downloading smallest model…"
 msgstr "मॉडल डाउनलोड हो रहा है…"
 
 #. i18n: ectx: property (text), widget (QPushButton, downloadSamButton)
-#: src/dialogs/settings/pluginssettings.cpp:652 src/ui/configspeech_ui.ui:832
+#: src/dialogs/settings/pluginssettings.cpp:659 src/ui/configspeech_ui.ui:832
 #, fuzzy, kde-format
 #| msgid "Download Model"
 msgid "Download models"
 msgstr "मॉडल डाउनलोड करें"
 
-#: src/dialogs/settings/pluginssettings.cpp:704
-#: src/dialogs/settings/pluginssettings.cpp:717
+#: src/dialogs/settings/pluginssettings.cpp:711
+#: src/dialogs/settings/pluginssettings.cpp:724
 #, kde-format
 msgid "Install a model"
 msgstr "मॉडल स्थापित करें"
 
 #. i18n: ectx: property (text), widget (QPushButton, downloadButton)
-#: src/dialogs/settings/pluginssettings.cpp:719 src/ui/configspeech_ui.ui:463
+#: src/dialogs/settings/pluginssettings.cpp:726 src/ui/configspeech_ui.ui:463
 #, kde-format
 msgid "Manage models"
 msgstr "मॉडल प्रबंधित करें"
 
-#: src/dialogs/settings/pluginssettings.cpp:778
+#: src/dialogs/settings/pluginssettings.cpp:785
 #, kde-format
 msgid "Enter url for the new dictionary"
 msgstr "नये शब्दकोष के लिए यूआरएल दर्ज करें"
 
-#: src/dialogs/settings/pluginssettings.cpp:784
+#: src/dialogs/settings/pluginssettings.cpp:791
 #, kde-format
 msgid "Downloading model…"
 msgstr "मॉडल डाउनलोड हो रहा है…"
 
-#: src/dialogs/settings/pluginssettings.cpp:794
+#: src/dialogs/settings/pluginssettings.cpp:801
 #, kde-format
 msgid "We do not allow deleting custom folder models, please do it manually."
 msgstr "हम कस्टम फ़ोल्डर मॉडल को हटाने की अनुमति नहीं देते हैं, कृपया इसे मैन्युअल रूप से करें।"
 
-#: src/dialogs/settings/pluginssettings.cpp:800
-#: src/dialogs/settings/pluginssettings.cpp:854
+#: src/dialogs/settings/pluginssettings.cpp:807
+#: src/dialogs/settings/pluginssettings.cpp:861
 #, kde-format
 msgid "Cannot access dictionary folder."
 msgstr "शब्दकोश फ़ोल्डर तक पहुँच नहीं हो सकती."
 
-#: src/dialogs/settings/pluginssettings.cpp:809
+#: src/dialogs/settings/pluginssettings.cpp:816
 #, kde-format
 msgid ""
 "Delete folder:\n"
@@ -22749,52 +22749,52 @@ msgstr ""
 "फ़ोल्डर हटाएँ:\n"
 "%1"
 
-#: src/dialogs/settings/pluginssettings.cpp:829
+#: src/dialogs/settings/pluginssettings.cpp:836
 #, kde-format
 msgid "Download error"
 msgstr "डाउनलोड त्रुटि"
 
-#: src/dialogs/settings/pluginssettings.cpp:833
+#: src/dialogs/settings/pluginssettings.cpp:840
 #, kde-format
 msgid "Download error %1"
 msgstr "डाउनलोड त्रुटि %1"
 
-#: src/dialogs/settings/pluginssettings.cpp:861
+#: src/dialogs/settings/pluginssettings.cpp:868
 #, kde-format
 msgid "Extracting archive…"
 msgstr "पुरालेख निकाला जा रहा है…"
 
-#: src/dialogs/settings/pluginssettings.cpp:868
+#: src/dialogs/settings/pluginssettings.cpp:875
 #, kde-format
 msgid "New dictionary installed."
 msgstr "नया शब्दकोष स्थापित किया गया."
 
-#: src/dialogs/settings/pluginssettings.cpp:996
+#: src/dialogs/settings/pluginssettings.cpp:1003
 #, kde-format
 msgid ""
 "Nvidia GPU support for %1\n"
 "Select the CUDA version to install."
 msgstr ""
 
-#: src/dialogs/settings/pluginssettings.cpp:1000
+#: src/dialogs/settings/pluginssettings.cpp:1007
 #, kde-format
 msgid "CUDA %1"
 msgstr ""
 
-#: src/dialogs/settings/pluginssettings.cpp:1013
+#: src/dialogs/settings/pluginssettings.cpp:1020
 #, fuzzy, kde-format
 #| msgid "Detected devices:"
 msgid "Detected version: %1"
 msgstr "पता लगाए गए उपकरण:"
 
-#: src/dialogs/settings/pluginssettings.cpp:1016
+#: src/dialogs/settings/pluginssettings.cpp:1023
 #, kde-format
 msgid ""
 "Cannot determine CUDA version,\n"
 "please select the version available on your system."
 msgstr ""
 
-#: src/dialogs/settings/pluginssettings.cpp:1030
+#: src/dialogs/settings/pluginssettings.cpp:1037
 #, kde-format
 msgid ""
 "Only use this install option if your GPU\n"
@@ -25207,26 +25207,26 @@ msgid "Copy effect"
 msgstr "प्रतिलिपि प्रभाव"
 
 #: src/effects/effectstack/model/effectstackmodel.cpp:410
-#: src/effects/effectstack/model/effectstackmodel.cpp:601
-#: src/effects/effectstack/model/effectstackmodel.cpp:728
-#: src/effects/effectstack/model/effectstackmodel.cpp:1500
+#: src/effects/effectstack/model/effectstackmodel.cpp:598
+#: src/effects/effectstack/model/effectstackmodel.cpp:725
+#: src/effects/effectstack/model/effectstackmodel.cpp:1497
 #, kde-format
 msgid "Effect %1 cannot be added twice."
 msgstr "प्रभाव %1 को दो बार नहीं जोड़ा जा सकता."
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:714
+#: src/effects/effectstack/model/effectstackmodel.cpp:711
 #: src/effects/effectstack/view/effectstackview.cpp:229
 #: src/timeline2/model/timelinemodel.cpp:5197
 #, kde-format
 msgid "Add effect %1"
 msgstr "प्रभाव %1 जोड़ें"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:724
+#: src/effects/effectstack/model/effectstackmodel.cpp:721
 #, kde-format
 msgid "Effect %1 can only be added to master"
 msgstr "प्रभाव %1 को केवल मास्टर में ही जोड़ा जा सकता है"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:1284
+#: src/effects/effectstack/model/effectstackmodel.cpp:1281
 #, kde-format
 msgid "Move effect %1"
 msgstr "प्रभाव ले जाएँ %1"
@@ -31865,17 +31865,17 @@ msgstr "अपडेट के लिये जांचें"
 msgid "Checking configuration…"
 msgstr "कॉन्फ़िगरेशन जाँच रहा है…"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:213
+#: src/pythoninterfaces/abstractpythoninterface.cpp:219
 #, kde-format
 msgid "Successfully rebuilt environment"
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:266
+#: src/pythoninterfaces/abstractpythoninterface.cpp:272
 #, kde-format
 msgid "Corrupted plugin, trying to reinstall…"
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:310
+#: src/pythoninterfaces/abstractpythoninterface.cpp:316
 #, kde-format
 msgid ""
 "Cannot find a compatible python version:\n"
@@ -31883,7 +31883,7 @@ msgid ""
 "Please install it on your system.\n"
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:322
+#: src/pythoninterfaces/abstractpythoninterface.cpp:328
 #, fuzzy, kde-format
 #| msgid ""
 #| "Cannot find pip3, please install it on your system.\n"
@@ -31898,27 +31898,27 @@ msgstr ""
 "यदि यह पहले से इंस्टॉल है, तो जाँच लें कि यह PATH एनवायरनमेंट वैरिएबल में सूचीबद्ध किसी "
 "डायरेक्टरी में इंस्टॉल है या नहीं"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:356
+#: src/pythoninterfaces/abstractpythoninterface.cpp:362
 #, kde-format
 msgid ""
 "Cannot find python3 in the kdenlive venv.\n"
 "Try to uninstall and then reinstall the plugin."
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:364
+#: src/pythoninterfaces/abstractpythoninterface.cpp:370
 #, kde-format
 msgid ""
 "Cannot find pip3 in the kdenlive venv.\n"
 "Try to uninstall and then reinstall the plugin."
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:455
+#: src/pythoninterfaces/abstractpythoninterface.cpp:461
 #, fuzzy, kde-format
 #| msgid "Cannot find layout %1"
 msgid "Cannot find system python"
 msgstr "लेआउट %1 नहीं मिल सका"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:485
+#: src/pythoninterfaces/abstractpythoninterface.cpp:491
 #, kde-format
 msgid ""
 "Cannot create the python virtual environment:\n"
@@ -31927,22 +31927,22 @@ msgstr ""
 "python वर्चुअल वातावरण नहीं बनाया जा सकता:\n"
 "%1"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:503
+#: src/pythoninterfaces/abstractpythoninterface.cpp:509
 #, kde-format
 msgid "The %1 script was not found, check your install."
 msgstr "%1 स्क्रिप्ट नहीं मिली, अपनी स्थापना की जाँच करें."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:578
+#: src/pythoninterfaces/abstractpythoninterface.cpp:586
 #, kde-kuit-format
 msgid "The <application>%1</application> python module is required."
 msgstr "<application>%1</application> python मॉड्यूल आवश्यक है."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:591
+#: src/pythoninterfaces/abstractpythoninterface.cpp:599
 #, kde-format
 msgid "Using python from %1"
 msgstr "%1 से python का उपयोग करना"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:614
+#: src/pythoninterfaces/abstractpythoninterface.cpp:622
 #, fuzzy, kde-format
 #| msgid ""
 #| "This requires an internet connection and will take several minutes to "
@@ -31956,57 +31956,57 @@ msgstr ""
 "इसके लिए इंटरनेट कनेक्शन की आवश्यकता होगी और सभी आवश्यक निर्भरताओं को डाउनलोड करने में "
 "कई मिनट लगेंगे। उसके बाद सभी प्रोसेसिंग ऑफ़लाइन होगी।"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:633
-#: src/pythoninterfaces/abstractpythoninterface.cpp:745
+#: src/pythoninterfaces/abstractpythoninterface.cpp:641
+#: src/pythoninterfaces/abstractpythoninterface.cpp:753
 #, fuzzy, kde-format
 #| msgid "Internal Error: Cannot find dependency list"
 msgid "Installation Issue: Cannot find dependency list for %1"
 msgstr "आंतरिक त्रुटि: निर्भरता सूची नहीं मिल सकी"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:649
+#: src/pythoninterfaces/abstractpythoninterface.cpp:657
 #, kde-format
 msgid "Error while checking version of module %1"
 msgstr "मॉड्यूल %1 का संस्करण जाँचते समय त्रुटि हुई"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:653
+#: src/pythoninterfaces/abstractpythoninterface.cpp:661
 #, kde-format
 msgid ""
 "At least version %1 of module %2 is required, but your current version is %3"
 msgstr "मॉड्यूल %2 का कम से कम संस्करण %1 आवश्यक है, लेकिन आपका वर्तमान संस्करण %3 है"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:657
+#: src/pythoninterfaces/abstractpythoninterface.cpp:665
 #, kde-format
 msgid "Please consider to update your setup."
 msgstr "कृपया अपना सेटअप अपडेट करने पर विचार करें।"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:679
+#: src/pythoninterfaces/abstractpythoninterface.cpp:687
 #, kde-format
 msgctxt "@item:intext indicates a missing dependency"
 msgid "missing (optional)"
 msgstr "अनुपस्थित (वैकल्पिक)"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:687
+#: src/pythoninterfaces/abstractpythoninterface.cpp:695
 #, kde-format
 msgctxt "@label:textbox"
 msgid "No version information available."
 msgstr "कोई संस्करण जानकारी उपलब्ध नहीं है."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:769
+#: src/pythoninterfaces/abstractpythoninterface.cpp:777
 #, kde-format
 msgid "Installation issue: Cannot find %1 for %2"
 msgstr ""
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:804
+#: src/pythoninterfaces/abstractpythoninterface.cpp:812
 #, kde-format
 msgid "Python exec not found"
 msgstr "पायथन निष्पादन नहीं मिला"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:808
+#: src/pythoninterfaces/abstractpythoninterface.cpp:816
 #, kde-format
 msgid "Failed to find script file %1"
 msgstr "स्क्रिप्ट फ़ाइल %1 ढूँढने में विफल"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:847
+#: src/pythoninterfaces/abstractpythoninterface.cpp:855
 #, kde-format
 msgid ""
 "Error while running python3 script:\n"
@@ -32017,7 +32017,7 @@ msgstr ""
 "%1\n"
 "%2"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:882
+#: src/pythoninterfaces/abstractpythoninterface.cpp:890
 #, kde-format
 msgid "Install missing dependencies"
 msgstr "अनुपलब्ध निर्भरताएँ स्थापित करें"

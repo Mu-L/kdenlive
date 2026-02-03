@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-02 02:39+0000\n"
+"POT-Creation-Date: 2026-02-03 02:46+0000\n"
 "PO-Revision-Date: 2024-04-23 19:24\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -19114,14 +19114,14 @@ msgstr "无可供插入的有效剪辑"
 msgid "Select a clip to apply an effect"
 msgstr "选择要应用效果的剪辑"
 
-#: src/bin/bin.cpp:4352 src/effects/effectstack/model/effectstackmodel.cpp:742
-#: src/effects/effectstack/model/effectstackmodel.cpp:748
+#: src/bin/bin.cpp:4352 src/effects/effectstack/model/effectstackmodel.cpp:739
+#: src/effects/effectstack/model/effectstackmodel.cpp:745
 #: src/timeline2/model/timelineitemmodel.cpp:738
 #, kde-format
 msgid "Cannot add effect to clip"
 msgstr "无法添加效果到剪辑"
 
-#: src/bin/bin.cpp:4426 src/effects/effectstack/model/effectstackmodel.cpp:698
+#: src/bin/bin.cpp:4426 src/effects/effectstack/model/effectstackmodel.cpp:695
 #, kde-format
 msgid "Paste effect"
 msgstr "粘贴效果"
@@ -21862,7 +21862,7 @@ msgid "Downloading multilingual model…"
 msgstr "正在下载多语言模型…"
 
 #: src/dialogs/settings/pluginssettings.cpp:194
-#: src/dialogs/settings/pluginssettings.cpp:895
+#: src/dialogs/settings/pluginssettings.cpp:902
 #, kde-format
 msgid "Please add a speech model."
 msgstr "请添加语音模型。"
@@ -21896,7 +21896,7 @@ msgstr ""
 "此操作将尝试重建插件的虚拟环境。仅在插件失效时使用。如果此操作无效，请尝试删"
 "除并重新安装插件。"
 
-#: src/dialogs/settings/pluginssettings.cpp:477
+#: src/dialogs/settings/pluginssettings.cpp:484
 #, kde-format
 msgid ""
 "This will delete the installed models\n"
@@ -21905,8 +21905,8 @@ msgstr ""
 "这将删除已安装的模型\n"
 "您可以稍后重新安装它们。"
 
-#: src/dialogs/settings/pluginssettings.cpp:494
-#: src/dialogs/settings/pluginssettings.cpp:508
+#: src/dialogs/settings/pluginssettings.cpp:501
+#: src/dialogs/settings/pluginssettings.cpp:515
 #, kde-format
 msgid ""
 "This will delete the plugin python environment from:<br/><b>%1</b><br/>The "
@@ -21917,76 +21917,76 @@ msgstr ""
 "再次启用插件时重新创建，并下载所需的模块。"
 
 #. i18n: ectx: property (text), widget (QPushButton, install_seamless)
-#: src/dialogs/settings/pluginssettings.cpp:523 src/ui/configspeech_ui.ui:369
+#: src/dialogs/settings/pluginssettings.cpp:530 src/ui/configspeech_ui.ui:369
 #, kde-format
 msgid "Install multilingual translation"
 msgstr "安装多语言翻译"
 
-#: src/dialogs/settings/pluginssettings.cpp:532
+#: src/dialogs/settings/pluginssettings.cpp:539
 #, kde-format
 msgid "Install a speech model - we recommend <b>turbo</b>"
 msgstr "安装一个语音模型 - 我们推荐使用 <b>turbo</b>"
 
-#: src/dialogs/settings/pluginssettings.cpp:587
+#: src/dialogs/settings/pluginssettings.cpp:594
 #, kde-format
 msgid "Select model to download"
 msgstr "选择要下载的模型"
 
-#: src/dialogs/settings/pluginssettings.cpp:603
+#: src/dialogs/settings/pluginssettings.cpp:610
 #, kde-format
 msgid "All models are already installed"
 msgstr "所有模型已经安装"
 
-#: src/dialogs/settings/pluginssettings.cpp:623
+#: src/dialogs/settings/pluginssettings.cpp:630
 #, kde-format
 msgid "Downloading…"
 msgstr "正在下载…"
 
-#: src/dialogs/settings/pluginssettings.cpp:633
+#: src/dialogs/settings/pluginssettings.cpp:640
 #, kde-format
 msgid "Downloading smallest model…"
 msgstr "正在下载最小模型…"
 
 #. i18n: ectx: property (text), widget (QPushButton, downloadSamButton)
-#: src/dialogs/settings/pluginssettings.cpp:652 src/ui/configspeech_ui.ui:832
+#: src/dialogs/settings/pluginssettings.cpp:659 src/ui/configspeech_ui.ui:832
 #, kde-format
 msgid "Download models"
 msgstr "下载模型"
 
-#: src/dialogs/settings/pluginssettings.cpp:704
-#: src/dialogs/settings/pluginssettings.cpp:717
+#: src/dialogs/settings/pluginssettings.cpp:711
+#: src/dialogs/settings/pluginssettings.cpp:724
 #, kde-format
 msgid "Install a model"
 msgstr "安装语音模型"
 
 #. i18n: ectx: property (text), widget (QPushButton, downloadButton)
-#: src/dialogs/settings/pluginssettings.cpp:719 src/ui/configspeech_ui.ui:463
+#: src/dialogs/settings/pluginssettings.cpp:726 src/ui/configspeech_ui.ui:463
 #, kde-format
 msgid "Manage models"
 msgstr "管理语音模型"
 
-#: src/dialogs/settings/pluginssettings.cpp:778
+#: src/dialogs/settings/pluginssettings.cpp:785
 #, kde-format
 msgid "Enter url for the new dictionary"
 msgstr "输入新词典的 URL"
 
-#: src/dialogs/settings/pluginssettings.cpp:784
+#: src/dialogs/settings/pluginssettings.cpp:791
 #, kde-format
 msgid "Downloading model…"
 msgstr "正在下载模型…"
 
-#: src/dialogs/settings/pluginssettings.cpp:794
+#: src/dialogs/settings/pluginssettings.cpp:801
 #, kde-format
 msgid "We do not allow deleting custom folder models, please do it manually."
 msgstr "Kdenlive 不能删除自定义文件夹模型，请手动删除它们。"
 
-#: src/dialogs/settings/pluginssettings.cpp:800
-#: src/dialogs/settings/pluginssettings.cpp:854
+#: src/dialogs/settings/pluginssettings.cpp:807
+#: src/dialogs/settings/pluginssettings.cpp:861
 #, kde-format
 msgid "Cannot access dictionary folder."
 msgstr "无法访问词典文件夹。"
 
-#: src/dialogs/settings/pluginssettings.cpp:809
+#: src/dialogs/settings/pluginssettings.cpp:816
 #, kde-format
 msgid ""
 "Delete folder:\n"
@@ -21995,27 +21995,27 @@ msgstr ""
 "删除文件夹：\n"
 "%1"
 
-#: src/dialogs/settings/pluginssettings.cpp:829
+#: src/dialogs/settings/pluginssettings.cpp:836
 #, kde-format
 msgid "Download error"
 msgstr "下载错误"
 
-#: src/dialogs/settings/pluginssettings.cpp:833
+#: src/dialogs/settings/pluginssettings.cpp:840
 #, kde-format
 msgid "Download error %1"
 msgstr "下载错误 %1"
 
-#: src/dialogs/settings/pluginssettings.cpp:861
+#: src/dialogs/settings/pluginssettings.cpp:868
 #, kde-format
 msgid "Extracting archive…"
 msgstr "正在解压…"
 
-#: src/dialogs/settings/pluginssettings.cpp:868
+#: src/dialogs/settings/pluginssettings.cpp:875
 #, kde-format
 msgid "New dictionary installed."
 msgstr "新词典已安装。"
 
-#: src/dialogs/settings/pluginssettings.cpp:996
+#: src/dialogs/settings/pluginssettings.cpp:1003
 #, kde-format
 msgid ""
 "Nvidia GPU support for %1\n"
@@ -22024,17 +22024,17 @@ msgstr ""
 "%1 的 Nvidia GPU 支持\n"
 "选择要安装的 CUDA 版本。"
 
-#: src/dialogs/settings/pluginssettings.cpp:1000
+#: src/dialogs/settings/pluginssettings.cpp:1007
 #, kde-format
 msgid "CUDA %1"
 msgstr "CUDA %1"
 
-#: src/dialogs/settings/pluginssettings.cpp:1013
+#: src/dialogs/settings/pluginssettings.cpp:1020
 #, kde-format
 msgid "Detected version: %1"
 msgstr "检测到的版本：%1"
 
-#: src/dialogs/settings/pluginssettings.cpp:1016
+#: src/dialogs/settings/pluginssettings.cpp:1023
 #, kde-format
 msgid ""
 "Cannot determine CUDA version,\n"
@@ -22043,7 +22043,7 @@ msgstr ""
 "无法确定 CUDA 版本，\n"
 "请选择本机系统中可用的版本。"
 
-#: src/dialogs/settings/pluginssettings.cpp:1030
+#: src/dialogs/settings/pluginssettings.cpp:1037
 #, kde-format
 msgid ""
 "Only use this install option if your GPU\n"
@@ -24385,26 +24385,26 @@ msgid "Copy effect"
 msgstr "复制效果"
 
 #: src/effects/effectstack/model/effectstackmodel.cpp:410
-#: src/effects/effectstack/model/effectstackmodel.cpp:601
-#: src/effects/effectstack/model/effectstackmodel.cpp:728
-#: src/effects/effectstack/model/effectstackmodel.cpp:1500
+#: src/effects/effectstack/model/effectstackmodel.cpp:598
+#: src/effects/effectstack/model/effectstackmodel.cpp:725
+#: src/effects/effectstack/model/effectstackmodel.cpp:1497
 #, kde-format
 msgid "Effect %1 cannot be added twice."
 msgstr "效果 %1 不能被添加两次。"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:714
+#: src/effects/effectstack/model/effectstackmodel.cpp:711
 #: src/effects/effectstack/view/effectstackview.cpp:229
 #: src/timeline2/model/timelinemodel.cpp:5197
 #, kde-format
 msgid "Add effect %1"
 msgstr "添加效果 %1"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:724
+#: src/effects/effectstack/model/effectstackmodel.cpp:721
 #, kde-format
 msgid "Effect %1 can only be added to master"
 msgstr "效果 %1 只能添加到主通道。"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:1284
+#: src/effects/effectstack/model/effectstackmodel.cpp:1281
 #, kde-format
 msgid "Move effect %1"
 msgstr "移动效果 %1"
@@ -30786,17 +30786,17 @@ msgstr "检查更新"
 msgid "Checking configuration…"
 msgstr "正在检查配置…"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:213
+#: src/pythoninterfaces/abstractpythoninterface.cpp:219
 #, kde-format
 msgid "Successfully rebuilt environment"
 msgstr "成功重建环境"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:266
+#: src/pythoninterfaces/abstractpythoninterface.cpp:272
 #, kde-format
 msgid "Corrupted plugin, trying to reinstall…"
 msgstr "损坏的插件，请尝试重新安装…"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:310
+#: src/pythoninterfaces/abstractpythoninterface.cpp:316
 #, kde-format
 msgid ""
 "Cannot find a compatible python version:\n"
@@ -30807,7 +30807,7 @@ msgstr ""
 "%1\n"
 "请在系统中安装该版本的 Python。\n"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:322
+#: src/pythoninterfaces/abstractpythoninterface.cpp:328
 #, kde-format
 msgid ""
 "Cannot find %1, please install it on your system.\n"
@@ -30817,7 +30817,7 @@ msgstr ""
 "无法找到 %1 程序，请在本机系统上安装该软件包。\n"
 "如果已经安装，请检查它是否已经安装到了 PATH 环境变量中包含的目录"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:356
+#: src/pythoninterfaces/abstractpythoninterface.cpp:362
 #, kde-format
 msgid ""
 "Cannot find python3 in the kdenlive venv.\n"
@@ -30826,7 +30826,7 @@ msgstr ""
 "无法在 kdenlive venv 中找到 python3。\n"
 "请尝试卸载该插件并重新安装它。"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:364
+#: src/pythoninterfaces/abstractpythoninterface.cpp:370
 #, kde-format
 msgid ""
 "Cannot find pip3 in the kdenlive venv.\n"
@@ -30835,12 +30835,12 @@ msgstr ""
 "无法在 kdenlive venv 中找到 pip3。\n"
 "请尝试卸载该插件并重新安装它。"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:455
+#: src/pythoninterfaces/abstractpythoninterface.cpp:461
 #, kde-format
 msgid "Cannot find system python"
 msgstr "无法找到系统的 Python 环境"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:485
+#: src/pythoninterfaces/abstractpythoninterface.cpp:491
 #, kde-format
 msgid ""
 "Cannot create the python virtual environment:\n"
@@ -30849,22 +30849,22 @@ msgstr ""
 "无法创建 Python 虚拟环境：\n"
 "%1"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:503
+#: src/pythoninterfaces/abstractpythoninterface.cpp:509
 #, kde-format
 msgid "The %1 script was not found, check your install."
 msgstr "无法找到 %1 脚本，请检查软件的安装状态是否正常。"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:578
+#: src/pythoninterfaces/abstractpythoninterface.cpp:586
 #, kde-kuit-format
 msgid "The <application>%1</application> python module is required."
 msgstr "<application>%1</application> python 模块是必需的。"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:591
+#: src/pythoninterfaces/abstractpythoninterface.cpp:599
 #, kde-format
 msgid "Using python from %1"
 msgstr "正在使用来自 %1 的 Python"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:614
+#: src/pythoninterfaces/abstractpythoninterface.cpp:622
 #, kde-format
 msgid ""
 "This requires an internet connection and will take several minutes\n"
@@ -30874,56 +30874,56 @@ msgstr ""
 "此操作需要连接到互联网，下载必要的依赖程序包将需要几分钟。\n"
 "下载完成后的剩余操作将离线进行。"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:633
-#: src/pythoninterfaces/abstractpythoninterface.cpp:745
+#: src/pythoninterfaces/abstractpythoninterface.cpp:641
+#: src/pythoninterfaces/abstractpythoninterface.cpp:753
 #, kde-format
 msgid "Installation Issue: Cannot find dependency list for %1"
 msgstr "安装问题：无法找到 %1 的依赖程序列表"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:649
+#: src/pythoninterfaces/abstractpythoninterface.cpp:657
 #, kde-format
 msgid "Error while checking version of module %1"
 msgstr "检查模块 %1 版本时出错"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:653
+#: src/pythoninterfaces/abstractpythoninterface.cpp:661
 #, kde-format
 msgid ""
 "At least version %1 of module %2 is required, but your current version is %3"
 msgstr "模块 %2 所需的最低版本为 %1，而本机安装的版本是 %3"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:657
+#: src/pythoninterfaces/abstractpythoninterface.cpp:665
 #, kde-format
 msgid "Please consider to update your setup."
 msgstr "请考虑升级本机系统的相关软件。"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:679
+#: src/pythoninterfaces/abstractpythoninterface.cpp:687
 #, kde-format
 msgctxt "@item:intext indicates a missing dependency"
 msgid "missing (optional)"
 msgstr "缺少的依赖 (可选)"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:687
+#: src/pythoninterfaces/abstractpythoninterface.cpp:695
 #, kde-format
 msgctxt "@label:textbox"
 msgid "No version information available."
 msgstr "没有可用的版本信息。"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:769
+#: src/pythoninterfaces/abstractpythoninterface.cpp:777
 #, kde-format
 msgid "Installation issue: Cannot find %1 for %2"
 msgstr "安装问题：无法为 %2 找到 %1"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:804
+#: src/pythoninterfaces/abstractpythoninterface.cpp:812
 #, kde-format
 msgid "Python exec not found"
 msgstr "无法找到 Python exec"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:808
+#: src/pythoninterfaces/abstractpythoninterface.cpp:816
 #, kde-format
 msgid "Failed to find script file %1"
 msgstr "无法找到脚本文件 %1"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:847
+#: src/pythoninterfaces/abstractpythoninterface.cpp:855
 #, kde-format
 msgid ""
 "Error while running python3 script:\n"
@@ -30934,7 +30934,7 @@ msgstr ""
 " %1\n"
 "%2"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:882
+#: src/pythoninterfaces/abstractpythoninterface.cpp:890
 #, kde-format
 msgid "Install missing dependencies"
 msgstr "安装缺失依赖程序"
@@ -31460,7 +31460,7 @@ msgstr "自定义"
 #: src/renderpresets/renderpresetrepository.cpp:228
 #, kde-format
 msgid "Lossless/HQ"
-msgstr "无损/高品质"
+msgstr ""
 
 #: src/renderpresets/renderpresetrepository.cpp:241
 #, kde-format

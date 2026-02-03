@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-02 02:39+0000\n"
+"POT-Creation-Date: 2026-02-03 02:46+0000\n"
 "PO-Revision-Date: 2025-12-11 23:38+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -19870,14 +19870,14 @@ msgstr "Txertatzeko baliogabeko klipa"
 msgid "Select a clip to apply an effect"
 msgstr "Hautatu klipa efektua aplikatzeko"
 
-#: src/bin/bin.cpp:4352 src/effects/effectstack/model/effectstackmodel.cpp:742
-#: src/effects/effectstack/model/effectstackmodel.cpp:748
+#: src/bin/bin.cpp:4352 src/effects/effectstack/model/effectstackmodel.cpp:739
+#: src/effects/effectstack/model/effectstackmodel.cpp:745
 #: src/timeline2/model/timelineitemmodel.cpp:738
 #, kde-format
 msgid "Cannot add effect to clip"
 msgstr "Ezin zaio efektua klipari aplikatu"
 
-#: src/bin/bin.cpp:4426 src/effects/effectstack/model/effectstackmodel.cpp:698
+#: src/bin/bin.cpp:4426 src/effects/effectstack/model/effectstackmodel.cpp:695
 #, kde-format
 msgid "Paste effect"
 msgstr "Itsatsi efektua"
@@ -22680,7 +22680,7 @@ msgid "Downloading multilingual model…"
 msgstr "Eredu eleaniztuna zama-jaisten…"
 
 #: src/dialogs/settings/pluginssettings.cpp:194
-#: src/dialogs/settings/pluginssettings.cpp:895
+#: src/dialogs/settings/pluginssettings.cpp:902
 #, kde-format
 msgid "Please add a speech model."
 msgstr "Mesedez, instalatu hizketa-eredu bat."
@@ -22716,7 +22716,7 @@ msgstr ""
 "egiten badu bakarrik erabili. Hau ez badabil, saiatu plugina ezabatu eta "
 "berrinstalatzen."
 
-#: src/dialogs/settings/pluginssettings.cpp:477
+#: src/dialogs/settings/pluginssettings.cpp:484
 #, kde-format
 msgid ""
 "This will delete the installed models\n"
@@ -22725,8 +22725,8 @@ msgstr ""
 "Honek instalatutako ereduak ezabatuko ditu\n"
 "Beranduago berrinstalatu ditzakezu."
 
-#: src/dialogs/settings/pluginssettings.cpp:494
-#: src/dialogs/settings/pluginssettings.cpp:508
+#: src/dialogs/settings/pluginssettings.cpp:501
+#: src/dialogs/settings/pluginssettings.cpp:515
 #, fuzzy, kde-format
 #| msgid ""
 #| "This will delete the plugin python environment from:<br/><b>%1</b><br/"
@@ -22742,78 +22742,78 @@ msgstr ""
 "duzunean."
 
 #. i18n: ectx: property (text), widget (QPushButton, install_seamless)
-#: src/dialogs/settings/pluginssettings.cpp:523 src/ui/configspeech_ui.ui:369
+#: src/dialogs/settings/pluginssettings.cpp:530 src/ui/configspeech_ui.ui:369
 #, kde-format
 msgid "Install multilingual translation"
 msgstr "Instalatu itzulpen eleaniztuna"
 
-#: src/dialogs/settings/pluginssettings.cpp:532
+#: src/dialogs/settings/pluginssettings.cpp:539
 #, kde-format
 msgid "Install a speech model - we recommend <b>turbo</b>"
 msgstr "Instalatu hizketa eredu bat - <b>turbo</b> gomendatzen dugu"
 
-#: src/dialogs/settings/pluginssettings.cpp:587
+#: src/dialogs/settings/pluginssettings.cpp:594
 #, kde-format
 msgid "Select model to download"
 msgstr "Hautatu zama-jaitsi beharreko eredua"
 
-#: src/dialogs/settings/pluginssettings.cpp:603
+#: src/dialogs/settings/pluginssettings.cpp:610
 #, kde-format
 msgid "All models are already installed"
 msgstr "Eredu denak jada instalatuta daude"
 
-#: src/dialogs/settings/pluginssettings.cpp:623
+#: src/dialogs/settings/pluginssettings.cpp:630
 #, kde-format
 msgid "Downloading…"
 msgstr "Zama-jaisten…"
 
-#: src/dialogs/settings/pluginssettings.cpp:633
+#: src/dialogs/settings/pluginssettings.cpp:640
 #, kde-format
 msgid "Downloading smallest model…"
 msgstr "Eredua txikiena zama-jaisten…"
 
 #. i18n: ectx: property (text), widget (QPushButton, downloadSamButton)
-#: src/dialogs/settings/pluginssettings.cpp:652 src/ui/configspeech_ui.ui:832
+#: src/dialogs/settings/pluginssettings.cpp:659 src/ui/configspeech_ui.ui:832
 #, kde-format
 msgid "Download models"
 msgstr "Ereduak zama-jaitsi"
 
-#: src/dialogs/settings/pluginssettings.cpp:704
-#: src/dialogs/settings/pluginssettings.cpp:717
+#: src/dialogs/settings/pluginssettings.cpp:711
+#: src/dialogs/settings/pluginssettings.cpp:724
 #, kde-format
 msgid "Install a model"
 msgstr "Instalatutako eredu bat"
 
 #. i18n: ectx: property (text), widget (QPushButton, downloadButton)
-#: src/dialogs/settings/pluginssettings.cpp:719 src/ui/configspeech_ui.ui:463
+#: src/dialogs/settings/pluginssettings.cpp:726 src/ui/configspeech_ui.ui:463
 #, kde-format
 msgid "Manage models"
 msgstr "Kudeatu ereduak"
 
-#: src/dialogs/settings/pluginssettings.cpp:778
+#: src/dialogs/settings/pluginssettings.cpp:785
 #, kde-format
 msgid "Enter url for the new dictionary"
 msgstr "Sartu url-a hiztegi berriarentzat"
 
-#: src/dialogs/settings/pluginssettings.cpp:784
+#: src/dialogs/settings/pluginssettings.cpp:791
 #, kde-format
 msgid "Downloading model…"
 msgstr "Eredua jaisten…"
 
-#: src/dialogs/settings/pluginssettings.cpp:794
+#: src/dialogs/settings/pluginssettings.cpp:801
 #, kde-format
 msgid "We do not allow deleting custom folder models, please do it manually."
 msgstr ""
 "Ez dugu baimentzen norberak finkatutako karpeta ereduen ezabatzea, mesedez "
 "egin eskuz."
 
-#: src/dialogs/settings/pluginssettings.cpp:800
-#: src/dialogs/settings/pluginssettings.cpp:854
+#: src/dialogs/settings/pluginssettings.cpp:807
+#: src/dialogs/settings/pluginssettings.cpp:861
 #, kde-format
 msgid "Cannot access dictionary folder."
 msgstr "Ezin da hiztegi-karpeta atzitu."
 
-#: src/dialogs/settings/pluginssettings.cpp:809
+#: src/dialogs/settings/pluginssettings.cpp:816
 #, kde-format
 msgid ""
 "Delete folder:\n"
@@ -22822,27 +22822,27 @@ msgstr ""
 "Ezabatu karpeta:\n"
 "%1"
 
-#: src/dialogs/settings/pluginssettings.cpp:829
+#: src/dialogs/settings/pluginssettings.cpp:836
 #, kde-format
 msgid "Download error"
 msgstr "Jaitsieraren errorea"
 
-#: src/dialogs/settings/pluginssettings.cpp:833
+#: src/dialogs/settings/pluginssettings.cpp:840
 #, kde-format
 msgid "Download error %1"
 msgstr "Jaitsieraren %1 errorea"
 
-#: src/dialogs/settings/pluginssettings.cpp:861
+#: src/dialogs/settings/pluginssettings.cpp:868
 #, kde-format
 msgid "Extracting archive…"
 msgstr "Fitxategia erauzten…"
 
-#: src/dialogs/settings/pluginssettings.cpp:868
+#: src/dialogs/settings/pluginssettings.cpp:875
 #, kde-format
 msgid "New dictionary installed."
 msgstr "Hiztegi berria instalatu da."
 
-#: src/dialogs/settings/pluginssettings.cpp:996
+#: src/dialogs/settings/pluginssettings.cpp:1003
 #, kde-format
 msgid ""
 "Nvidia GPU support for %1\n"
@@ -22851,17 +22851,17 @@ msgstr ""
 "%1(e)rako Nvidia GPU euskarria\n"
 "Hautatu instalatu beharreko CUDAren bertsioa."
 
-#: src/dialogs/settings/pluginssettings.cpp:1000
+#: src/dialogs/settings/pluginssettings.cpp:1007
 #, kde-format
 msgid "CUDA %1"
 msgstr "CUDA %1"
 
-#: src/dialogs/settings/pluginssettings.cpp:1013
+#: src/dialogs/settings/pluginssettings.cpp:1020
 #, kde-format
 msgid "Detected version: %1"
 msgstr "Antzemandako bertsioa: %1"
 
-#: src/dialogs/settings/pluginssettings.cpp:1016
+#: src/dialogs/settings/pluginssettings.cpp:1023
 #, kde-format
 msgid ""
 "Cannot determine CUDA version,\n"
@@ -22870,7 +22870,7 @@ msgstr ""
 "CUDAren bertsioa ezin da zehaztu,\n"
 "Mesedez, hautatu zure sisteman erabilgarri dagoen bertsio."
 
-#: src/dialogs/settings/pluginssettings.cpp:1030
+#: src/dialogs/settings/pluginssettings.cpp:1037
 #, kde-format
 msgid ""
 "Only use this install option if your GPU\n"
@@ -25321,26 +25321,26 @@ msgid "Copy effect"
 msgstr "Kopiatu efektua"
 
 #: src/effects/effectstack/model/effectstackmodel.cpp:410
-#: src/effects/effectstack/model/effectstackmodel.cpp:601
-#: src/effects/effectstack/model/effectstackmodel.cpp:728
-#: src/effects/effectstack/model/effectstackmodel.cpp:1500
+#: src/effects/effectstack/model/effectstackmodel.cpp:598
+#: src/effects/effectstack/model/effectstackmodel.cpp:725
+#: src/effects/effectstack/model/effectstackmodel.cpp:1497
 #, kde-format
 msgid "Effect %1 cannot be added twice."
 msgstr "%1 efektua ezin da bitan gehitu."
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:714
+#: src/effects/effectstack/model/effectstackmodel.cpp:711
 #: src/effects/effectstack/view/effectstackview.cpp:229
 #: src/timeline2/model/timelinemodel.cpp:5197
 #, kde-format
 msgid "Add effect %1"
 msgstr "Gehitu %1 efektua"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:724
+#: src/effects/effectstack/model/effectstackmodel.cpp:721
 #, kde-format
 msgid "Effect %1 can only be added to master"
 msgstr "%1 efektua maisuari baino ezin zaio gehitu"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:1284
+#: src/effects/effectstack/model/effectstackmodel.cpp:1281
 #, kde-format
 msgid "Move effect %1"
 msgstr "Mugitu %1 efektua"
@@ -31896,17 +31896,17 @@ msgstr "Egiaztatu eguneraketarik dagoen"
 msgid "Checking configuration…"
 msgstr "Konfigurazioa egiaztatzen…"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:213
+#: src/pythoninterfaces/abstractpythoninterface.cpp:219
 #, kde-format
 msgid "Successfully rebuilt environment"
 msgstr "Ingurune berreraikitze arrakastatsua"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:266
+#: src/pythoninterfaces/abstractpythoninterface.cpp:272
 #, kde-format
 msgid "Corrupted plugin, trying to reinstall…"
 msgstr "Hondatutako plugina, berrinstalatzen saiatzen…"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:310
+#: src/pythoninterfaces/abstractpythoninterface.cpp:316
 #, kde-format
 msgid ""
 "Cannot find a compatible python version:\n"
@@ -31917,7 +31917,7 @@ msgstr ""
 "%1\n"
 "Mesedez, instalatu zure sisteman.\n"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:322
+#: src/pythoninterfaces/abstractpythoninterface.cpp:328
 #, kde-format
 msgid ""
 "Cannot find %1, please install it on your system.\n"
@@ -31928,7 +31928,7 @@ msgstr ""
 "Instalatua baldin badago, egiaztatu PATH testuinguru-aldagaian "
 "zerrendatutako karpetaren batean dagoen"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:356
+#: src/pythoninterfaces/abstractpythoninterface.cpp:362
 #, kde-format
 msgid ""
 "Cannot find python3 in the kdenlive venv.\n"
@@ -31937,7 +31937,7 @@ msgstr ""
 "kdenlive «venv»en ezin da python3 aurkitu.\n"
 "Saiatu plugina desinstalatu eta berrinstalatzen."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:364
+#: src/pythoninterfaces/abstractpythoninterface.cpp:370
 #, kde-format
 msgid ""
 "Cannot find pip3 in the kdenlive venv.\n"
@@ -31946,12 +31946,12 @@ msgstr ""
 "kdenlive «venv»en ezin da pip3 aurkitu.\n"
 "Saiatu plugina desinstalatu eta berrinstalatzen."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:455
+#: src/pythoninterfaces/abstractpythoninterface.cpp:461
 #, kde-format
 msgid "Cannot find system python"
 msgstr "Ezin du sistemako python aurkitu"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:485
+#: src/pythoninterfaces/abstractpythoninterface.cpp:491
 #, kde-format
 msgid ""
 "Cannot create the python virtual environment:\n"
@@ -31960,22 +31960,22 @@ msgstr ""
 "Ezin du pythonen alegiazko ingurunea sortu:\n"
 "%1"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:503
+#: src/pythoninterfaces/abstractpythoninterface.cpp:509
 #, kde-format
 msgid "The %1 script was not found, check your install."
 msgstr "%1 scripta ez da aurkitu, egiaztatu zure instalazioa."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:578
+#: src/pythoninterfaces/abstractpythoninterface.cpp:586
 #, kde-kuit-format
 msgid "The <application>%1</application> python module is required."
 msgstr "<application>%1</application> python modulua beharrezkoa da."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:591
+#: src/pythoninterfaces/abstractpythoninterface.cpp:599
 #, kde-format
 msgid "Using python from %1"
 msgstr "Python %1(e)tik erabiltzen"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:614
+#: src/pythoninterfaces/abstractpythoninterface.cpp:622
 #, kde-format
 msgid ""
 "This requires an internet connection and will take several minutes\n"
@@ -31986,18 +31986,18 @@ msgstr ""
 "beharko ditu beharrezko mendekotasun guztiak zama-jaisteko. Horren ondoren "
 "prozesamendu osoa lerroz kanpo gertatuko da."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:633
-#: src/pythoninterfaces/abstractpythoninterface.cpp:745
+#: src/pythoninterfaces/abstractpythoninterface.cpp:641
+#: src/pythoninterfaces/abstractpythoninterface.cpp:753
 #, kde-format
 msgid "Installation Issue: Cannot find dependency list for %1"
 msgstr "Instalazio auzia: Ezin du %1(e)rako mendekotasun-zerrenda aurkitu"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:649
+#: src/pythoninterfaces/abstractpythoninterface.cpp:657
 #, kde-format
 msgid "Error while checking version of module %1"
 msgstr "Akatsa %1 moduluaren bertsioa egiaztatzean"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:653
+#: src/pythoninterfaces/abstractpythoninterface.cpp:661
 #, kde-format
 msgid ""
 "At least version %1 of module %2 is required, but your current version is %3"
@@ -32005,39 +32005,39 @@ msgstr ""
 "Gutxienez %2 moduluaren %1 bertsioa beharrezkoa da, baina zure uneko "
 "bertsioa %3 da"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:657
+#: src/pythoninterfaces/abstractpythoninterface.cpp:665
 #, kde-format
 msgid "Please consider to update your setup."
 msgstr "Mesedez, aintzan hartu zure konfigurazioa eguneratzea."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:679
+#: src/pythoninterfaces/abstractpythoninterface.cpp:687
 #, kde-format
 msgctxt "@item:intext indicates a missing dependency"
 msgid "missing (optional)"
 msgstr "falta da (aukerakoa)"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:687
+#: src/pythoninterfaces/abstractpythoninterface.cpp:695
 #, kde-format
 msgctxt "@label:textbox"
 msgid "No version information available."
 msgstr "Ez dago bertsioari buruzko informazio erabilgarririk."
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:769
+#: src/pythoninterfaces/abstractpythoninterface.cpp:777
 #, kde-format
 msgid "Installation issue: Cannot find %1 for %2"
 msgstr "Instalazio auzia: Ezin du aurkitu %2(e)rako %1 aurkitu"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:804
+#: src/pythoninterfaces/abstractpythoninterface.cpp:812
 #, kde-format
 msgid "Python exec not found"
 msgstr "Python exekutagarria ez da aurkitu"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:808
+#: src/pythoninterfaces/abstractpythoninterface.cpp:816
 #, kde-format
 msgid "Failed to find script file %1"
 msgstr "%1 «script» fitxategia aurkitzea huts egin du"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:847
+#: src/pythoninterfaces/abstractpythoninterface.cpp:855
 #, kde-format
 msgid ""
 "Error while running python3 script:\n"
@@ -32048,7 +32048,7 @@ msgstr ""
 "%1\n"
 "%2"
 
-#: src/pythoninterfaces/abstractpythoninterface.cpp:882
+#: src/pythoninterfaces/abstractpythoninterface.cpp:890
 #, kde-format
 msgid "Install missing dependencies"
 msgstr "Instalatu falta diren mendekotasunak"
