@@ -779,6 +779,11 @@
       <default></default>
     </entry>
 
+    <entry name="defaultvideoapp" type="String">
+      <label>Default video editing application name.</label>
+      <default></default>
+    </entry>
+
     <entry name="nice_tasks" type="Bool">
       <label>Use lower CPU priority for proxy and transcode tasks</label>
       <default>true</default>

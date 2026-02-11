@@ -3041,7 +3041,7 @@ void Bin::selectProxyModel(const QModelIndex &id)
                 m_extractAudioAction->setEnabled(hasAudio);
             }
             m_openAction->setEnabled(type == ClipType::Image || type == ClipType::Audio || type == ClipType::TextTemplate || type == ClipType::Text ||
-                                     type == ClipType::Animation);
+                                     type == ClipType::Animation || type == ClipType::Video || type == ClipType::AV);
             m_openAction->setVisible(!isFolder);
             m_duplicateAction->setEnabled(isClip);
             m_duplicateAction->setVisible(!isFolder);
@@ -5071,6 +5071,25 @@ void Bin::slotOpenClipExtern()
             errorString = pCore->openExternalApp(KdenliveSettings::defaultaudioapp(), {clip->url()});
         } else {
             KMessageBox::error(QApplication::activeWindow(), i18n("Please set a default application to open audio files"));
+        }
+    } break;
+    case ClipType::AV:
+        [[fallthrough]];
+    case ClipType::Video: {
+        if (KdenliveSettings::defaultvideoapp().isEmpty()) {
+            QUrl url = KUrlRequesterDialog::getUrl(QUrl(), this, i18n("Enter path for your video editing application"));
+            if (!url.isEmpty()) {
+                KdenliveSettings::setDefaultvideoapp(url.toLocalFile());
+                KdenliveSettingsDialog *d = static_cast<KdenliveSettingsDialog *>(KConfigDialog::exists(QStringLiteral("settings")));
+                if (d) {
+                    d->updateExternalApps();
+                }
+            }
+        }
+        if (!KdenliveSettings::defaultvideoapp().isEmpty()) {
+            errorString = pCore->openExternalApp(KdenliveSettings::defaultvideoapp(), {clip->url()});
+        } else {
+            KMessageBox::error(QApplication::activeWindow(), i18n("Please set a default application to open video files"));
         }
     } break;
     case ClipType::Animation: {

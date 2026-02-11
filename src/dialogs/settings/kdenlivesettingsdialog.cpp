@@ -356,6 +356,7 @@ void KdenliveSettingsDialog::initEnviromentPage()
     connect(m_configEnv.kp_image, &QAbstractButton::clicked, this, &KdenliveSettingsDialog::slotEditImageApplication);
     connect(m_configEnv.kp_audio, &QAbstractButton::clicked, this, &KdenliveSettingsDialog::slotEditAudioApplication);
     connect(m_configEnv.kp_anim, &QAbstractButton::clicked, this, &KdenliveSettingsDialog::slotEditGlaxnimateApplication);
+    connect(m_configEnv.kp_video, &QAbstractButton::clicked, this, &KdenliveSettingsDialog::slotEditVideoApplication);
 
     m_pageEnv = addPage(p2, i18n("Environment"), QStringLiteral("application-x-executable-script"));
 #if defined Q_OS_MAC
@@ -853,6 +854,14 @@ void KdenliveSettingsDialog::slotEditGlaxnimateApplication()
     }
 }
 
+void KdenliveSettingsDialog::slotEditVideoApplication()
+{
+    QUrl url = KUrlRequesterDialog::getUrl(QUrl::fromLocalFile(KdenliveSettings::defaultvideoapp()), this, i18n("Enter path to the video editing application"));
+    if (!url.isEmpty()) {
+        m_configEnv.kcfg_defaultvideoapp->setText(url.toLocalFile());
+    }
+}
+
 void KdenliveSettingsDialog::slotCheckShuttle(int state)
 {
 #ifdef USE_JOGSHUTTLE
@@ -969,6 +978,7 @@ void KdenliveSettingsDialog::updateExternalApps()
     m_configEnv.kcfg_defaultimageapp->setText(KdenliveSettings::defaultimageapp());
     m_configEnv.kcfg_defaultaudioapp->setText(KdenliveSettings::defaultaudioapp());
     m_configEnv.kcfg_glaxnimatePath->setText(KdenliveSettings::glaxnimatePath());
+    m_configEnv.kcfg_defaultvideoapp->setText(KdenliveSettings::defaultvideoapp());
 }
 
 void KdenliveSettingsDialog::updateSettings()

@@ -56,6 +56,7 @@ private Q_SLOTS:
     void slotUpdateShuttleDevice(int ix = 0);
     void slotEditImageApplication();
     void slotEditAudioApplication();
+    void slotEditVideoApplication();
     void slotEditGlaxnimateApplication();
     void slotReadAudioDevices();
     void slotUpdateGrabRegionStatus();
