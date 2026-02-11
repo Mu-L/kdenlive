@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-02-03 02:46+0000\n"
-"PO-Revision-Date: 2026-01-30 17:15+0100\n"
+"PO-Revision-Date: 2026-02-07 10:18+0100\n"
 "Last-Translator: Paolo Zamponi <feus73@gmail.com>\n"
 "Language-Team: Italian <kde-i18n-it@kde.org>\n"
 "Language: it\n"
@@ -35769,7 +35769,7 @@ msgstr "Regione rettangolare"
 #: src/ui/configcapture_ui.ui:99
 #, kde-format
 msgid "Follow mouse"
-msgstr "Segui lo spostamento del mouse"
+msgstr "Segui il mouse"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_grab_hide_frame)
 #: src/ui/configcapture_ui.ui:106
@@ -35877,10 +35877,9 @@ msgstr "Griglia del controllo"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/ui/configcolors_ui.ui:125
-#, fuzzy, kde-format
-#| msgid "Monitor audio"
+#, kde-format
 msgid "Monitor safe zone:"
-msgstr "Controlla l'audio"
+msgstr "Zona sicura del controllo:"
 
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
 #: src/ui/configenv_ui.ui:33
@@ -36593,7 +36592,7 @@ msgstr "Dispositivo audio:"
 #: src/ui/configsdl_ui.ui:135
 #, kde-format
 msgid "External display (Blackmagic card):"
-msgstr "Display esterno (scheda BlackMagic):"
+msgstr "Schermo esterno (scheda BlackMagic):"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
 #: src/ui/configsdl_ui.ui:149
@@ -37224,7 +37223,7 @@ msgstr "k"
 #: src/ui/editrenderpreset_ui.ui:592
 #, kde-format
 msgid "Frame Rate:"
-msgstr "Velocità fotogrammi:"
+msgstr "Frequenza dei fotogrammi:"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/ui/editrenderpreset_ui.ui:599
