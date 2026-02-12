@@ -1287,8 +1287,7 @@ function getTrackColor(audio, header) {
                         } else if (subtitleTrack.height > 0) {
                             timeline.cutClipUnderCursor((scrollView.contentX + mouse.x) / root.timeScale, -2)
                         }
-                    }
-                    if(root.activeTool === K.ToolType.SlipTool) {
+                    } else if (root.activeTool === K.ToolType.SlipTool) {
                         //slip tool
                         if (mouse.y > ruler.height) {
                             var tk = getMouseTrack()
@@ -2038,9 +2037,6 @@ function getTrackColor(audio, header) {
                                             if (!dragProxyArea.containsMouse) {
                                                 regainFocus(dragProxyArea.mapToItem(root, dragProxyArea.mouseX, dragProxyArea.mouseY))
                                             }
-                                            endDrag()
-                                        } else {
-                                            endDrag()
                                         }
                                     }
                                     onDoubleClicked: {
