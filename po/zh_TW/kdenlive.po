@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-06 00:44+0000\n"
+"POT-Creation-Date: 2026-02-12 00:42+0000\n"
 "PO-Revision-Date: 2025-12-16 22:24+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -17805,7 +17805,7 @@ msgstr "儲存效果"
 
 #: src/assets/view/assetparameterview.cpp:377
 #: src/dialogs/customcamcorderdialog.cpp:131
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1384
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1394
 #, kde-format
 msgctxt "@title:window"
 msgid "Enter Preset Name"
@@ -17813,7 +17813,7 @@ msgstr "輸入預設檔名稱"
 
 #: src/assets/view/assetparameterview.cpp:377
 #: src/dialogs/customcamcorderdialog.cpp:133
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1384
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1394
 #, kde-format
 msgid "Enter the name of this preset:"
 msgstr "輸入此預設檔的名稱："
@@ -18756,7 +18756,7 @@ msgstr "您不能將素材取代為另一種類的素材（音訊/視訊不相�
 msgid "Replace in timeline"
 msgstr "在時間軸中取代"
 
-#: src/bin/bin.cpp:2395 src/bin/bin.cpp:6182 src/bin/clipcreator.cpp:344
+#: src/bin/bin.cpp:2395 src/bin/bin.cpp:6201 src/bin/clipcreator.cpp:344
 #: src/effects/effectstack/view/maskmanager.cpp:642
 #, kde-format
 msgctxt "@action"
@@ -19151,7 +19151,19 @@ msgstr "輸入您的音訊編輯應用程式的路徑"
 msgid "Please set a default application to open audio files"
 msgstr "請設定用於開啟音訊檔案的應用程式"
 
-#: src/bin/bin.cpp:5083 src/core.cpp:669 src/doc/kdenlivedoc.cpp:169
+#: src/bin/bin.cpp:5080
+#, fuzzy, kde-format
+#| msgid "Enter path for your audio editing application"
+msgid "Enter path for your video editing application"
+msgstr "輸入您的音訊編輯應用程式的路徑"
+
+#: src/bin/bin.cpp:5092
+#, fuzzy, kde-format
+#| msgid "Please set a default application to open audio files"
+msgid "Please set a default application to open video files"
+msgstr "請設定用於開啟音訊檔案的應用程式"
+
+#: src/bin/bin.cpp:5102 src/core.cpp:669 src/doc/kdenlivedoc.cpp:169
 #: src/jobs/cliploadtask.cpp:487 src/jobs/cliploadtask.cpp:499
 #: src/jobs/filtertask.cpp:98 src/jobs/filtertask.cpp:139
 #: src/layouts/layoutmanagerdialog.cpp:211
@@ -19161,12 +19173,12 @@ msgstr "請設定用於開啟音訊檔案的應用程式"
 msgid "Cannot open file %1"
 msgstr "無法開啟檔案 %1"
 
-#: src/bin/bin.cpp:5120 src/dialogs/profilesdialog.cpp:237
+#: src/bin/bin.cpp:5139 src/dialogs/profilesdialog.cpp:237
 #, kde-format
 msgid "(copy)"
 msgstr "（複本）"
 
-#: src/bin/bin.cpp:5130
+#: src/bin/bin.cpp:5149
 #, kde-format
 msgid ""
 "You are editing an external title clip (%1). Do you want to save your "
@@ -19175,82 +19187,82 @@ msgstr ""
 "您正在編輯外部標題素材（%1）。您希望將變更儲存到該標題檔案，還是要只為此專案"
 "儲存變更？"
 
-#: src/bin/bin.cpp:5133 src/titler/titlewidget.cpp:2331
+#: src/bin/bin.cpp:5152 src/titler/titlewidget.cpp:2331
 #, kde-format
 msgid "Save Title"
 msgstr "儲存標題"
 
-#: src/bin/bin.cpp:5133
+#: src/bin/bin.cpp:5152
 #, kde-format
 msgid "Save to title file"
 msgstr "儲存到標題檔"
 
-#: src/bin/bin.cpp:5134
+#: src/bin/bin.cpp:5153
 #, kde-format
 msgid "Save in project only"
 msgstr "只儲存於專案中"
 
-#: src/bin/bin.cpp:5157 src/dialogs/clipcreationdialog.cpp:345
+#: src/bin/bin.cpp:5176 src/dialogs/clipcreationdialog.cpp:345
 #, kde-format
 msgid "Title clip"
 msgstr "標題素材"
 
-#: src/bin/bin.cpp:5207
+#: src/bin/bin.cpp:5226
 #, kde-format
 msgid "Clip is invalid, will be removed from project."
 msgstr "素材無效，將從專案中移除。"
 
-#: src/bin/bin.cpp:5211
+#: src/bin/bin.cpp:5230
 #, kde-format
 msgid "Invalid clip"
 msgstr "無效的素材"
 
-#: src/bin/bin.cpp:5325
+#: src/bin/bin.cpp:5344
 #, kde-format
 msgid "Enable proxies"
 msgstr "啟用代理"
 
-#: src/bin/bin.cpp:5325
+#: src/bin/bin.cpp:5344
 #, kde-format
 msgid "Disable proxies"
 msgstr "停用代理"
 
-#: src/bin/bin.cpp:5506
+#: src/bin/bin.cpp:5525
 #, kde-format
 msgid "Rebuild proxies"
 msgstr "重新產生代理"
 
-#: src/bin/bin.cpp:5781
+#: src/bin/bin.cpp:5800
 #, kde-format
 msgctxt "@title:window"
 msgid "Project Bin"
 msgstr "專案素材庫"
 
-#: src/bin/bin.cpp:5797
+#: src/bin/bin.cpp:5816
 #, kde-format
 msgid "Add Tracks"
 msgstr "新增軌道"
 
-#: src/bin/bin.cpp:5799
+#: src/bin/bin.cpp:5818
 #, kde-format
 msgid "Edit Streams"
 msgstr "編輯串流"
 
-#: src/bin/bin.cpp:5818
+#: src/bin/bin.cpp:5837
 #, kde-format
 msgid "Don't ask again"
 msgstr "不要再詢問"
 
 #. i18n("Cancel"), this);
 #. << ac4;
-#: src/bin/bin.cpp:5822
+#: src/bin/bin.cpp:5841
 #, kde-format
 msgid ""
 "Your project needs more audio tracks to handle all streams. Add %1 audio "
 "tracks ?"
 msgstr "您的專案需要更多音訊軌才能處理所有串流。要新增 %1 個音訊軌嗎？"
 
-#: src/bin/bin.cpp:5834 src/mainwindow.cpp:3012
+#: src/bin/bin.cpp:5853 src/mainwindow.cpp:3012
 #, kde-format
 msgid "Cannot find clip to add marker"
 msgstr "無法找到要新增標記的素材"
@@ -19258,7 +19270,7 @@ msgstr "無法找到要新增標記的素材"
 #. i18n: ectx: property (windowTitle), widget (QDialog, MarkerDialog_UI)
 #. i18n: ectx: property (windowTitle), widget (QDialog, ExportGuidesDialog_UI)
 #. i18n: ectx: property (windowTitle), widget (QDialog, MultipleMarkerDialog_UI)
-#: src/bin/bin.cpp:5848 src/bin/model/markerlistmodel.cpp:854
+#: src/bin/bin.cpp:5867 src/bin/model/markerlistmodel.cpp:854
 #: src/definitions.cpp:82 src/definitions.cpp:107
 #: src/timeline2/view/timelinecontroller.cpp:1390
 #: src/timeline2/view/timelinecontroller.cpp:1580
@@ -19268,33 +19280,33 @@ msgstr "無法找到要新增標記的素材"
 msgid "Marker"
 msgstr "標記"
 
-#: src/bin/bin.cpp:5938
+#: src/bin/bin.cpp:5957
 #, kde-format
 msgid "Could not find master clip"
 msgstr "找不到 master 素材"
 
-#: src/bin/bin.cpp:6204
+#: src/bin/bin.cpp:6223
 #, kde-format
 msgid "<b>%1</b> clips | "
 msgstr "<b>%1</b> 個素材 | "
 
-#: src/bin/bin.cpp:6206
+#: src/bin/bin.cpp:6225
 #, kde-format
 msgid "<b>%1</b> clips (%2 selected) | "
 msgstr "<b>%1</b> 個素材（已選 %2 個）| "
 
-#: src/bin/bin.cpp:6275 src/bin/bin.cpp:6352
+#: src/bin/bin.cpp:6294 src/bin/bin.cpp:6371
 #, kde-format
 msgid "Add additional stream for clip"
 msgid_plural "Add additional streams for clip"
 msgstr[0] "為素材新增額外串流"
 
-#: src/bin/bin.cpp:6296
+#: src/bin/bin.cpp:6315
 #, kde-format
 msgid "Import selected clips"
 msgstr "匯入所選素材"
 
-#: src/bin/bin.cpp:6298
+#: src/bin/bin.cpp:6317
 #, kde-format
 msgid ""
 "Additional streams for clip\n"
@@ -19303,51 +19315,51 @@ msgstr ""
 "以下素材的額外串流\n"
 " %1"
 
-#: src/bin/bin.cpp:6311 src/mltcontroller/clippropertiescontroller.cpp:754
+#: src/bin/bin.cpp:6330 src/mltcontroller/clippropertiescontroller.cpp:754
 #, kde-format
 msgid "Video stream %1"
 msgstr "視訊串流 %1"
 
-#: src/bin/bin.cpp:6326
+#: src/bin/bin.cpp:6345
 #, kde-format
 msgid "Audio stream %1"
 msgstr "音訊串流 %1"
 
-#: src/bin/bin.cpp:6379
+#: src/bin/bin.cpp:6398
 #, kde-format
 msgid "Remove clip markers"
 msgstr "移除素材標記"
 
-#: src/bin/bin.cpp:6576
+#: src/bin/bin.cpp:6595
 #, kde-format
 msgctxt "@label:textbox"
 msgid "We recommend that you save the project before the transcode operation"
 msgstr "我們建議您在進行轉碼前先儲存專案"
 
-#: src/bin/bin.cpp:6577
+#: src/bin/bin.cpp:6596
 #, kde-format
 msgctxt "@action:button"
 msgid "Save Project"
 msgstr "儲存專案"
 
-#: src/bin/bin.cpp:6578
+#: src/bin/bin.cpp:6597
 #, kde-format
 msgctxt "@action:button"
 msgid "Transcode Without Saving"
 msgstr "繼續轉換編碼而不儲存"
 
-#: src/bin/bin.cpp:6736 src/effects/effectstack/model/effectstackmodel.cpp:198
+#: src/bin/bin.cpp:6755 src/effects/effectstack/model/effectstackmodel.cpp:198
 #: src/timeline2/model/timelineitemmodel.cpp:1125
 #, kde-format
 msgid "Delete effect %1"
 msgstr "刪除效果 %1"
 
-#: src/bin/bin.cpp:6802 src/mainwindow.cpp:264
+#: src/bin/bin.cpp:6821 src/mainwindow.cpp:264
 #, kde-format
 msgid "Project Bin"
 msgstr "專案素材庫"
 
-#: src/bin/bin.cpp:6805 src/bin/bin.cpp:6808 src/mainwindow.cpp:5225
+#: src/bin/bin.cpp:6824 src/bin/bin.cpp:6827 src/mainwindow.cpp:5225
 #, kde-format
 msgid "Project Bin %1"
 msgstr "專案素材庫 %1"
@@ -20645,7 +20657,7 @@ msgstr "自動 (%1)"
 
 #: src/dialogs/encodingprofilesdialog.cpp:265
 #: src/dialogs/encodingprofilesdialog.cpp:354
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:654
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:655
 #: src/project/dialogs/projectsettings.cpp:909
 #: src/transitions/view/transitionstackview.cpp:40
 #, kde-format
@@ -20963,7 +20975,7 @@ msgstr "右上方"
 
 #. i18n: ectx: property (text), widget (QRadioButton, default_folder)
 #: src/dialogs/managesubtitles.cpp:528 src/dialogs/renderwidget.cpp:385
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:679
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:680
 #: src/dialogs/subtitlestyleedit.cpp:104 src/ui/configproject_ui.ui:48
 #, kde-format
 msgid "Default"
@@ -21615,7 +21627,7 @@ msgid "Misc"
 msgstr "其它"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:214
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:746
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:747
 #: src/doc/documentvalidator.cpp:2511
 #: src/transitions/transitionsrepository.cpp:197
 #, kde-format
@@ -21651,58 +21663,58 @@ msgstr "使用預設資料夾：%1"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:319
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:345
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1027
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1028
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1043
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1044
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1037
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1038
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1053
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1054
 #, kde-format
 msgid "Always use project folder: %1"
 msgstr "總是使用專案資料夾：%1"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:321
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:347
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1039
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1040
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1049
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1050
 #, kde-format
 msgid "Always use active project folder"
 msgstr "總是使用作用中專案資料夾"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:360
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:361
 #, kde-format
 msgid "Environment"
 msgstr "環境"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:375
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:376
 #, kde-format
 msgid "Capture is not yet available on Mac OS X."
 msgstr "在 Mac OS X 上還不支援擷取功能。"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:385
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:386
 #, kde-format
 msgid "Mono (1 channel)"
 msgstr "單聲道"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:386
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:387
 #, kde-format
 msgid "Stereo (2 channels)"
 msgstr "立體聲（雙聲道）"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:393
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:394
 #, kde-format
 msgid "44100 Hz"
 msgstr "44100 Hz"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:394
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:395
 #, kde-format
 msgid "48000 Hz"
 msgstr "48000 Hz"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:447
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:448
 #, kde-format
 msgid "JogShuttle"
 msgstr "滑鼠控制"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:449
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:450
 #, fuzzy, kde-format
 #| msgid ""
 #| "For device configuration see <a href=\"https://docs.kdenlive.org/"
@@ -21720,7 +21732,7 @@ msgstr ""
 "mtm_campaign=kdenlive_inapp&mtm_kwd=jogshuttle_settings\">說明文件</a>。"
 
 #. i18n: ectx: Menu (transcoders)
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:471
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:472
 #: src/dialogs/timeremap.cpp:1580 src/kdenliveui.rc:73
 #: src/mltcontroller/clippropertiescontroller.cpp:810
 #: src/project/transcodeseek.cpp:52 src/project/transcodeseek.cpp:65
@@ -21728,86 +21740,92 @@ msgstr ""
 msgid "Transcode"
 msgstr "轉換編碼"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:505
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:506
 #, kde-format
 msgid "GPU processing needs MLT compiled with Movit and Rtaudio modules"
 msgstr "GPU 處理需要有編譯時包含 Movit 與 Rtaudio 模組的 MLT"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:661
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:662
 #, kde-format
 msgid "ALSA"
 msgstr "ALSA"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:662
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:663
 #, kde-format
 msgid "PulseAudio"
 msgstr "PulseAudio"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:663
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:664
 #, kde-format
 msgid "PipeWire"
 msgstr "PipeWire"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:664
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:665
 #, kde-format
 msgid "OSS"
 msgstr "OSS"
 
 #. i18n("OSS with DMA access"), "dma");
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:666
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:667
 #, kde-format
 msgid "Esound Daemon"
 msgstr "Esound 守護程式"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:667
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:668
 #, kde-format
 msgid "ARTS Daemon"
 msgstr "ARTS 守護程式"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:714
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:715
 #, kde-format
 msgid "SDL"
 msgstr "SDL"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:726
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:727
 #, kde-format
 msgid "RtAudio"
 msgstr "RtAudio"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:750 src/mainwindow.cpp:301
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:751 src/mainwindow.cpp:301
 #, kde-format
 msgid "Monitor %1"
 msgstr "預覽視窗 %1"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:834
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:835
 #, kde-format
 msgid "Enter path to the audio editing application"
 msgstr "輸入音訊編輯應用程式的路徑"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:842
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:843
 #, kde-format
 msgid "Enter path to the image editing application"
 msgstr "輸入影像編輯應用程式的路徑"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:850
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:851
 #: src/glaxnimatelauncher.cpp:30
 #, kde-format
 msgid "Enter path to the Glaxnimate application"
 msgstr "輸入 Glaxnimate 應用程式的路徑"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:932
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:978
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:859
+#, fuzzy, kde-format
+#| msgid "Enter path to the audio editing application"
+msgid "Enter path to the video editing application"
+msgstr "輸入音訊編輯應用程式的路徑"
+
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:941
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:988
 #: src/project/dialogs/projectsettings.cpp:541
 #, kde-format
 msgid "Please select a video profile"
 msgstr "請選取一個影片編碼方案"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1259
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1269
 #, kde-format
 msgid "Kdenlive must be restarted to change this setting"
 msgstr "Kdenlive 需要重新啟動才能變更此設定"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1387
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1397
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:670
 #, kde-format
 msgid "A profile with that name already exists"
@@ -35040,8 +35058,9 @@ msgstr "圖片編輯應用程式的路徑"
 #. i18n: ectx: property (text), widget (QPushButton, kp_image)
 #. i18n: ectx: property (text), widget (QPushButton, kp_audio)
 #. i18n: ectx: property (text), widget (QPushButton, kp_anim)
+#. i18n: ectx: property (text), widget (QPushButton, kp_video)
 #: src/ui/configenv_ui.ui:365 src/ui/configenv_ui.ui:386
-#: src/ui/configenv_ui.ui:411
+#: src/ui/configenv_ui.ui:411 src/ui/configenv_ui.ui:436
 #, kde-format
 msgid "Change…"
 msgstr "變更…"
@@ -35070,20 +35089,34 @@ msgstr "Glaxnimate 執行檔的路徑"
 msgid "Animation editing:"
 msgstr "動畫編輯："
 
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, kcfg_defaultvideoapp)
+#: src/ui/configenv_ui.ui:429
+#, fuzzy, kde-format
+#| msgid "Path to Glaxnimate executable"
+msgid "Path to video editor executable"
+msgstr "Glaxnimate 執行檔的路徑"
+
+#. i18n: ectx: property (text), widget (QLabel, label_19)
+#: src/ui/configenv_ui.ui:445
+#, fuzzy, kde-format
+#| msgid "Audio editing:"
+msgid "Video editing:"
+msgstr "音訊編輯："
+
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: src/ui/configenv_ui.ui:441
+#: src/ui/configenv_ui.ui:466
 #, kde-format
 msgid "Mime types"
 msgstr "MIME 類型"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: src/ui/configenv_ui.ui:447
+#: src/ui/configenv_ui.ui:472
 #, kde-format
 msgid "Additional clip MIME types"
 msgstr "額外的素材 MIME 類型"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: src/ui/configenv_ui.ui:461
+#: src/ui/configenv_ui.ui:486
 #, kde-format
 msgid "Supported clip MIME types"
 msgstr "支援的素材 MIME 類型"

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-06 00:44+0000\n"
+"POT-Creation-Date: 2026-02-12 00:42+0000\n"
 "PO-Revision-Date: 2024-12-15 19:32+0530\n"
 "Last-Translator: kali <skkalwar999@gmail.com>\n"
 "Language-Team: Hindi <kde-i18n-doc@kde.org>\n"
@@ -18678,7 +18678,7 @@ msgstr "प्रभाव सहेजें"
 
 #: src/assets/view/assetparameterview.cpp:377
 #: src/dialogs/customcamcorderdialog.cpp:131
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1384
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1394
 #, kde-format
 msgctxt "@title:window"
 msgid "Enter Preset Name"
@@ -18686,7 +18686,7 @@ msgstr "प्रीसेट नाम दर्ज करें"
 
 #: src/assets/view/assetparameterview.cpp:377
 #: src/dialogs/customcamcorderdialog.cpp:133
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1384
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1394
 #, kde-format
 msgid "Enter the name of this preset:"
 msgstr "इस प्रीसेट का नाम दर्ज करें:"
@@ -19673,7 +19673,7 @@ msgstr ""
 msgid "Replace in timeline"
 msgstr "समयरेखा में प्रतिस्थापित करें"
 
-#: src/bin/bin.cpp:2395 src/bin/bin.cpp:6182 src/bin/clipcreator.cpp:344
+#: src/bin/bin.cpp:2395 src/bin/bin.cpp:6201 src/bin/clipcreator.cpp:344
 #: src/effects/effectstack/view/maskmanager.cpp:642
 #, kde-format
 msgctxt "@action"
@@ -20071,7 +20071,19 @@ msgstr "अपने ऑडियो संपादन अनुप्रयो
 msgid "Please set a default application to open audio files"
 msgstr "कृपया ऑडियो फ़ाइलें खोलने के लिए एक डिफ़ॉल्ट एप्लिकेशन सेट करें"
 
-#: src/bin/bin.cpp:5083 src/core.cpp:669 src/doc/kdenlivedoc.cpp:169
+#: src/bin/bin.cpp:5080
+#, fuzzy, kde-format
+#| msgid "Enter path for your audio editing application"
+msgid "Enter path for your video editing application"
+msgstr "अपने ऑडियो संपादन अनुप्रयोग के लिए पथ दर्ज करें"
+
+#: src/bin/bin.cpp:5092
+#, fuzzy, kde-format
+#| msgid "Please set a default application to open audio files"
+msgid "Please set a default application to open video files"
+msgstr "कृपया ऑडियो फ़ाइलें खोलने के लिए एक डिफ़ॉल्ट एप्लिकेशन सेट करें"
+
+#: src/bin/bin.cpp:5102 src/core.cpp:669 src/doc/kdenlivedoc.cpp:169
 #: src/jobs/cliploadtask.cpp:487 src/jobs/cliploadtask.cpp:499
 #: src/jobs/filtertask.cpp:98 src/jobs/filtertask.cpp:139
 #: src/layouts/layoutmanagerdialog.cpp:211
@@ -20081,12 +20093,12 @@ msgstr "कृपया ऑडियो फ़ाइलें खोलने �
 msgid "Cannot open file %1"
 msgstr "फ़ाइल %1 नहीं खोली जा सकी"
 
-#: src/bin/bin.cpp:5120 src/dialogs/profilesdialog.cpp:237
+#: src/bin/bin.cpp:5139 src/dialogs/profilesdialog.cpp:237
 #, kde-format
 msgid "(copy)"
 msgstr "(प्रतिलिपि)"
 
-#: src/bin/bin.cpp:5130
+#: src/bin/bin.cpp:5149
 #, kde-format
 msgid ""
 "You are editing an external title clip (%1). Do you want to save your "
@@ -20095,75 +20107,75 @@ msgstr ""
 "आप एक बाहरी शीर्षक क्लिप (%1) संपादित कर रहे हैं। क्या आप अपने परिवर्तनों को शीर्षक "
 "फ़ाइल में सहेजना चाहते हैं या केवल इस प्रोजेक्ट के लिए परिवर्तनों को सहेजना चाहते हैं?"
 
-#: src/bin/bin.cpp:5133 src/titler/titlewidget.cpp:2331
+#: src/bin/bin.cpp:5152 src/titler/titlewidget.cpp:2331
 #, kde-format
 msgid "Save Title"
 msgstr "शीर्षक सहेजें"
 
-#: src/bin/bin.cpp:5133
+#: src/bin/bin.cpp:5152
 #, kde-format
 msgid "Save to title file"
 msgstr "शीर्षक फ़ाइल में सहेजें"
 
-#: src/bin/bin.cpp:5134
+#: src/bin/bin.cpp:5153
 #, kde-format
 msgid "Save in project only"
 msgstr "केवल प्रोजेक्ट में सहेजें"
 
-#: src/bin/bin.cpp:5157 src/dialogs/clipcreationdialog.cpp:345
+#: src/bin/bin.cpp:5176 src/dialogs/clipcreationdialog.cpp:345
 #, kde-format
 msgid "Title clip"
 msgstr "शीर्षक क्लिप"
 
-#: src/bin/bin.cpp:5207
+#: src/bin/bin.cpp:5226
 #, kde-format
 msgid "Clip is invalid, will be removed from project."
 msgstr "क्लिप अमान्य है, इसे परियोजना से हटा दिया जाएगा."
 
-#: src/bin/bin.cpp:5211
+#: src/bin/bin.cpp:5230
 #, kde-format
 msgid "Invalid clip"
 msgstr "अमान्य क्लिप"
 
-#: src/bin/bin.cpp:5325
+#: src/bin/bin.cpp:5344
 #, kde-format
 msgid "Enable proxies"
 msgstr "प्रॉक्सी सक्षम करें"
 
-#: src/bin/bin.cpp:5325
+#: src/bin/bin.cpp:5344
 #, kde-format
 msgid "Disable proxies"
 msgstr "प्रॉक्सी अक्षम करें"
 
-#: src/bin/bin.cpp:5506
+#: src/bin/bin.cpp:5525
 #, kde-format
 msgid "Rebuild proxies"
 msgstr "प्रॉक्सी का पुनर्निर्माण करें"
 
-#: src/bin/bin.cpp:5781
+#: src/bin/bin.cpp:5800
 #, kde-format
 msgctxt "@title:window"
 msgid "Project Bin"
 msgstr "प्रोजेक्ट बिन"
 
-#: src/bin/bin.cpp:5797
+#: src/bin/bin.cpp:5816
 #, kde-format
 msgid "Add Tracks"
 msgstr "ट्रैक जोड़ें"
 
-#: src/bin/bin.cpp:5799
+#: src/bin/bin.cpp:5818
 #, kde-format
 msgid "Edit Streams"
 msgstr "स्ट्रीम संपादित करें"
 
-#: src/bin/bin.cpp:5818
+#: src/bin/bin.cpp:5837
 #, kde-format
 msgid "Don't ask again"
 msgstr "दोबारा मत पूछो"
 
 #. i18n("Cancel"), this);
 #. << ac4;
-#: src/bin/bin.cpp:5822
+#: src/bin/bin.cpp:5841
 #, kde-format
 msgid ""
 "Your project needs more audio tracks to handle all streams. Add %1 audio "
@@ -20172,7 +20184,7 @@ msgstr ""
 "आपके प्रोजेक्ट को सभी स्ट्रीम को संभालने के लिए अधिक ऑडियो ट्रैक की आवश्यकता है। %1 ऑडियो "
 "ट्रैक जोड़ें?"
 
-#: src/bin/bin.cpp:5834 src/mainwindow.cpp:3012
+#: src/bin/bin.cpp:5853 src/mainwindow.cpp:3012
 #, kde-format
 msgid "Cannot find clip to add marker"
 msgstr "मार्कर जोड़ने के लिए क्लिप नहीं मिल सका"
@@ -20180,7 +20192,7 @@ msgstr "मार्कर जोड़ने के लिए क्लिप �
 #. i18n: ectx: property (windowTitle), widget (QDialog, MarkerDialog_UI)
 #. i18n: ectx: property (windowTitle), widget (QDialog, ExportGuidesDialog_UI)
 #. i18n: ectx: property (windowTitle), widget (QDialog, MultipleMarkerDialog_UI)
-#: src/bin/bin.cpp:5848 src/bin/model/markerlistmodel.cpp:854
+#: src/bin/bin.cpp:5867 src/bin/model/markerlistmodel.cpp:854
 #: src/definitions.cpp:82 src/definitions.cpp:107
 #: src/timeline2/view/timelinecontroller.cpp:1390
 #: src/timeline2/view/timelinecontroller.cpp:1580
@@ -20190,34 +20202,34 @@ msgstr "मार्कर जोड़ने के लिए क्लिप �
 msgid "Marker"
 msgstr "निशान"
 
-#: src/bin/bin.cpp:5938
+#: src/bin/bin.cpp:5957
 #, kde-format
 msgid "Could not find master clip"
 msgstr "मास्टर क्लिप नहीं मिल सका"
 
-#: src/bin/bin.cpp:6204
+#: src/bin/bin.cpp:6223
 #, kde-format
 msgid "<b>%1</b> clips | "
 msgstr "<b>%1</b> क्लिप्स | "
 
-#: src/bin/bin.cpp:6206
+#: src/bin/bin.cpp:6225
 #, kde-format
 msgid "<b>%1</b> clips (%2 selected) | "
 msgstr "<b>%1</b> क्लिप्स (%2 चयनित) | "
 
-#: src/bin/bin.cpp:6275 src/bin/bin.cpp:6352
+#: src/bin/bin.cpp:6294 src/bin/bin.cpp:6371
 #, kde-format
 msgid "Add additional stream for clip"
 msgid_plural "Add additional streams for clip"
 msgstr[0] "क्लिप के लिए अतिरिक्त स्ट्रीम जोड़ें"
 msgstr[1] "क्लिप के लिए अतिरिक्त स्ट्रीम जोड़ें"
 
-#: src/bin/bin.cpp:6296
+#: src/bin/bin.cpp:6315
 #, kde-format
 msgid "Import selected clips"
 msgstr "चयनित क्लिप आयात करें"
 
-#: src/bin/bin.cpp:6298
+#: src/bin/bin.cpp:6317
 #, kde-format
 msgid ""
 "Additional streams for clip\n"
@@ -20226,51 +20238,51 @@ msgstr ""
 "क्लिप के लिए अतिरिक्त स्ट्रीम\n"
 "%1"
 
-#: src/bin/bin.cpp:6311 src/mltcontroller/clippropertiescontroller.cpp:754
+#: src/bin/bin.cpp:6330 src/mltcontroller/clippropertiescontroller.cpp:754
 #, kde-format
 msgid "Video stream %1"
 msgstr "वीडियो स्ट्रीम %1"
 
-#: src/bin/bin.cpp:6326
+#: src/bin/bin.cpp:6345
 #, kde-format
 msgid "Audio stream %1"
 msgstr "ऑडियो स्ट्रीम %1"
 
-#: src/bin/bin.cpp:6379
+#: src/bin/bin.cpp:6398
 #, kde-format
 msgid "Remove clip markers"
 msgstr "क्लिप मार्कर हटाएँ"
 
-#: src/bin/bin.cpp:6576
+#: src/bin/bin.cpp:6595
 #, kde-format
 msgctxt "@label:textbox"
 msgid "We recommend that you save the project before the transcode operation"
 msgstr "हम अनुशंसा करते हैं कि आप ट्रांसकोड ऑपरेशन से पहले प्रोजेक्ट को सेव कर लें"
 
-#: src/bin/bin.cpp:6577
+#: src/bin/bin.cpp:6596
 #, kde-format
 msgctxt "@action:button"
 msgid "Save Project"
 msgstr "प्रोजेक्ट सहेजें"
 
-#: src/bin/bin.cpp:6578
+#: src/bin/bin.cpp:6597
 #, kde-format
 msgctxt "@action:button"
 msgid "Transcode Without Saving"
 msgstr "बिना सहेजे ट्रांसकोड करें"
 
-#: src/bin/bin.cpp:6736 src/effects/effectstack/model/effectstackmodel.cpp:198
+#: src/bin/bin.cpp:6755 src/effects/effectstack/model/effectstackmodel.cpp:198
 #: src/timeline2/model/timelineitemmodel.cpp:1125
 #, kde-format
 msgid "Delete effect %1"
 msgstr "प्रभाव %1 मिटाएँ"
 
-#: src/bin/bin.cpp:6802 src/mainwindow.cpp:264
+#: src/bin/bin.cpp:6821 src/mainwindow.cpp:264
 #, kde-format
 msgid "Project Bin"
 msgstr "प्रोजेक्ट बिन"
 
-#: src/bin/bin.cpp:6805 src/bin/bin.cpp:6808 src/mainwindow.cpp:5225
+#: src/bin/bin.cpp:6824 src/bin/bin.cpp:6827 src/mainwindow.cpp:5225
 #, kde-format
 msgid "Project Bin %1"
 msgstr "प्रोजेक्ट बिन %1"
@@ -21599,7 +21611,7 @@ msgstr "स्वचालित (%1)"
 
 #: src/dialogs/encodingprofilesdialog.cpp:265
 #: src/dialogs/encodingprofilesdialog.cpp:354
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:654
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:655
 #: src/project/dialogs/projectsettings.cpp:909
 #: src/transitions/view/transitionstackview.cpp:40
 #, kde-format
@@ -21933,7 +21945,7 @@ msgstr "ठीक तरह से ऊपर"
 
 #. i18n: ectx: property (text), widget (QRadioButton, default_folder)
 #: src/dialogs/managesubtitles.cpp:528 src/dialogs/renderwidget.cpp:385
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:679
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:680
 #: src/dialogs/subtitlestyleedit.cpp:104 src/ui/configproject_ui.ui:48
 #, kde-format
 msgid "Default"
@@ -22598,7 +22610,7 @@ msgid "Misc"
 msgstr "विविध"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:214
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:746
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:747
 #: src/doc/documentvalidator.cpp:2511
 #: src/transitions/transitionsrepository.cpp:197
 #, kde-format
@@ -22634,58 +22646,58 @@ msgstr "डिफ़ॉल्ट फ़ोल्डर का उपयोग �
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:319
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:345
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1027
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1028
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1043
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1044
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1037
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1038
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1053
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1054
 #, kde-format
 msgid "Always use project folder: %1"
 msgstr "हमेशा प्रोजेक्ट फ़ोल्डर का उपयोग करें: %1"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:321
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:347
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1039
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1040
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1049
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1050
 #, kde-format
 msgid "Always use active project folder"
 msgstr "हमेशा सक्रिय प्रोजेक्ट फ़ोल्डर का उपयोग करें"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:360
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:361
 #, kde-format
 msgid "Environment"
 msgstr "पर्यावरण"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:375
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:376
 #, kde-format
 msgid "Capture is not yet available on Mac OS X."
 msgstr "कैप्चर अभी तक मैक ओएस एक्स पर उपलब्ध नहीं है।"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:385
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:386
 #, kde-format
 msgid "Mono (1 channel)"
 msgstr "मोनो (1 चैनल)"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:386
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:387
 #, kde-format
 msgid "Stereo (2 channels)"
 msgstr "स्टीरियो (2 चैनल)"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:393
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:394
 #, kde-format
 msgid "44100 Hz"
 msgstr "44100 हर्ट्ज"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:394
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:395
 #, kde-format
 msgid "48000 Hz"
 msgstr "48000 हर्ट्ज"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:447
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:448
 #, kde-format
 msgid "JogShuttle"
 msgstr "जॉगशटल"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:449
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:450
 #, fuzzy, kde-format
 #| msgid ""
 #| "For device configuration see <a href=\"https://docs.kdenlive.org/"
@@ -22704,7 +22716,7 @@ msgstr ""
 "देखें."
 
 #. i18n: ectx: Menu (transcoders)
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:471
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:472
 #: src/dialogs/timeremap.cpp:1580 src/kdenliveui.rc:73
 #: src/mltcontroller/clippropertiescontroller.cpp:810
 #: src/project/transcodeseek.cpp:52 src/project/transcodeseek.cpp:65
@@ -22712,87 +22724,93 @@ msgstr ""
 msgid "Transcode"
 msgstr "ट्रांसकोड"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:505
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:506
 #, kde-format
 msgid "GPU processing needs MLT compiled with Movit and Rtaudio modules"
 msgstr ""
 "GPU प्रोसेसिंग के लिए Movit और Rtaudio मॉड्यूल के साथ संकलित MLT की आवश्यकता होती है"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:661
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:662
 #, kde-format
 msgid "ALSA"
 msgstr "एएलएसए"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:662
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:663
 #, kde-format
 msgid "PulseAudio"
 msgstr "पल्सऑडियो"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:663
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:664
 #, kde-format
 msgid "PipeWire"
 msgstr "पाइपवायर"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:664
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:665
 #, kde-format
 msgid "OSS"
 msgstr "हम"
 
 #. i18n("OSS with DMA access"), "dma");
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:666
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:667
 #, kde-format
 msgid "Esound Daemon"
 msgstr "ईसाउंड डेमन"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:667
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:668
 #, kde-format
 msgid "ARTS Daemon"
 msgstr "कला डेमन"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:714
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:715
 #, kde-format
 msgid "SDL"
 msgstr "एसडीएल"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:726
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:727
 #, kde-format
 msgid "RtAudio"
 msgstr "आरटीऑडियो"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:750 src/mainwindow.cpp:301
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:751 src/mainwindow.cpp:301
 #, kde-format
 msgid "Monitor %1"
 msgstr "मॉनिटर%1"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:834
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:835
 #, kde-format
 msgid "Enter path to the audio editing application"
 msgstr "ऑडियो संपादन अनुप्रयोग का पथ दर्ज करें"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:842
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:843
 #, kde-format
 msgid "Enter path to the image editing application"
 msgstr "छवि संपादन अनुप्रयोग का पथ दर्ज करें"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:850
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:851
 #: src/glaxnimatelauncher.cpp:30
 #, kde-format
 msgid "Enter path to the Glaxnimate application"
 msgstr "ग्लैक्सनिमेट एप्लिकेशन का पथ दर्ज करें"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:932
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:978
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:859
+#, fuzzy, kde-format
+#| msgid "Enter path to the audio editing application"
+msgid "Enter path to the video editing application"
+msgstr "ऑडियो संपादन अनुप्रयोग का पथ दर्ज करें"
+
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:941
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:988
 #: src/project/dialogs/projectsettings.cpp:541
 #, kde-format
 msgid "Please select a video profile"
 msgstr "कृपया एक वीडियो प्रोफ़ाइल चुनें"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1259
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1269
 #, kde-format
 msgid "Kdenlive must be restarted to change this setting"
 msgstr "इस सेटिंग को बदलने के लिए Kdenlive को पुनः प्रारंभ करना होगा"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1387
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1397
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:670
 #, kde-format
 msgid "A profile with that name already exists"
@@ -36363,8 +36381,9 @@ msgstr "छवि संपादन अनुप्रयोग का पथ"
 #. i18n: ectx: property (text), widget (QPushButton, kp_image)
 #. i18n: ectx: property (text), widget (QPushButton, kp_audio)
 #. i18n: ectx: property (text), widget (QPushButton, kp_anim)
+#. i18n: ectx: property (text), widget (QPushButton, kp_video)
 #: src/ui/configenv_ui.ui:365 src/ui/configenv_ui.ui:386
-#: src/ui/configenv_ui.ui:411
+#: src/ui/configenv_ui.ui:411 src/ui/configenv_ui.ui:436
 #, kde-format
 msgid "Change…"
 msgstr "परिवर्तन…"
@@ -36393,20 +36412,34 @@ msgstr "ग्लैक्सनिमेट निष्पादनयोग�
 msgid "Animation editing:"
 msgstr "एनीमेशन संपादन:"
 
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, kcfg_defaultvideoapp)
+#: src/ui/configenv_ui.ui:429
+#, fuzzy, kde-format
+#| msgid "Path to Glaxnimate executable"
+msgid "Path to video editor executable"
+msgstr "ग्लैक्सनिमेट निष्पादनयोग्य का पथ"
+
+#. i18n: ectx: property (text), widget (QLabel, label_19)
+#: src/ui/configenv_ui.ui:445
+#, fuzzy, kde-format
+#| msgid "Audio editing:"
+msgid "Video editing:"
+msgstr "ऑडियो संपादन:"
+
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: src/ui/configenv_ui.ui:441
+#: src/ui/configenv_ui.ui:466
 #, kde-format
 msgid "Mime types"
 msgstr "माइम के प्रकार"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: src/ui/configenv_ui.ui:447
+#: src/ui/configenv_ui.ui:472
 #, kde-format
 msgid "Additional clip MIME types"
 msgstr "अतिरिक्त क्लिप MIME प्रकार"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: src/ui/configenv_ui.ui:461
+#: src/ui/configenv_ui.ui:486
 #, kde-format
 msgid "Supported clip MIME types"
 msgstr "समर्थित क्लिप MIME प्रकार"

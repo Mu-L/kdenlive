@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-06 00:44+0000\n"
-"PO-Revision-Date: 2026-02-05 11:06+0400\n"
+"POT-Creation-Date: 2026-02-12 00:42+0000\n"
+"PO-Revision-Date: 2026-02-11 20:44+0400\n"
 "Last-Translator: Zayed Al-Saidi <zayed.alsaidi@gmail.com>\n"
 "Language-Team: ar\n"
 "Language: ar\n"
@@ -16651,29 +16651,27 @@ msgstr "مهمل"
 #: data/profiles.xml:4
 #, kde-format
 msgid "Generic (HD for web, mobile devices...)"
-msgstr ""
+msgstr "عام (دقة عالية للويب والأجهزة المحمولة...)"
 
 #: data/profiles.xml:27
 #, kde-format
 msgid "Ultra-High Definition (4K)"
-msgstr ""
+msgstr "دقة فائقة (4K)"
 
 #: data/profiles.xml:43
-#, fuzzy, kde-format
-#| msgid "Feather Alpha"
+#, kde-format
 msgid "Video with Alpha"
-msgstr "ريش ألفا"
+msgstr "فيديو بألفا"
 
 #: data/profiles.xml:58
 #, kde-format
 msgid "Old-TV definition (DVD...)"
-msgstr ""
+msgstr "تعريف التلفزيون القديم (DVD...)"
 
 #: data/profiles.xml:75
-#, fuzzy, kde-format
-#| msgid "AMF hardware acceleration"
+#, kde-format
 msgid "Hardware Accelerated (experimental)"
-msgstr "تسريع بعتاد AMF"
+msgstr "تسريع العتاد (تجريبي)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, profile_audioonly)
 #: data/profiles.xml:116 src/ui/configtranscode_ui.ui:76
@@ -18101,7 +18099,7 @@ msgstr "احفظ التّأثير"
 
 #: src/assets/view/assetparameterview.cpp:377
 #: src/dialogs/customcamcorderdialog.cpp:131
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1384
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1394
 #, kde-format
 msgctxt "@title:window"
 msgid "Enter Preset Name"
@@ -18109,7 +18107,7 @@ msgstr "أدخل اسم الإعداد المسبق"
 
 #: src/assets/view/assetparameterview.cpp:377
 #: src/dialogs/customcamcorderdialog.cpp:133
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1384
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1394
 #, kde-format
 msgid "Enter the name of this preset:"
 msgstr "أدخِل اسم الملف المعد مسبقا هذا:"
@@ -19075,7 +19073,7 @@ msgstr ""
 msgid "Replace in timeline"
 msgstr "استبدل في الخطّ الزّمني"
 
-#: src/bin/bin.cpp:2395 src/bin/bin.cpp:6182 src/bin/clipcreator.cpp:344
+#: src/bin/bin.cpp:2395 src/bin/bin.cpp:6201 src/bin/clipcreator.cpp:344
 #: src/effects/effectstack/view/maskmanager.cpp:642
 #, kde-format
 msgctxt "@action"
@@ -19479,7 +19477,19 @@ msgstr "أدخل مسار تطبيق تحرير الصوت"
 msgid "Please set a default application to open audio files"
 msgstr "فضلًا اضبط تطبيقًا مبدئياً ليفتح ملفّات الصّوت"
 
-#: src/bin/bin.cpp:5083 src/core.cpp:669 src/doc/kdenlivedoc.cpp:169
+#: src/bin/bin.cpp:5080
+#, fuzzy, kde-format
+#| msgid "Enter path for your audio editing application"
+msgid "Enter path for your video editing application"
+msgstr "أدخل مسار تطبيق تحرير الصوت"
+
+#: src/bin/bin.cpp:5092
+#, fuzzy, kde-format
+#| msgid "Please set a default application to open audio files"
+msgid "Please set a default application to open video files"
+msgstr "فضلًا اضبط تطبيقًا مبدئياً ليفتح ملفّات الصّوت"
+
+#: src/bin/bin.cpp:5102 src/core.cpp:669 src/doc/kdenlivedoc.cpp:169
 #: src/jobs/cliploadtask.cpp:487 src/jobs/cliploadtask.cpp:499
 #: src/jobs/filtertask.cpp:98 src/jobs/filtertask.cpp:139
 #: src/layouts/layoutmanagerdialog.cpp:211
@@ -19489,12 +19499,12 @@ msgstr "فضلًا اضبط تطبيقًا مبدئياً ليفتح ملفّا�
 msgid "Cannot open file %1"
 msgstr "تعذّر فتح الملفّ %1"
 
-#: src/bin/bin.cpp:5120 src/dialogs/profilesdialog.cpp:237
+#: src/bin/bin.cpp:5139 src/dialogs/profilesdialog.cpp:237
 #, kde-format
 msgid "(copy)"
 msgstr " (نسخة)"
 
-#: src/bin/bin.cpp:5130
+#: src/bin/bin.cpp:5149
 #, kde-format
 msgid ""
 "You are editing an external title clip (%1). Do you want to save your "
@@ -19503,75 +19513,75 @@ msgstr ""
 "أنت تحرّر مقطع عنوان خارجيّة (%1). أتريد حفظ تغييراتك إلى ملفّ العنوان أو حفظها "
 "لهذا المشروع فقط؟"
 
-#: src/bin/bin.cpp:5133 src/titler/titlewidget.cpp:2331
+#: src/bin/bin.cpp:5152 src/titler/titlewidget.cpp:2331
 #, kde-format
 msgid "Save Title"
 msgstr "احفظ العنوان"
 
-#: src/bin/bin.cpp:5133
+#: src/bin/bin.cpp:5152
 #, kde-format
 msgid "Save to title file"
 msgstr "احفظ إلى ملفّ العنوان"
 
-#: src/bin/bin.cpp:5134
+#: src/bin/bin.cpp:5153
 #, kde-format
 msgid "Save in project only"
 msgstr "احفظ في المشروع فقط"
 
-#: src/bin/bin.cpp:5157 src/dialogs/clipcreationdialog.cpp:345
+#: src/bin/bin.cpp:5176 src/dialogs/clipcreationdialog.cpp:345
 #, kde-format
 msgid "Title clip"
 msgstr "مقطع عنوان"
 
-#: src/bin/bin.cpp:5207
+#: src/bin/bin.cpp:5226
 #, kde-format
 msgid "Clip is invalid, will be removed from project."
 msgstr "المقطع غير صالحة، ستُزال من المشروع."
 
-#: src/bin/bin.cpp:5211
+#: src/bin/bin.cpp:5230
 #, kde-format
 msgid "Invalid clip"
 msgstr "مقطع غير صالحة"
 
-#: src/bin/bin.cpp:5325
+#: src/bin/bin.cpp:5344
 #, kde-format
 msgid "Enable proxies"
 msgstr "تفعيل وسطاء"
 
-#: src/bin/bin.cpp:5325
+#: src/bin/bin.cpp:5344
 #, kde-format
 msgid "Disable proxies"
 msgstr "تعطيل وسطاء"
 
-#: src/bin/bin.cpp:5506
+#: src/bin/bin.cpp:5525
 #, kde-format
 msgid "Rebuild proxies"
 msgstr "إعادة بناء وسطاء"
 
-#: src/bin/bin.cpp:5781
+#: src/bin/bin.cpp:5800
 #, kde-format
 msgctxt "@title:window"
 msgid "Project Bin"
 msgstr "سلّة المشروع"
 
-#: src/bin/bin.cpp:5797
+#: src/bin/bin.cpp:5816
 #, kde-format
 msgid "Add Tracks"
 msgstr "أضف مسارات"
 
-#: src/bin/bin.cpp:5799
+#: src/bin/bin.cpp:5818
 #, kde-format
 msgid "Edit Streams"
 msgstr "حرّر الدفق"
 
-#: src/bin/bin.cpp:5818
+#: src/bin/bin.cpp:5837
 #, kde-format
 msgid "Don't ask again"
 msgstr "لا تسألني ثانيةً"
 
 #. i18n("Cancel"), this);
 #. << ac4;
-#: src/bin/bin.cpp:5822
+#: src/bin/bin.cpp:5841
 #, kde-format
 msgid ""
 "Your project needs more audio tracks to handle all streams. Add %1 audio "
@@ -19580,7 +19590,7 @@ msgstr ""
 "يحتاج مشروعك إلى مزيد من المسارات الصوتية للتعامل مع جميع التدفقات. إضافة %1 "
 "مسارات الصوت؟"
 
-#: src/bin/bin.cpp:5834 src/mainwindow.cpp:3012
+#: src/bin/bin.cpp:5853 src/mainwindow.cpp:3012
 #, kde-format
 msgid "Cannot find clip to add marker"
 msgstr "لم يعثر على مقطع ليضيف علامة لها"
@@ -19588,7 +19598,7 @@ msgstr "لم يعثر على مقطع ليضيف علامة لها"
 #. i18n: ectx: property (windowTitle), widget (QDialog, MarkerDialog_UI)
 #. i18n: ectx: property (windowTitle), widget (QDialog, ExportGuidesDialog_UI)
 #. i18n: ectx: property (windowTitle), widget (QDialog, MultipleMarkerDialog_UI)
-#: src/bin/bin.cpp:5848 src/bin/model/markerlistmodel.cpp:854
+#: src/bin/bin.cpp:5867 src/bin/model/markerlistmodel.cpp:854
 #: src/definitions.cpp:82 src/definitions.cpp:107
 #: src/timeline2/view/timelinecontroller.cpp:1390
 #: src/timeline2/view/timelinecontroller.cpp:1580
@@ -19598,22 +19608,22 @@ msgstr "لم يعثر على مقطع ليضيف علامة لها"
 msgid "Marker"
 msgstr "علامة"
 
-#: src/bin/bin.cpp:5938
+#: src/bin/bin.cpp:5957
 #, kde-format
 msgid "Could not find master clip"
 msgstr "لم يعثر على المقطع الرئيس"
 
-#: src/bin/bin.cpp:6204
+#: src/bin/bin.cpp:6223
 #, kde-format
 msgid "<b>%1</b> clips | "
 msgstr "<b>%1</b> مقطع | "
 
-#: src/bin/bin.cpp:6206
+#: src/bin/bin.cpp:6225
 #, kde-format
 msgid "<b>%1</b> clips (%2 selected) | "
 msgstr "<b>%1</b> مقطع (%2 محددة) | "
 
-#: src/bin/bin.cpp:6275 src/bin/bin.cpp:6352
+#: src/bin/bin.cpp:6294 src/bin/bin.cpp:6371
 #, kde-format
 msgid "Add additional stream for clip"
 msgid_plural "Add additional streams for clip"
@@ -19624,12 +19634,12 @@ msgstr[3] "أضف تدفقات إضافياً إلى مقطع"
 msgstr[4] "أضف دفقاً إضافياً إلى مقطع"
 msgstr[5] "أضف دفقاً إضافياً إلى مقطع"
 
-#: src/bin/bin.cpp:6296
+#: src/bin/bin.cpp:6315
 #, kde-format
 msgid "Import selected clips"
 msgstr "استورد المقاطع المحدّدة"
 
-#: src/bin/bin.cpp:6298
+#: src/bin/bin.cpp:6317
 #, kde-format
 msgid ""
 "Additional streams for clip\n"
@@ -19638,51 +19648,51 @@ msgstr ""
 "تدفقات إضافية للمقطع\n"
 " %1"
 
-#: src/bin/bin.cpp:6311 src/mltcontroller/clippropertiescontroller.cpp:754
+#: src/bin/bin.cpp:6330 src/mltcontroller/clippropertiescontroller.cpp:754
 #, kde-format
 msgid "Video stream %1"
 msgstr "دفق الفيديو %1"
 
-#: src/bin/bin.cpp:6326
+#: src/bin/bin.cpp:6345
 #, kde-format
 msgid "Audio stream %1"
 msgstr "دفق الصّوت %1"
 
-#: src/bin/bin.cpp:6379
+#: src/bin/bin.cpp:6398
 #, kde-format
 msgid "Remove clip markers"
 msgstr "أزل علامات المقطع"
 
-#: src/bin/bin.cpp:6576
+#: src/bin/bin.cpp:6595
 #, kde-format
 msgctxt "@label:textbox"
 msgid "We recommend that you save the project before the transcode operation"
 msgstr "نوصي بحفظ المشروع قبل عملية تحويل الترميز"
 
-#: src/bin/bin.cpp:6577
+#: src/bin/bin.cpp:6596
 #, kde-format
 msgctxt "@action:button"
 msgid "Save Project"
 msgstr "احفظ المشروع"
 
-#: src/bin/bin.cpp:6578
+#: src/bin/bin.cpp:6597
 #, kde-format
 msgctxt "@action:button"
 msgid "Transcode Without Saving"
 msgstr "يبدل الترميز دون حفظ"
 
-#: src/bin/bin.cpp:6736 src/effects/effectstack/model/effectstackmodel.cpp:198
+#: src/bin/bin.cpp:6755 src/effects/effectstack/model/effectstackmodel.cpp:198
 #: src/timeline2/model/timelineitemmodel.cpp:1125
 #, kde-format
 msgid "Delete effect %1"
 msgstr "احذف التّأثير %1"
 
-#: src/bin/bin.cpp:6802 src/mainwindow.cpp:264
+#: src/bin/bin.cpp:6821 src/mainwindow.cpp:264
 #, kde-format
 msgid "Project Bin"
 msgstr "سلّة المشروع"
 
-#: src/bin/bin.cpp:6805 src/bin/bin.cpp:6808 src/mainwindow.cpp:5225
+#: src/bin/bin.cpp:6824 src/bin/bin.cpp:6827 src/mainwindow.cpp:5225
 #, kde-format
 msgid "Project Bin %1"
 msgstr "سلّة المشروع %1"
@@ -20993,7 +21003,7 @@ msgstr "آليّ (%1)"
 
 #: src/dialogs/encodingprofilesdialog.cpp:265
 #: src/dialogs/encodingprofilesdialog.cpp:354
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:654
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:655
 #: src/project/dialogs/projectsettings.cpp:909
 #: src/transitions/view/transitionstackview.cpp:40
 #, kde-format
@@ -21311,7 +21321,7 @@ msgstr "أعلى اليمين"
 
 #. i18n: ectx: property (text), widget (QRadioButton, default_folder)
 #: src/dialogs/managesubtitles.cpp:528 src/dialogs/renderwidget.cpp:385
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:679
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:680
 #: src/dialogs/subtitlestyleedit.cpp:104 src/ui/configproject_ui.ui:48
 #, kde-format
 msgid "Default"
@@ -21983,7 +21993,7 @@ msgid "Misc"
 msgstr "متنوّع"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:214
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:746
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:747
 #: src/doc/documentvalidator.cpp:2511
 #: src/transitions/transitionsrepository.cpp:197
 #, kde-format
@@ -22019,58 +22029,58 @@ msgstr "استخدم المجلّد المبدئي: %1"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:319
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:345
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1027
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1028
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1043
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1044
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1037
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1038
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1053
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1054
 #, kde-format
 msgid "Always use project folder: %1"
 msgstr "دائما استخدم مجلّد المشروع: %1"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:321
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:347
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1039
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1040
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1049
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1050
 #, kde-format
 msgid "Always use active project folder"
 msgstr "دائما استخدم مجلّد المشروع النشط"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:360
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:361
 #, kde-format
 msgid "Environment"
 msgstr "البيئة"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:375
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:376
 #, kde-format
 msgid "Capture is not yet available on Mac OS X."
 msgstr "الالتقاط ليس متوفّرًا بعد على ماك أوإس إكس."
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:385
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:386
 #, kde-format
 msgid "Mono (1 channel)"
 msgstr "صوت اُحادي (قناة واحدة)"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:386
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:387
 #, kde-format
 msgid "Stereo (2 channels)"
 msgstr "ستريو (قناتان)"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:393
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:394
 #, kde-format
 msgid "44100 Hz"
 msgstr "44100 هرتز"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:394
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:395
 #, kde-format
 msgid "48000 Hz"
 msgstr "48000 هرتز"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:447
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:448
 #, kde-format
 msgid "JogShuttle"
 msgstr "JogShuttle"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:449
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:450
 #, kde-format
 msgid ""
 "For device configuration see <a href=\"https://docs.kdenlive.org/"
@@ -22083,7 +22093,7 @@ msgstr ""
 "mtm_campaign=kdenlive_inapp&mtm_kwd=jogshuttle_settings\">توثيقاتنا</a>."
 
 #. i18n: ectx: Menu (transcoders)
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:471
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:472
 #: src/dialogs/timeremap.cpp:1580 src/kdenliveui.rc:73
 #: src/mltcontroller/clippropertiescontroller.cpp:810
 #: src/project/transcodeseek.cpp:52 src/project/transcodeseek.cpp:65
@@ -22091,88 +22101,94 @@ msgstr ""
 msgid "Transcode"
 msgstr "تبديل الترميز"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:505
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:506
 #, kde-format
 msgid "GPU processing needs MLT compiled with Movit and Rtaudio modules"
 msgstr ""
 "حتى تستفيد من المعالجة بالعتاد تحتاج إلى أن تكون مكتبة MLT مصنفة بوحدات "
 "Movit و Rtaudio"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:661
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:662
 #, kde-format
 msgid "ALSA"
 msgstr "ألزا"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:662
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:663
 #, kde-format
 msgid "PulseAudio"
 msgstr "بلس‌أوديو"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:663
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:664
 #, kde-format
 msgid "PipeWire"
 msgstr "بايب‌واير"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:664
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:665
 #, kde-format
 msgid "OSS"
 msgstr "أوس‌س"
 
 #. i18n("OSS with DMA access"), "dma");
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:666
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:667
 #, kde-format
 msgid "Esound Daemon"
 msgstr "عفريت Esound"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:667
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:668
 #, kde-format
 msgid "ARTS Daemon"
 msgstr "عفريت ARTS"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:714
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:715
 #, kde-format
 msgid "SDL"
 msgstr "اس دي ال"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:726
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:727
 #, kde-format
 msgid "RtAudio"
 msgstr "أرتي‌أوديو"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:750 src/mainwindow.cpp:301
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:751 src/mainwindow.cpp:301
 #, kde-format
 msgid "Monitor %1"
 msgstr "الشّاشة %1"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:834
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:835
 #, kde-format
 msgid "Enter path to the audio editing application"
 msgstr "أدخل مسار تطبيق تحرير الصوت"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:842
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:843
 #, kde-format
 msgid "Enter path to the image editing application"
 msgstr "أدخل مسار تطبيق تحرير الصوت"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:850
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:851
 #: src/glaxnimatelauncher.cpp:30
 #, kde-format
 msgid "Enter path to the Glaxnimate application"
 msgstr "أدخل مسار تطبيق Glaxnimate"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:932
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:978
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:859
+#, fuzzy, kde-format
+#| msgid "Enter path to the audio editing application"
+msgid "Enter path to the video editing application"
+msgstr "أدخل مسار تطبيق تحرير الصوت"
+
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:941
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:988
 #: src/project/dialogs/projectsettings.cpp:541
 #, kde-format
 msgid "Please select a video profile"
 msgstr "رجاء اضبط تشكيلة الفيديو المبدئية"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1259
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1269
 #, kde-format
 msgid "Kdenlive must be restarted to change this setting"
 msgstr "يجب إعادة تشغيل كدنلايف لتغيير هذا الإعداد"
 
-#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1387
+#: src/dialogs/settings/kdenlivesettingsdialog.cpp:1397
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:670
 #, kde-format
 msgid "A profile with that name already exists"
@@ -29216,10 +29232,9 @@ msgstr ""
 "الخاص بك، يرجى إصلاحه."
 
 #: src/monitor/view/AudioView.qml:326
-#, fuzzy, kde-format
-#| msgid "Click to reset Audio Waveform Zoom"
+#, kde-format
 msgid "Click to refresh audio waveform"
-msgstr "انقر لإعادة ضبط تقريب شكل الموجات الصوتية"
+msgstr "انقر لتحديث شكل الموجة الصوتية"
 
 #: src/monitor/view/ClipMonitor.qml:365 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format
@@ -35563,8 +35578,9 @@ msgstr "مسار تطبيق تحرير الصورة"
 #. i18n: ectx: property (text), widget (QPushButton, kp_image)
 #. i18n: ectx: property (text), widget (QPushButton, kp_audio)
 #. i18n: ectx: property (text), widget (QPushButton, kp_anim)
+#. i18n: ectx: property (text), widget (QPushButton, kp_video)
 #: src/ui/configenv_ui.ui:365 src/ui/configenv_ui.ui:386
-#: src/ui/configenv_ui.ui:411
+#: src/ui/configenv_ui.ui:411 src/ui/configenv_ui.ui:436
 #, kde-format
 msgid "Change…"
 msgstr "غيّر…"
@@ -35593,20 +35609,34 @@ msgstr "مسار تنفيذي Glaxnimate"
 msgid "Animation editing:"
 msgstr "تحرير التحريك:"
 
+#. i18n: ectx: property (placeholderText), widget (QLineEdit, kcfg_defaultvideoapp)
+#: src/ui/configenv_ui.ui:429
+#, fuzzy, kde-format
+#| msgid "Path to Glaxnimate executable"
+msgid "Path to video editor executable"
+msgstr "مسار تنفيذي Glaxnimate"
+
+#. i18n: ectx: property (text), widget (QLabel, label_19)
+#: src/ui/configenv_ui.ui:445
+#, fuzzy, kde-format
+#| msgid "Audio editing:"
+msgid "Video editing:"
+msgstr "تحرير الصّوت:"
+
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
-#: src/ui/configenv_ui.ui:441
+#: src/ui/configenv_ui.ui:466
 #, kde-format
 msgid "Mime types"
 msgstr "أنواع MIME"
 
 #. i18n: ectx: property (text), widget (QLabel, label_5)
-#: src/ui/configenv_ui.ui:447
+#: src/ui/configenv_ui.ui:472
 #, kde-format
 msgid "Additional clip MIME types"
 msgstr "أنواع MIME إضافية للمقطع"
 
 #. i18n: ectx: property (text), widget (QLabel, label_12)
-#: src/ui/configenv_ui.ui:461
+#: src/ui/configenv_ui.ui:486
 #, kde-format
 msgid "Supported clip MIME types"
 msgstr "أنواع MIME المدعومة للمقاطع"
