@@ -961,7 +961,7 @@ ParamType AssetParameterModel::paramTypeFromStr(const QString &type)
 bool AssetParameterModel::isAnimated(ParamType type)
 {
     static QList<ParamType> animatedTypes = {ParamType::KeyframeParam,    ParamType::AnimatedFakePoint, ParamType::AnimatedPoint, ParamType::AnimatedRect,
-                                             ParamType::AnimatedFakeRect, ParamType::ColorWheel,        ParamType::Color};
+                                             ParamType::AnimatedFakeRect, ParamType::ColorWheel,        ParamType::Roto_spline,   ParamType::Color};
     return animatedTypes.contains(type);
 }
 
