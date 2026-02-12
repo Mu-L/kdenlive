@@ -477,7 +477,7 @@ void VideoWidget::mousePressEvent(QMouseEvent *event)
         } else if (getControllerProxy()->dragType() != QLatin1String("-")) {
             m_dragStart = event->pos();
         }
-    } else if ((event->button() & Qt::RightButton) != 0u) {
+    } else if ((event->button() & Qt::RightButton) != 0u && !m_swallowDrop) {
         Q_EMIT showContextMenu(event->globalPosition().toPoint());
     } else if ((event->button() & Qt::MiddleButton) != 0u) {
         m_panStart = event->pos();
