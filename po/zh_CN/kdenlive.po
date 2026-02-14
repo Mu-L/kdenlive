@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdeorg\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-13 00:43+0000\n"
+"POT-Creation-Date: 2026-02-14 00:43+0000\n"
 "PO-Revision-Date: 2024-04-23 19:24\n"
 "Last-Translator: \n"
 "Language-Team: Chinese Simplified\n"
@@ -1898,7 +1898,8 @@ msgstr "色彩校正"
 msgid ""
 "Adjust color white balance selectively for blacks and whites.This filter "
 "operates in YUV colorspace."
-msgstr "针对黑色和白色选择性地调整颜色-白色平衡。此过滤器在YUV颜色空间中工作。"
+msgstr ""
+"针对黑色和白色选择性地调整颜色-白色平衡。此过滤器在 YUV 色彩空间中工作。"
 
 #: data/effects/avfilter/avfilter_colorcorrect.xml:8
 #, kde-format
@@ -11625,10 +11626,9 @@ msgid "This filter creates a false image from a visible + infrared source"
 msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:8
-#, fuzzy, kde-format
-#| msgid "Color Matrix"
+#, kde-format
 msgid "Color Map"
-msgstr "Color Matrix(颜色矩阵)"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:9
 #, kde-format
@@ -11641,16 +11641,14 @@ msgid "The number of color levels to use in the false image"
 msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:16
-#, fuzzy, kde-format
-#| msgid "Scale"
+#, kde-format
 msgid "VIS Scale"
-msgstr "缩放"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:20
-#, fuzzy, kde-format
-#| msgid "X Offset"
+#, kde-format
 msgid "VIS Offset"
-msgstr "X 偏移"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:22
 #, no-c-format, kde-format
@@ -11660,22 +11658,19 @@ msgid ""
 msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:25
-#, fuzzy, kde-format
-#| msgid "Scale"
+#, kde-format
 msgid "NIR Scale"
-msgstr "缩放"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:26
-#, fuzzy, kde-format
-#| msgid "The background color to be applied to the entire frame."
+#, kde-format
 msgid "A scaling factor to be applied to the near-infrared component"
-msgstr "应用到整个帧的背景色。"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:29
-#, fuzzy, kde-format
-#| msgid "X Offset"
+#, kde-format
 msgid "NIR Offset"
-msgstr "X 偏移"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:31
 #, no-c-format, kde-format
@@ -11685,10 +11680,9 @@ msgid ""
 msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:34
-#, fuzzy, kde-format
-#| msgid "4 Channels"
+#, kde-format
 msgid "Visible Channel"
-msgstr "4 声道"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:35
 #, kde-format
@@ -11697,16 +11691,14 @@ msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:36
 #: data/effects/frei0r/frei0r_ndvi.xml:41
-#, fuzzy, kde-format
-#| msgid "Red,Green,Blue,Luma"
+#, kde-format
 msgid "Red,Green,Blue"
-msgstr "红,绿,蓝,亮度"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:39
-#, fuzzy, kde-format
-#| msgid "Channel"
+#, kde-format
 msgid "NIR Channel"
-msgstr "通道"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:40
 #, kde-format
@@ -11714,10 +11706,9 @@ msgid "The channel to use for the near-infrared component"
 msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:44
-#, fuzzy, kde-format
-#| msgid "Calculating..."
+#, kde-format
 msgid "Index Calculation"
-msgstr "正在计算..."
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:45
 #, kde-format
@@ -11730,10 +11721,9 @@ msgid "NDVI,VI"
 msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:49
-#, fuzzy, kde-format
-#| msgid "Legend unit"
+#, kde-format
 msgid "Legend"
-msgstr "图例单位"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:50
 #, kde-format
@@ -11741,10 +11731,9 @@ msgid "Control legend display"
 msgstr ""
 
 #: data/effects/frei0r/frei0r_ndvi.xml:51
-#, fuzzy, kde-format
-#| msgid "Bottom"
+#, kde-format
 msgid "Off,Bottom"
-msgstr "底部"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_nervous.xml:4
 #, kde-format
@@ -12473,34 +12462,29 @@ msgid "Interval"
 msgstr "间隔"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:4
-#, fuzzy, kde-format
-#| msgid "3 point balance"
+#, kde-format
 msgid "3-Point Balance"
-msgstr "3 point balance - 3 点平衡"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:5
-#, fuzzy, kde-format
-#| msgid "Balances colors along with 3 points"
+#, kde-format
 msgid "Adjust color balance with 3 color points"
-msgstr "沿着指定的黑白灰 3 点调整色彩平衡"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:8
-#, fuzzy, kde-format
-#| msgid "Black color"
+#, kde-format
 msgid "Black Color"
-msgstr "黑色"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:11
-#, fuzzy, kde-format
-#| msgid "Gray color"
+#, kde-format
 msgid "Gray Color"
-msgstr "灰色"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:14
-#, fuzzy, kde-format
-#| msgid "White color"
+#, kde-format
 msgid "White Color"
-msgstr "白色"
+msgstr ""
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:17
 #, kde-format
@@ -19256,16 +19240,14 @@ msgid "Please set a default application to open audio files"
 msgstr "请设置用于打开音频文件的默认程序"
 
 #: src/bin/bin.cpp:5080
-#, fuzzy, kde-format
-#| msgid "Enter path for your audio editing application"
+#, kde-format
 msgid "Enter path for your video editing application"
-msgstr "输入音频编辑应用程序的路径"
+msgstr ""
 
 #: src/bin/bin.cpp:5092
-#, fuzzy, kde-format
-#| msgid "Please set a default application to open audio files"
+#, kde-format
 msgid "Please set a default application to open video files"
-msgstr "请设置用于打开音频文件的默认程序"
+msgstr ""
 
 #: src/bin/bin.cpp:5102 src/core.cpp:669 src/doc/kdenlivedoc.cpp:169
 #: src/jobs/cliploadtask.cpp:487 src/jobs/cliploadtask.cpp:499
@@ -19928,7 +19910,7 @@ msgstr[0] "%1 个音频轨道"
 msgid "Timeline sequence"
 msgstr "时间轴序列"
 
-#: src/bin/projectclip.cpp:550 src/timeline2/view/qml/Clip.qml:1415
+#: src/bin/projectclip.cpp:550 src/timeline2/view/qml/Clip.qml:1420
 #, kde-format
 msgctxt "@label The first letter of Proxy, used as abbreviation"
 msgid "P"
@@ -21903,10 +21885,9 @@ msgid "Enter path to the Glaxnimate application"
 msgstr "输入 Glaxnimate 应用程序的路径"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:859
-#, fuzzy, kde-format
-#| msgid "Enter path to the audio editing application"
+#, kde-format
 msgid "Enter path to the video editing application"
-msgstr "输入音频编辑应用程序的路径"
+msgstr ""
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:941
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:988
@@ -25255,7 +25236,7 @@ msgid "Clip in Timeline"
 msgstr "时间轴中的剪辑"
 
 #. i18n: ectx: Menu (sequence)
-#: src/kdenliveui.rc:96 src/timeline2/view/qml/Timeline.qml:1072
+#: src/kdenliveui.rc:96 src/timeline2/view/qml/Timeline.qml:1113
 #, kde-format
 msgid "Sequence"
 msgstr "序列"
@@ -32853,12 +32834,12 @@ msgid "Stop"
 msgstr "停止"
 
 #: src/timeline2/view/qml/AudioRecordButton.qml:257
-#: src/timeline2/view/qml/Timeline.qml:2162
+#: src/timeline2/view/qml/Timeline.qml:2205
 #, kde-format
 msgid "Paused"
 msgstr "已暂停"
 
-#: src/timeline2/view/qml/Clip.qml:227 src/timeline2/view/qml/Clip.qml:1197
+#: src/timeline2/view/qml/Clip.qml:227 src/timeline2/view/qml/Clip.qml:1202
 #, kde-format
 msgid "%1 (%2-%3), Position: %4, Duration: %5"
 msgstr "%1 (%2-%3)，位置：%4，持续时间：%5"
@@ -32870,84 +32851,84 @@ msgstr "%1 (%2-%3)，位置：%4，持续时间：%5"
 msgid "Position: %1"
 msgstr "位置：%1"
 
-#: src/timeline2/view/qml/Clip.qml:540
+#: src/timeline2/view/qml/Clip.qml:544
 #, kde-format
 msgid "Mix duration: %1, Cut at: %2"
 msgstr "混合持续时间：%1，切割位置：%2"
 
-#: src/timeline2/view/qml/Clip.qml:598
+#: src/timeline2/view/qml/Clip.qml:602
 #, kde-format
 msgid "+%1, Mix duration: %2"
 msgstr "+%1，混合持续时间：%2"
 
-#: src/timeline2/view/qml/Clip.qml:600
+#: src/timeline2/view/qml/Clip.qml:604
 #, kde-format
 msgid "-%1, Mix duration: %2"
 msgstr "-%1，混合持续时间：%2"
 
-#: src/timeline2/view/qml/Clip.qml:603 src/timeline2/view/qml/Clip.qml:618
+#: src/timeline2/view/qml/Clip.qml:607 src/timeline2/view/qml/Clip.qml:622
 #, kde-format
 msgid "Mix duration: %1"
 msgstr "混合持续时间：%1"
 
-#: src/timeline2/view/qml/Clip.qml:1078
+#: src/timeline2/view/qml/Clip.qml:1083
 #, kde-format
 msgid "In:%1, Position:%2"
 msgstr "入点：%1，位置：%2"
 
-#: src/timeline2/view/qml/Clip.qml:1081 src/timeline2/view/qml/Clip.qml:1187
+#: src/timeline2/view/qml/Clip.qml:1086 src/timeline2/view/qml/Clip.qml:1192
 #, kde-format
 msgid ""
 "<b>Ctrl drag</b> to change speed, <b>Double click</b> to mix with adjacent "
 "clip"
 msgstr "<b>Ctrl+拖动</b>更改速度，<b>双击</b>与相邻剪辑混合"
 
-#: src/timeline2/view/qml/Clip.qml:1083
+#: src/timeline2/view/qml/Clip.qml:1088
 #, kde-format
 msgid "<b>Drag</b> to change mix duration"
 msgstr "<b>拖动</b> 以更改混合持续时间"
 
-#: src/timeline2/view/qml/Clip.qml:1184
+#: src/timeline2/view/qml/Clip.qml:1189
 #, kde-format
 msgid "Out:%1, Position:%2"
 msgstr "出点：%1，位置：%2"
 
-#: src/timeline2/view/qml/Clip.qml:1323
+#: src/timeline2/view/qml/Clip.qml:1328
 #, kde-format
 msgid "Offset: -%1"
 msgstr "偏移：-%1"
 
-#: src/timeline2/view/qml/Clip.qml:1323
+#: src/timeline2/view/qml/Clip.qml:1328
 #, kde-format
 msgid "Offset: %1"
 msgstr "偏移：%1"
 
-#: src/timeline2/view/qml/Clip.qml:1324
+#: src/timeline2/view/qml/Clip.qml:1329
 #, kde-format
 msgid " <b>Click</b> to align clips"
 msgstr " <b>点击</b>以对其剪辑"
 
-#: src/timeline2/view/qml/Clip.qml:1571 src/timeline2/view/qml/Clip.qml:1612
+#: src/timeline2/view/qml/Clip.qml:1577 src/timeline2/view/qml/Clip.qml:1618
 #, kde-format
 msgid "<b>Click</b> to add composition"
 msgstr "<b>点击</b>以添加合成"
 
-#: src/timeline2/view/qml/Clip.qml:1693 src/timeline2/view/qml/Clip.qml:1700
+#: src/timeline2/view/qml/Clip.qml:1699 src/timeline2/view/qml/Clip.qml:1706
 #, kde-format
 msgid "Fade out: %1"
 msgstr "淡出： %1"
 
-#: src/timeline2/view/qml/Clip.qml:1704 src/timeline2/view/qml/Clip.qml:1815
+#: src/timeline2/view/qml/Clip.qml:1710 src/timeline2/view/qml/Clip.qml:1821
 #, kde-format
 msgid "<b>Drag</b> to adjust fade, <b>Click</b> to add default duration fade"
 msgstr "<b>拖动</b>以调整渐隐渐显，<b>点击</b>以添加渐隐渐显默认持续时间"
 
-#: src/timeline2/view/qml/Clip.qml:1804 src/timeline2/view/qml/Clip.qml:1811
+#: src/timeline2/view/qml/Clip.qml:1810 src/timeline2/view/qml/Clip.qml:1817
 #, kde-format
 msgid "Fade in: %1"
 msgstr "渐显：%1"
 
-#: src/timeline2/view/qml/Clip.qml:1899
+#: src/timeline2/view/qml/Clip.qml:1905
 #, kde-format
 msgid "Slip Clip"
 msgstr "外滑剪辑"
@@ -33010,28 +32991,28 @@ msgstr "显示"
 msgid "Hide"
 msgstr "隐藏"
 
-#: src/timeline2/view/qml/Timeline.qml:1066
+#: src/timeline2/view/qml/Timeline.qml:1107
 #, kde-format
 msgid "Show sequence effects"
 msgstr "显示序列效果"
 
-#: src/timeline2/view/qml/Timeline.qml:1795
+#: src/timeline2/view/qml/Timeline.qml:1838
 #, kde-format
 msgid "<b>Double click</b> to add a subtitle"
 msgstr "<b>双击</b> 以添加字幕"
 
-#: src/timeline2/view/qml/Timeline.qml:1989
+#: src/timeline2/view/qml/Timeline.qml:2032
 #, kde-format
 msgid "Offset: %1, Position: %2"
 msgstr "偏移：%1，位置：%2"
 
-#: src/timeline2/view/qml/Timeline.qml:2151
-#: src/timeline2/view/qml/Timeline.qml:2160
+#: src/timeline2/view/qml/Timeline.qml:2194
+#: src/timeline2/view/qml/Timeline.qml:2203
 #, kde-format
 msgid "Recording"
 msgstr "正在录制"
 
-#: src/timeline2/view/qml/Timeline.qml:2254
+#: src/timeline2/view/qml/Timeline.qml:2297
 #, kde-format
 msgid "Multicam In"
 msgstr "多机位入点"
@@ -35123,17 +35104,15 @@ msgstr "动画编辑："
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, kcfg_defaultvideoapp)
 #: src/ui/configenv_ui.ui:429
-#, fuzzy, kde-format
-#| msgid "Path to Glaxnimate executable"
+#, kde-format
 msgid "Path to video editor executable"
-msgstr "Glaxnimate 可执行程序路径"
+msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_19)
 #: src/ui/configenv_ui.ui:445
-#, fuzzy, kde-format
-#| msgid "Audio editing:"
+#, kde-format
 msgid "Video editing:"
-msgstr "音频编辑器："
+msgstr ""
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab_4)
 #: src/ui/configenv_ui.ui:466

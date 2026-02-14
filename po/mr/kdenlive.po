@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-13 00:43+0000\n"
+"POT-Creation-Date: 2026-02-14 00:43+0000\n"
 "PO-Revision-Date: 2013-03-28 14:37+0530\n"
 "Last-Translator: Chetan Khona <chetan@kompkin.com>\n"
 "Language-Team: Marathi <kde-i18n-doc@kde.org>\n"
@@ -20040,7 +20040,7 @@ msgstr[1] "बिटदर"
 msgid "Timeline sequence"
 msgstr "प्रतिमेचा आकार"
 
-#: src/bin/projectclip.cpp:550 src/timeline2/view/qml/Clip.qml:1415
+#: src/bin/projectclip.cpp:550 src/timeline2/view/qml/Clip.qml:1420
 #, fuzzy, kde-format
 msgctxt "@label The first letter of Proxy, used as abbreviation"
 msgid "P"
@@ -25402,7 +25402,7 @@ msgid "Clip in Timeline"
 msgstr ""
 
 #. i18n: ectx: Menu (sequence)
-#: src/kdenliveui.rc:96 src/timeline2/view/qml/Timeline.qml:1072
+#: src/kdenliveui.rc:96 src/timeline2/view/qml/Timeline.qml:1113
 #, fuzzy, kde-format
 msgid "Sequence"
 msgstr "प्रतिमेचा आकार"
@@ -33049,12 +33049,12 @@ msgid "Stop"
 msgstr "थांबा"
 
 #: src/timeline2/view/qml/AudioRecordButton.qml:257
-#: src/timeline2/view/qml/Timeline.qml:2162
+#: src/timeline2/view/qml/Timeline.qml:2205
 #, fuzzy, kde-format
 msgid "Paused"
 msgstr "स्तब्ध करा"
 
-#: src/timeline2/view/qml/Clip.qml:227 src/timeline2/view/qml/Clip.qml:1197
+#: src/timeline2/view/qml/Clip.qml:227 src/timeline2/view/qml/Clip.qml:1202
 #, kde-format
 msgid "%1 (%2-%3), Position: %4, Duration: %5"
 msgstr ""
@@ -33066,89 +33066,89 @@ msgstr ""
 msgid "Position: %1"
 msgstr "स्थिती"
 
-#: src/timeline2/view/qml/Clip.qml:540
+#: src/timeline2/view/qml/Clip.qml:544
 #, kde-format
 msgid "Mix duration: %1, Cut at: %2"
 msgstr ""
 
-#: src/timeline2/view/qml/Clip.qml:598
+#: src/timeline2/view/qml/Clip.qml:602
 #, fuzzy, kde-format
 msgid "+%1, Mix duration: %2"
 msgstr "कालावधी"
 
-#: src/timeline2/view/qml/Clip.qml:600
+#: src/timeline2/view/qml/Clip.qml:604
 #, fuzzy, kde-format
 msgid "-%1, Mix duration: %2"
 msgstr "कालावधी"
 
-#: src/timeline2/view/qml/Clip.qml:603 src/timeline2/view/qml/Clip.qml:618
+#: src/timeline2/view/qml/Clip.qml:607 src/timeline2/view/qml/Clip.qml:622
 #, fuzzy, kde-format
 #| msgid "Duration: "
 msgid "Mix duration: %1"
 msgstr "कालावधी : "
 
-#: src/timeline2/view/qml/Clip.qml:1078
+#: src/timeline2/view/qml/Clip.qml:1083
 #, fuzzy, kde-format
 msgid "In:%1, Position:%2"
 msgstr "स्थिती"
 
-#: src/timeline2/view/qml/Clip.qml:1081 src/timeline2/view/qml/Clip.qml:1187
+#: src/timeline2/view/qml/Clip.qml:1086 src/timeline2/view/qml/Clip.qml:1192
 #, kde-format
 msgid ""
 "<b>Ctrl drag</b> to change speed, <b>Double click</b> to mix with adjacent "
 "clip"
 msgstr ""
 
-#: src/timeline2/view/qml/Clip.qml:1083
+#: src/timeline2/view/qml/Clip.qml:1088
 #, kde-format
 msgid "<b>Drag</b> to change mix duration"
 msgstr ""
 
-#: src/timeline2/view/qml/Clip.qml:1184
+#: src/timeline2/view/qml/Clip.qml:1189
 #, fuzzy, kde-format
 msgid "Out:%1, Position:%2"
 msgstr "स्थिती"
 
-#: src/timeline2/view/qml/Clip.qml:1323
+#: src/timeline2/view/qml/Clip.qml:1328
 #, fuzzy, kde-format
 #| msgid "Offset:"
 msgid "Offset: -%1"
 msgstr "ऑफसेट :"
 
-#: src/timeline2/view/qml/Clip.qml:1323
+#: src/timeline2/view/qml/Clip.qml:1328
 #, fuzzy, kde-format
 #| msgid "Offset:"
 msgid "Offset: %1"
 msgstr "ऑफसेट :"
 
-#: src/timeline2/view/qml/Clip.qml:1324
+#: src/timeline2/view/qml/Clip.qml:1329
 #, fuzzy, kde-format
 #| msgid "Options"
 msgid " <b>Click</b> to align clips"
 msgstr "पर्याय"
 
-#: src/timeline2/view/qml/Clip.qml:1571 src/timeline2/view/qml/Clip.qml:1612
+#: src/timeline2/view/qml/Clip.qml:1577 src/timeline2/view/qml/Clip.qml:1618
 #, fuzzy, kde-format
 #| msgid "Options"
 msgid "<b>Click</b> to add composition"
 msgstr "पर्याय"
 
-#: src/timeline2/view/qml/Clip.qml:1693 src/timeline2/view/qml/Clip.qml:1700
+#: src/timeline2/view/qml/Clip.qml:1699 src/timeline2/view/qml/Clip.qml:1706
 #, fuzzy, kde-format
 msgid "Fade out: %1"
 msgstr "फीके"
 
-#: src/timeline2/view/qml/Clip.qml:1704 src/timeline2/view/qml/Clip.qml:1815
+#: src/timeline2/view/qml/Clip.qml:1710 src/timeline2/view/qml/Clip.qml:1821
 #, kde-format
 msgid "<b>Drag</b> to adjust fade, <b>Click</b> to add default duration fade"
 msgstr ""
 
-#: src/timeline2/view/qml/Clip.qml:1804 src/timeline2/view/qml/Clip.qml:1811
+#: src/timeline2/view/qml/Clip.qml:1810 src/timeline2/view/qml/Clip.qml:1817
 #, fuzzy, kde-format
 msgid "Fade in: %1"
 msgstr "फीके"
 
-#: src/timeline2/view/qml/Clip.qml:1899
+#: src/timeline2/view/qml/Clip.qml:1905
 #, fuzzy, kde-format
 #| msgid "Folder"
 msgid "Slip Clip"
@@ -33210,29 +33210,29 @@ msgstr "ट्रॅक"
 msgid "Hide"
 msgstr ""
 
-#: src/timeline2/view/qml/Timeline.qml:1066
+#: src/timeline2/view/qml/Timeline.qml:1107
 #, fuzzy, kde-format
 msgid "Show sequence effects"
 msgstr "परिणाम :"
 
-#: src/timeline2/view/qml/Timeline.qml:1795
+#: src/timeline2/view/qml/Timeline.qml:1838
 #, fuzzy, kde-format
 #| msgid "Options"
 msgid "<b>Double click</b> to add a subtitle"
 msgstr "पर्याय"
 
-#: src/timeline2/view/qml/Timeline.qml:1989
+#: src/timeline2/view/qml/Timeline.qml:2032
 #, fuzzy, kde-format
 msgid "Offset: %1, Position: %2"
 msgstr "स्थिती"
 
-#: src/timeline2/view/qml/Timeline.qml:2151
-#: src/timeline2/view/qml/Timeline.qml:2160
+#: src/timeline2/view/qml/Timeline.qml:2194
+#: src/timeline2/view/qml/Timeline.qml:2203
 #, fuzzy, kde-format
 msgid "Recording"
 msgstr "मॉनिटर %1"
 
-#: src/timeline2/view/qml/Timeline.qml:2254
+#: src/timeline2/view/qml/Timeline.qml:2297
 #, kde-format
 msgid "Multicam In"
 msgstr ""

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-13 00:43+0000\n"
+"POT-Creation-Date: 2026-02-14 00:43+0000\n"
 "PO-Revision-Date: 2025-12-11 23:38+0100\n"
 "Last-Translator: Iñigo Salvador Azurmendi <xalba@ni.eus>\n"
 "Language-Team: Basque <kde-i18n-eu@kde.org>\n"
@@ -21071,7 +21071,7 @@ msgstr[1] "A&udio pista"
 msgid "Timeline sequence"
 msgstr "Denbora-lerro sekuentzia"
 
-#: src/bin/projectclip.cpp:550 src/timeline2/view/qml/Clip.qml:1415
+#: src/bin/projectclip.cpp:550 src/timeline2/view/qml/Clip.qml:1420
 #, kde-format
 msgctxt "@label The first letter of Proxy, used as abbreviation"
 msgid "P"
@@ -26576,7 +26576,7 @@ msgid "Clip in Timeline"
 msgstr "Denbora-lerroko klipa"
 
 #. i18n: ectx: Menu (sequence)
-#: src/kdenliveui.rc:96 src/timeline2/view/qml/Timeline.qml:1072
+#: src/kdenliveui.rc:96 src/timeline2/view/qml/Timeline.qml:1113
 #, fuzzy, kde-format
 #| msgid "Sequences"
 msgid "Sequence"
@@ -34386,12 +34386,12 @@ msgid "Stop"
 msgstr "Gelditu"
 
 #: src/timeline2/view/qml/AudioRecordButton.qml:257
-#: src/timeline2/view/qml/Timeline.qml:2162
+#: src/timeline2/view/qml/Timeline.qml:2205
 #, kde-format
 msgid "Paused"
 msgstr "Pausatuta"
 
-#: src/timeline2/view/qml/Clip.qml:227 src/timeline2/view/qml/Clip.qml:1197
+#: src/timeline2/view/qml/Clip.qml:227 src/timeline2/view/qml/Clip.qml:1202
 #, kde-format
 msgid "%1 (%2-%3), Position: %4, Duration: %5"
 msgstr "%1 (%2-%3), Posizioa: %4, Iraupena: %5"
@@ -34403,32 +34403,32 @@ msgstr "%1 (%2-%3), Posizioa: %4, Iraupena: %5"
 msgid "Position: %1"
 msgstr "Posizioa: %1"
 
-#: src/timeline2/view/qml/Clip.qml:540
+#: src/timeline2/view/qml/Clip.qml:544
 #, kde-format
 msgid "Mix duration: %1, Cut at: %2"
 msgstr "Nahasketaren iraupena: %1, Moztu hemen: %2"
 
-#: src/timeline2/view/qml/Clip.qml:598
+#: src/timeline2/view/qml/Clip.qml:602
 #, kde-format
 msgid "+%1, Mix duration: %2"
 msgstr "+%1, Nahasketaren iraupena: %2"
 
-#: src/timeline2/view/qml/Clip.qml:600
+#: src/timeline2/view/qml/Clip.qml:604
 #, kde-format
 msgid "-%1, Mix duration: %2"
 msgstr "-%1, Nahasketaren iraupena: %2"
 
-#: src/timeline2/view/qml/Clip.qml:603 src/timeline2/view/qml/Clip.qml:618
+#: src/timeline2/view/qml/Clip.qml:607 src/timeline2/view/qml/Clip.qml:622
 #, kde-format
 msgid "Mix duration: %1"
 msgstr "Nahasketaren iraupena::%1"
 
-#: src/timeline2/view/qml/Clip.qml:1078
+#: src/timeline2/view/qml/Clip.qml:1083
 #, kde-format
 msgid "In:%1, Position:%2"
 msgstr "Sarrera:%1, Posizioa: %2"
 
-#: src/timeline2/view/qml/Clip.qml:1081 src/timeline2/view/qml/Clip.qml:1187
+#: src/timeline2/view/qml/Clip.qml:1086 src/timeline2/view/qml/Clip.qml:1192
 #, kde-format
 msgid ""
 "<b>Ctrl drag</b> to change speed, <b>Double click</b> to mix with adjacent "
@@ -34437,54 +34437,54 @@ msgstr ""
 "<b>Ctrl arrastatu</b> abiadura aldatzeko, <b>Klik bikoitza</b> ondoko "
 "kliparekin nahasteko clip"
 
-#: src/timeline2/view/qml/Clip.qml:1083
+#: src/timeline2/view/qml/Clip.qml:1088
 #, kde-format
 msgid "<b>Drag</b> to change mix duration"
 msgstr "<b>Arrastatu</b> nahasketaren iraupena aldatzeko"
 
-#: src/timeline2/view/qml/Clip.qml:1184
+#: src/timeline2/view/qml/Clip.qml:1189
 #, kde-format
 msgid "Out:%1, Position:%2"
 msgstr "Irteera:%1, Posizioa: %2"
 
-#: src/timeline2/view/qml/Clip.qml:1323
+#: src/timeline2/view/qml/Clip.qml:1328
 #, kde-format
 msgid "Offset: -%1"
 msgstr "Desplazamendua: -%1"
 
-#: src/timeline2/view/qml/Clip.qml:1323
+#: src/timeline2/view/qml/Clip.qml:1328
 #, kde-format
 msgid "Offset: %1"
 msgstr "Desplazamendua: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1324
+#: src/timeline2/view/qml/Clip.qml:1329
 #, kde-format
 msgid " <b>Click</b> to align clips"
 msgstr "Egin <b>klik</b> klipak lerrokatzeko"
 
-#: src/timeline2/view/qml/Clip.qml:1571 src/timeline2/view/qml/Clip.qml:1612
+#: src/timeline2/view/qml/Clip.qml:1577 src/timeline2/view/qml/Clip.qml:1618
 #, kde-format
 msgid "<b>Click</b> to add composition"
 msgstr "<b>Klik</b> konposizioa gehitzeko"
 
-#: src/timeline2/view/qml/Clip.qml:1693 src/timeline2/view/qml/Clip.qml:1700
+#: src/timeline2/view/qml/Clip.qml:1699 src/timeline2/view/qml/Clip.qml:1706
 #, kde-format
 msgid "Fade out: %1"
 msgstr "Irteera itzaltzea: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1704 src/timeline2/view/qml/Clip.qml:1815
+#: src/timeline2/view/qml/Clip.qml:1710 src/timeline2/view/qml/Clip.qml:1821
 #, kde-format
 msgid "<b>Drag</b> to adjust fade, <b>Click</b> to add default duration fade"
 msgstr ""
 "<b>Arrastatu</b>itzaltzea doitzeko, <b>Klik</b> lehenetsitako itzaltze "
 "iraupena gehitzeko"
 
-#: src/timeline2/view/qml/Clip.qml:1804 src/timeline2/view/qml/Clip.qml:1811
+#: src/timeline2/view/qml/Clip.qml:1810 src/timeline2/view/qml/Clip.qml:1817
 #, kde-format
 msgid "Fade in: %1"
 msgstr "Sarrera itzaltzea: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1899
+#: src/timeline2/view/qml/Clip.qml:1905
 #, kde-format
 msgid "Slip Clip"
 msgstr "Higitu klipa"
@@ -34548,28 +34548,28 @@ msgstr "Erakutsi"
 msgid "Hide"
 msgstr "Ezkutatu"
 
-#: src/timeline2/view/qml/Timeline.qml:1066
+#: src/timeline2/view/qml/Timeline.qml:1107
 #, kde-format
 msgid "Show sequence effects"
 msgstr "Erakutsi sekuentzia-efektuak"
 
-#: src/timeline2/view/qml/Timeline.qml:1795
+#: src/timeline2/view/qml/Timeline.qml:1838
 #, kde-format
 msgid "<b>Double click</b> to add a subtitle"
 msgstr "<b>Klik bikoitza</b> azpidatzia gehitzeko"
 
-#: src/timeline2/view/qml/Timeline.qml:1989
+#: src/timeline2/view/qml/Timeline.qml:2032
 #, kde-format
 msgid "Offset: %1, Position: %2"
 msgstr "Desplazamendua:%1, Posizioa: %2"
 
-#: src/timeline2/view/qml/Timeline.qml:2151
-#: src/timeline2/view/qml/Timeline.qml:2160
+#: src/timeline2/view/qml/Timeline.qml:2194
+#: src/timeline2/view/qml/Timeline.qml:2203
 #, kde-format
 msgid "Recording"
 msgstr "Grabazio"
 
-#: src/timeline2/view/qml/Timeline.qml:2254
+#: src/timeline2/view/qml/Timeline.qml:2297
 #, kde-format
 msgid "Multicam In"
 msgstr "Kamer-anitz Sarrera"

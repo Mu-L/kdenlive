@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-13 00:43+0000\n"
-"PO-Revision-Date: 2026-02-12 21:37+0300\n"
+"POT-Creation-Date: 2026-02-14 00:43+0000\n"
+"PO-Revision-Date: 2026-02-13 18:07+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-i18n-doc@kde.org>\n"
 "Language: tr\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 3.8\n"
+"X-Generator: Lokalize 25.07.70\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -11957,40 +11957,38 @@ msgstr ""
 #: data/effects/frei0r/frei0r_ndvi.xml:4
 #, kde-format
 msgid "NDVI"
-msgstr ""
+msgstr "NDVI"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:5
 #, kde-format
 msgid "This filter creates a false image from a visible + infrared source"
 msgstr ""
+"Bu süzgeç, görünür ve kızılötesi bir kaynaktan yalancı bir görsel oluşturur."
 
 #: data/effects/frei0r/frei0r_ndvi.xml:8
-#, fuzzy, kde-format
-#| msgid "Color Matrix"
+#, kde-format
 msgid "Color Map"
-msgstr "Renk Matrisi"
+msgstr "Renk Haritası"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:9
 #, kde-format
 msgid "Earth,Grayscale,Heat,Rainbow"
-msgstr ""
+msgstr "Dünya,Gri tonlu,Isı,Gökkuşağı"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:13
 #, kde-format
 msgid "The number of color levels to use in the false image"
-msgstr ""
+msgstr "Bu yalancı görselde kullanılacak renk düzeylerinin sayısı"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:16
-#, fuzzy, kde-format
-#| msgid "Scale"
+#, kde-format
 msgid "VIS Scale"
-msgstr "Ölçek"
+msgstr "VIS Ölçeği"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:20
-#, fuzzy, kde-format
-#| msgid "X Offset"
+#, kde-format
 msgid "VIS Offset"
-msgstr "X ofseti"
+msgstr "VIS Ofseti"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:22
 #, no-c-format, kde-format
@@ -11998,24 +11996,23 @@ msgid ""
 "An offset to be applied to<br>\n"
 "        the visible component (mapped to [-100%, 100%])"
 msgstr ""
+"Görünür bileşene uygulanacak<br>\n"
+"        ofset ([−%​100, %​100] olarak eşlemlidir)"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:25
-#, fuzzy, kde-format
-#| msgid "Scale"
+#, kde-format
 msgid "NIR Scale"
-msgstr "Ölçek"
+msgstr "NIR Ölçeği"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:26
-#, fuzzy, kde-format
-#| msgid "The background color to be applied to the entire frame."
+#, kde-format
 msgid "A scaling factor to be applied to the near-infrared component"
-msgstr "Tüm çerçeveye uygulanacak arka plan rengi."
+msgstr "Neredeyse kızılötesi olan bileşene uygulanacak ölçekleme çarpanı"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:29
-#, fuzzy, kde-format
-#| msgid "X Offset"
+#, kde-format
 msgid "NIR Offset"
-msgstr "X ofseti"
+msgstr "NIR Ofseti"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:31
 #, no-c-format, kde-format
@@ -12023,68 +12020,64 @@ msgid ""
 "An offset to be applied to<br>\n"
 "        the near-infrared component (mapped to [-100%, 100%])"
 msgstr ""
+"Neredeyse kızılötesi olan bileşene uygulanacak<br>\n"
+"        ofset ([−%​100, %​100] olarak eşlemlidir)"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:34
-#, fuzzy, kde-format
-#| msgid "4 Channels"
+#, kde-format
 msgid "Visible Channel"
-msgstr "4 kanal"
+msgstr "Görünür Kanal"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:35
 #, kde-format
 msgid "The channel to use for the visible component"
-msgstr ""
+msgstr "Görünür bileşen için kullanılacak kanal"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:36
 #: data/effects/frei0r/frei0r_ndvi.xml:41
-#, fuzzy, kde-format
-#| msgid "Red,Green,Blue,Luma"
+#, kde-format
 msgid "Red,Green,Blue"
-msgstr "Kırmızı,Yeşil,Mavi,Luma"
+msgstr "Kırmızı,Yeşil,Mavi"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:39
-#, fuzzy, kde-format
-#| msgid "Channel"
+#, kde-format
 msgid "NIR Channel"
-msgstr "Kanal"
+msgstr "NIR Kanalı"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:40
 #, kde-format
 msgid "The channel to use for the near-infrared component"
-msgstr ""
+msgstr "Neredeyse kızılötesi olan bileşen için kullanılacak kanal"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:44
-#, fuzzy, kde-format
-#| msgid "Calculating..."
+#, kde-format
 msgid "Index Calculation"
-msgstr "Hesaplanıyor…"
+msgstr "İndeks Hesaplaması"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:45
 #, kde-format
 msgid "The index calculation to use"
-msgstr ""
+msgstr "Kullanılacak indeks hesaplaması"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:46
 #, kde-format
 msgid "NDVI,VI"
-msgstr ""
+msgstr "NDVI,VI"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:49
-#, fuzzy, kde-format
-#| msgid "Legend unit"
+#, kde-format
 msgid "Legend"
-msgstr "Lejant birimi"
+msgstr "Lejant"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:50
 #, kde-format
 msgid "Control legend display"
-msgstr ""
+msgstr "Lejant görünürlüğünü denetle"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:51
-#, fuzzy, kde-format
-#| msgid "Bottom"
+#, kde-format
 msgid "Off,Bottom"
-msgstr "Alt"
+msgstr "Kapalı,Alt"
 
 #: data/effects/frei0r/frei0r_nervous.xml:4
 #, kde-format
@@ -12830,34 +12823,29 @@ msgid "Interval"
 msgstr "Aralık"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:4
-#, fuzzy, kde-format
-#| msgid "3 point balance"
+#, kde-format
 msgid "3-Point Balance"
 msgstr "Üç Noktalı Denge"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:5
-#, fuzzy, kde-format
-#| msgid "Balances colors along with 3 points"
+#, kde-format
 msgid "Adjust color balance with 3 color points"
-msgstr "Üç noktayla renkleri dengeler."
+msgstr "Üç renk noktasıyla renk dengesini ayarlar."
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:8
-#, fuzzy, kde-format
-#| msgid "Black color"
+#, kde-format
 msgid "Black Color"
-msgstr "Siyah renk"
+msgstr "Siyah Renk"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:11
-#, fuzzy, kde-format
-#| msgid "Gray color"
+#, kde-format
 msgid "Gray Color"
-msgstr "Gri renk"
+msgstr "Gri Renk"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:14
-#, fuzzy, kde-format
-#| msgid "White color"
+#, kde-format
 msgid "White Color"
-msgstr "Beyaz renk"
+msgstr "Beyaz Renk"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:17
 #, kde-format
@@ -20564,7 +20552,7 @@ msgstr[1] "%1 ses izi"
 msgid "Timeline sequence"
 msgstr "Zaman akışı sekansı"
 
-#: src/bin/projectclip.cpp:550 src/timeline2/view/qml/Clip.qml:1415
+#: src/bin/projectclip.cpp:550 src/timeline2/view/qml/Clip.qml:1420
 #, kde-format
 msgctxt "@label The first letter of Proxy, used as abbreviation"
 msgid "P"
@@ -25997,7 +25985,7 @@ msgid "Clip in Timeline"
 msgstr "Zaman Akışındaki Klip"
 
 #. i18n: ectx: Menu (sequence)
-#: src/kdenliveui.rc:96 src/timeline2/view/qml/Timeline.qml:1072
+#: src/kdenliveui.rc:96 src/timeline2/view/qml/Timeline.qml:1113
 #, kde-format
 msgid "Sequence"
 msgstr "Sekans"
@@ -33750,12 +33738,12 @@ msgid "Stop"
 msgstr "Durdur"
 
 #: src/timeline2/view/qml/AudioRecordButton.qml:257
-#: src/timeline2/view/qml/Timeline.qml:2162
+#: src/timeline2/view/qml/Timeline.qml:2205
 #, kde-format
 msgid "Paused"
 msgstr "Duraklatıldı"
 
-#: src/timeline2/view/qml/Clip.qml:227 src/timeline2/view/qml/Clip.qml:1197
+#: src/timeline2/view/qml/Clip.qml:227 src/timeline2/view/qml/Clip.qml:1202
 #, kde-format
 msgid "%1 (%2-%3), Position: %4, Duration: %5"
 msgstr "%1 (%2–%3), Konum: %4, Süre: %5"
@@ -33767,32 +33755,32 @@ msgstr "%1 (%2–%3), Konum: %4, Süre: %5"
 msgid "Position: %1"
 msgstr "Konum: %1"
 
-#: src/timeline2/view/qml/Clip.qml:540
+#: src/timeline2/view/qml/Clip.qml:544
 #, kde-format
 msgid "Mix duration: %1, Cut at: %2"
 msgstr "Karışım süresi: %1, Kesme konumu: %2"
 
-#: src/timeline2/view/qml/Clip.qml:598
+#: src/timeline2/view/qml/Clip.qml:602
 #, kde-format
 msgid "+%1, Mix duration: %2"
 msgstr "+%1, Karışım süresi: %2"
 
-#: src/timeline2/view/qml/Clip.qml:600
+#: src/timeline2/view/qml/Clip.qml:604
 #, kde-format
 msgid "-%1, Mix duration: %2"
 msgstr "−%1, Karışım süresi: %2"
 
-#: src/timeline2/view/qml/Clip.qml:603 src/timeline2/view/qml/Clip.qml:618
+#: src/timeline2/view/qml/Clip.qml:607 src/timeline2/view/qml/Clip.qml:622
 #, kde-format
 msgid "Mix duration: %1"
 msgstr "Karışım süresi: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1078
+#: src/timeline2/view/qml/Clip.qml:1083
 #, kde-format
 msgid "In:%1, Position:%2"
 msgstr "Giriş: %1, Konum: %2"
 
-#: src/timeline2/view/qml/Clip.qml:1081 src/timeline2/view/qml/Clip.qml:1187
+#: src/timeline2/view/qml/Clip.qml:1086 src/timeline2/view/qml/Clip.qml:1192
 #, kde-format
 msgid ""
 "<b>Ctrl drag</b> to change speed, <b>Double click</b> to mix with adjacent "
@@ -33801,54 +33789,54 @@ msgstr ""
 "Hızı değiştirmek için <b> Kontrol ile sürükleyin </b>, bitişik kliple "
 "karıştırmak için <b> çift tıklayın </b>"
 
-#: src/timeline2/view/qml/Clip.qml:1083
+#: src/timeline2/view/qml/Clip.qml:1088
 #, kde-format
 msgid "<b>Drag</b> to change mix duration"
 msgstr "Karışım süresini değiştirmek için <b>sürükle</b>"
 
-#: src/timeline2/view/qml/Clip.qml:1184
+#: src/timeline2/view/qml/Clip.qml:1189
 #, kde-format
 msgid "Out:%1, Position:%2"
 msgstr "Çıkış: %1, Konum: %2"
 
-#: src/timeline2/view/qml/Clip.qml:1323
+#: src/timeline2/view/qml/Clip.qml:1328
 #, kde-format
 msgid "Offset: -%1"
 msgstr "Ofset: −%1"
 
-#: src/timeline2/view/qml/Clip.qml:1323
+#: src/timeline2/view/qml/Clip.qml:1328
 #, kde-format
 msgid "Offset: %1"
 msgstr "Ofset: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1324
+#: src/timeline2/view/qml/Clip.qml:1329
 #, kde-format
 msgid " <b>Click</b> to align clips"
 msgstr " Klipleri hizalamak için <b>tıkla</b>"
 
-#: src/timeline2/view/qml/Clip.qml:1571 src/timeline2/view/qml/Clip.qml:1612
+#: src/timeline2/view/qml/Clip.qml:1577 src/timeline2/view/qml/Clip.qml:1618
 #, kde-format
 msgid "<b>Click</b> to add composition"
 msgstr "Bileşikleştirme eklemek için <b>tıklayın</b>"
 
-#: src/timeline2/view/qml/Clip.qml:1693 src/timeline2/view/qml/Clip.qml:1700
+#: src/timeline2/view/qml/Clip.qml:1699 src/timeline2/view/qml/Clip.qml:1706
 #, kde-format
 msgid "Fade out: %1"
 msgstr "Solarak çık: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1704 src/timeline2/view/qml/Clip.qml:1815
+#: src/timeline2/view/qml/Clip.qml:1710 src/timeline2/view/qml/Clip.qml:1821
 #, kde-format
 msgid "<b>Drag</b> to adjust fade, <b>Click</b> to add default duration fade"
 msgstr ""
 "Solmayı ayarlamak için <b>sürükleyin</b>, varsayılan süre soldurmayı eklemek "
 "için <b>tıklayın</b>"
 
-#: src/timeline2/view/qml/Clip.qml:1804 src/timeline2/view/qml/Clip.qml:1811
+#: src/timeline2/view/qml/Clip.qml:1810 src/timeline2/view/qml/Clip.qml:1817
 #, kde-format
 msgid "Fade in: %1"
 msgstr "Solarak gir: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1899
+#: src/timeline2/view/qml/Clip.qml:1905
 #, kde-format
 msgid "Slip Clip"
 msgstr "Klibi Taşı"
@@ -33912,28 +33900,28 @@ msgstr "Göster"
 msgid "Hide"
 msgstr "Gizle"
 
-#: src/timeline2/view/qml/Timeline.qml:1066
+#: src/timeline2/view/qml/Timeline.qml:1107
 #, kde-format
 msgid "Show sequence effects"
 msgstr "Sekans efektlerini göster"
 
-#: src/timeline2/view/qml/Timeline.qml:1795
+#: src/timeline2/view/qml/Timeline.qml:1838
 #, kde-format
 msgid "<b>Double click</b> to add a subtitle"
 msgstr "Altyazı eklemek için <b>çift tıklayın</b>"
 
-#: src/timeline2/view/qml/Timeline.qml:1989
+#: src/timeline2/view/qml/Timeline.qml:2032
 #, kde-format
 msgid "Offset: %1, Position: %2"
 msgstr "Ofset: %1, Konum: %2"
 
-#: src/timeline2/view/qml/Timeline.qml:2151
-#: src/timeline2/view/qml/Timeline.qml:2160
+#: src/timeline2/view/qml/Timeline.qml:2194
+#: src/timeline2/view/qml/Timeline.qml:2203
 #, kde-format
 msgid "Recording"
 msgstr "Kaydediliyor"
 
-#: src/timeline2/view/qml/Timeline.qml:2254
+#: src/timeline2/view/qml/Timeline.qml:2297
 #, kde-format
 msgid "Multicam In"
 msgstr "Çoklu Kamera Girişi"

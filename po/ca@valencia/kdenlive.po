@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-13 00:43+0000\n"
-"PO-Revision-Date: 2026-02-12 10:18+0100\n"
+"POT-Creation-Date: 2026-02-14 00:43+0000\n"
+"PO-Revision-Date: 2026-02-13 09:35+0100\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
 "Language: ca@valencia\n"
@@ -12076,40 +12076,38 @@ msgstr ""
 #: data/effects/frei0r/frei0r_ndvi.xml:4
 #, kde-format
 msgid "NDVI"
-msgstr ""
+msgstr "NDVI"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:5
 #, kde-format
 msgid "This filter creates a false image from a visible + infrared source"
 msgstr ""
+"Este filtre crea una imatge falsa a partir d'una font visible + infrarojos"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:8
-#, fuzzy, kde-format
-#| msgid "Color Matrix"
+#, kde-format
 msgid "Color Map"
-msgstr "Matriu de color"
+msgstr "Mapa de colors"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:9
 #, kde-format
 msgid "Earth,Grayscale,Heat,Rainbow"
-msgstr ""
+msgstr "Terra,Escala de grisos,Calor,Arc de Sant Martí"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:13
 #, kde-format
 msgid "The number of color levels to use in the false image"
-msgstr ""
+msgstr "El nombre de nivells de colors que es faran servir en la imatge falsa"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:16
-#, fuzzy, kde-format
-#| msgid "Scale"
+#, kde-format
 msgid "VIS Scale"
-msgstr "Escala"
+msgstr "Escala VIS"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:20
-#, fuzzy, kde-format
-#| msgid "X Offset"
+#, kde-format
 msgid "VIS Offset"
-msgstr "Desplaçament X"
+msgstr "Desplaçament VIS"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:22
 #, no-c-format, kde-format
@@ -12117,24 +12115,23 @@ msgid ""
 "An offset to be applied to<br>\n"
 "        the visible component (mapped to [-100%, 100%])"
 msgstr ""
+"Un desplaçament que s'aplicarà<br>\n"
+"        al component visible (assignat a [-100%, 100%])"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:25
-#, fuzzy, kde-format
-#| msgid "Scale"
+#, kde-format
 msgid "NIR Scale"
-msgstr "Escala"
+msgstr "Escala NIR"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:26
-#, fuzzy, kde-format
-#| msgid "The background color to be applied to the entire frame."
+#, kde-format
 msgid "A scaling factor to be applied to the near-infrared component"
-msgstr "El color de fons que s'aplicarà a tot el fotograma."
+msgstr "Un factor d'escala que s'aplicarà al component infraroig proper"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:29
-#, fuzzy, kde-format
-#| msgid "X Offset"
+#, kde-format
 msgid "NIR Offset"
-msgstr "Desplaçament X"
+msgstr "Desplaçament NIR"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:31
 #, no-c-format, kde-format
@@ -12142,68 +12139,64 @@ msgid ""
 "An offset to be applied to<br>\n"
 "        the near-infrared component (mapped to [-100%, 100%])"
 msgstr ""
+"Un desplaçament que s'aplicarà<br>\n"
+"        al component infraroig proper (assignat a [-100%, 100%])"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:34
-#, fuzzy, kde-format
-#| msgid "4 Channels"
+#, kde-format
 msgid "Visible Channel"
-msgstr "4 canals"
+msgstr "Canal visible"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:35
 #, kde-format
 msgid "The channel to use for the visible component"
-msgstr ""
+msgstr "El canal que s'utilitzarà per al component visible"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:36
 #: data/effects/frei0r/frei0r_ndvi.xml:41
-#, fuzzy, kde-format
-#| msgid "Red,Green,Blue,Luma"
+#, kde-format
 msgid "Red,Green,Blue"
-msgstr "Roig,Verd,Blau,Luma"
+msgstr "Roig,Verd,Blau"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:39
-#, fuzzy, kde-format
-#| msgid "Channel"
+#, kde-format
 msgid "NIR Channel"
-msgstr "Canal"
+msgstr "Canal NIR"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:40
 #, kde-format
 msgid "The channel to use for the near-infrared component"
-msgstr ""
+msgstr "El canal que s'utilitzarà per al component infraroig proper"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:44
-#, fuzzy, kde-format
-#| msgid "Calculating..."
+#, kde-format
 msgid "Index Calculation"
-msgstr "S'està calculant…"
+msgstr "Càlcul de l'índex"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:45
 #, kde-format
 msgid "The index calculation to use"
-msgstr ""
+msgstr "El càlcul de l'índex que s'utilitzarà"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:46
 #, kde-format
 msgid "NDVI,VI"
-msgstr ""
+msgstr "NDVI,VI"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:49
-#, fuzzy, kde-format
-#| msgid "Legend unit"
+#, kde-format
 msgid "Legend"
-msgstr "Unitat de la llegenda"
+msgstr "Llegenda"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:50
 #, kde-format
 msgid "Control legend display"
-msgstr ""
+msgstr "Controla la visualització de la llegenda"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:51
-#, fuzzy, kde-format
-#| msgid "Bottom"
+#, kde-format
 msgid "Off,Bottom"
-msgstr "Baix"
+msgstr "Desactivat,Inferior"
 
 #: data/effects/frei0r/frei0r_nervous.xml:4
 #, kde-format
@@ -12953,32 +12946,27 @@ msgid "Interval"
 msgstr "Interval"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:4
-#, fuzzy, kde-format
-#| msgid "3 point balance"
+#, kde-format
 msgid "3-Point Balance"
 msgstr "Equilibri de 3 punts"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:5
-#, fuzzy, kde-format
-#| msgid "Balances colors along with 3 points"
+#, kde-format
 msgid "Adjust color balance with 3 color points"
-msgstr "Equilibra els colors entre 3 punts"
+msgstr "Ajusta l'equilibri de colors entre 3 punts"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:8
-#, fuzzy, kde-format
-#| msgid "Black color"
+#, kde-format
 msgid "Black Color"
 msgstr "Color negre"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:11
-#, fuzzy, kde-format
-#| msgid "Gray color"
+#, kde-format
 msgid "Gray Color"
 msgstr "Color gris"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:14
-#, fuzzy, kde-format
-#| msgid "White color"
+#, kde-format
 msgid "White Color"
 msgstr "Color blanc"
 
@@ -20744,7 +20732,7 @@ msgstr[1] "%1 pistes d'àudio"
 msgid "Timeline sequence"
 msgstr "Seqüència de la línia de temps"
 
-#: src/bin/projectclip.cpp:550 src/timeline2/view/qml/Clip.qml:1415
+#: src/bin/projectclip.cpp:550 src/timeline2/view/qml/Clip.qml:1420
 #, kde-format
 msgctxt "@label The first letter of Proxy, used as abbreviation"
 msgid "P"
@@ -26226,7 +26214,7 @@ msgid "Clip in Timeline"
 msgstr "Clip en la línia de temps"
 
 #. i18n: ectx: Menu (sequence)
-#: src/kdenliveui.rc:96 src/timeline2/view/qml/Timeline.qml:1072
+#: src/kdenliveui.rc:96 src/timeline2/view/qml/Timeline.qml:1113
 #, kde-format
 msgid "Sequence"
 msgstr "Seqüència"
@@ -34066,12 +34054,12 @@ msgid "Stop"
 msgstr "Para"
 
 #: src/timeline2/view/qml/AudioRecordButton.qml:257
-#: src/timeline2/view/qml/Timeline.qml:2162
+#: src/timeline2/view/qml/Timeline.qml:2205
 #, kde-format
 msgid "Paused"
 msgstr "En pausa"
 
-#: src/timeline2/view/qml/Clip.qml:227 src/timeline2/view/qml/Clip.qml:1197
+#: src/timeline2/view/qml/Clip.qml:227 src/timeline2/view/qml/Clip.qml:1202
 #, kde-format
 msgid "%1 (%2-%3), Position: %4, Duration: %5"
 msgstr "%1 (%2-%3), Posició: %4, Duració: %5"
@@ -34083,32 +34071,32 @@ msgstr "%1 (%2-%3), Posició: %4, Duració: %5"
 msgid "Position: %1"
 msgstr "Posició: %1"
 
-#: src/timeline2/view/qml/Clip.qml:540
+#: src/timeline2/view/qml/Clip.qml:544
 #, kde-format
 msgid "Mix duration: %1, Cut at: %2"
 msgstr "Duració de la mescla: %1, retallat a: %2"
 
-#: src/timeline2/view/qml/Clip.qml:598
+#: src/timeline2/view/qml/Clip.qml:602
 #, kde-format
 msgid "+%1, Mix duration: %2"
 msgstr "+%1, duració de la mescla: %2"
 
-#: src/timeline2/view/qml/Clip.qml:600
+#: src/timeline2/view/qml/Clip.qml:604
 #, kde-format
 msgid "-%1, Mix duration: %2"
 msgstr "-%1, duració de la mescla: %2"
 
-#: src/timeline2/view/qml/Clip.qml:603 src/timeline2/view/qml/Clip.qml:618
+#: src/timeline2/view/qml/Clip.qml:607 src/timeline2/view/qml/Clip.qml:622
 #, kde-format
 msgid "Mix duration: %1"
 msgstr "Duració de la mescla: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1078
+#: src/timeline2/view/qml/Clip.qml:1083
 #, kde-format
 msgid "In:%1, Position:%2"
 msgstr "A:%1, Posició:%2"
 
-#: src/timeline2/view/qml/Clip.qml:1081 src/timeline2/view/qml/Clip.qml:1187
+#: src/timeline2/view/qml/Clip.qml:1086 src/timeline2/view/qml/Clip.qml:1192
 #, kde-format
 msgid ""
 "<b>Ctrl drag</b> to change speed, <b>Double click</b> to mix with adjacent "
@@ -34117,54 +34105,54 @@ msgstr ""
 "<b>Ctrl+arrossega</b> per a canviar la velocitat, feu <b>doble clic</b> per "
 "a mesclar amb el clip adjacent"
 
-#: src/timeline2/view/qml/Clip.qml:1083
+#: src/timeline2/view/qml/Clip.qml:1088
 #, kde-format
 msgid "<b>Drag</b> to change mix duration"
 msgstr "<b>Arrossegueu</b> per a canviar la duració de la mescla"
 
-#: src/timeline2/view/qml/Clip.qml:1184
+#: src/timeline2/view/qml/Clip.qml:1189
 #, kde-format
 msgid "Out:%1, Position:%2"
 msgstr "Eixida:%1, Posició:%2"
 
-#: src/timeline2/view/qml/Clip.qml:1323
+#: src/timeline2/view/qml/Clip.qml:1328
 #, kde-format
 msgid "Offset: -%1"
 msgstr "Desplaçament: -%1"
 
-#: src/timeline2/view/qml/Clip.qml:1323
+#: src/timeline2/view/qml/Clip.qml:1328
 #, kde-format
 msgid "Offset: %1"
 msgstr "Desplaçament: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1324
+#: src/timeline2/view/qml/Clip.qml:1329
 #, kde-format
 msgid " <b>Click</b> to align clips"
 msgstr " <b>Cliqueu</b> per a alinear els clips"
 
-#: src/timeline2/view/qml/Clip.qml:1571 src/timeline2/view/qml/Clip.qml:1612
+#: src/timeline2/view/qml/Clip.qml:1577 src/timeline2/view/qml/Clip.qml:1618
 #, kde-format
 msgid "<b>Click</b> to add composition"
 msgstr "<b>Cliqueu</b> per a afegir una composició"
 
-#: src/timeline2/view/qml/Clip.qml:1693 src/timeline2/view/qml/Clip.qml:1700
+#: src/timeline2/view/qml/Clip.qml:1699 src/timeline2/view/qml/Clip.qml:1706
 #, kde-format
 msgid "Fade out: %1"
 msgstr "Fosa d'eixida: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1704 src/timeline2/view/qml/Clip.qml:1815
+#: src/timeline2/view/qml/Clip.qml:1710 src/timeline2/view/qml/Clip.qml:1821
 #, kde-format
 msgid "<b>Drag</b> to adjust fade, <b>Click</b> to add default duration fade"
 msgstr ""
 "<b>Arrossega</b> per a ajustar l'esvaniment, <b>cliqueu</b> per a afegir la "
 "duració predeterminada de l'esvaniment"
 
-#: src/timeline2/view/qml/Clip.qml:1804 src/timeline2/view/qml/Clip.qml:1811
+#: src/timeline2/view/qml/Clip.qml:1810 src/timeline2/view/qml/Clip.qml:1817
 #, kde-format
 msgid "Fade in: %1"
 msgstr "Fosa d'entrada: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1899
+#: src/timeline2/view/qml/Clip.qml:1905
 #, kde-format
 msgid "Slip Clip"
 msgstr "Desplaça el clip"
@@ -34229,28 +34217,28 @@ msgstr "Mostra"
 msgid "Hide"
 msgstr "Oculta"
 
-#: src/timeline2/view/qml/Timeline.qml:1066
+#: src/timeline2/view/qml/Timeline.qml:1107
 #, kde-format
 msgid "Show sequence effects"
 msgstr "Mostra els efectes de seqüència"
 
-#: src/timeline2/view/qml/Timeline.qml:1795
+#: src/timeline2/view/qml/Timeline.qml:1838
 #, kde-format
 msgid "<b>Double click</b> to add a subtitle"
 msgstr "<b>Doble clic</b> per a afegir un subtítol"
 
-#: src/timeline2/view/qml/Timeline.qml:1989
+#: src/timeline2/view/qml/Timeline.qml:2032
 #, kde-format
 msgid "Offset: %1, Position: %2"
 msgstr "Desplaçament: %1, Posició: %2"
 
-#: src/timeline2/view/qml/Timeline.qml:2151
-#: src/timeline2/view/qml/Timeline.qml:2160
+#: src/timeline2/view/qml/Timeline.qml:2194
+#: src/timeline2/view/qml/Timeline.qml:2203
 #, kde-format
 msgid "Recording"
 msgstr "Gravació"
 
-#: src/timeline2/view/qml/Timeline.qml:2254
+#: src/timeline2/view/qml/Timeline.qml:2297
 #, kde-format
 msgid "Multicam In"
 msgstr "Multicàmera a"

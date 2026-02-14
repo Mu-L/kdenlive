@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-13 00:43+0000\n"
-"PO-Revision-Date: 2026-02-06 11:02+0200\n"
+"POT-Creation-Date: 2026-02-14 00:43+0000\n"
+"PO-Revision-Date: 2026-02-13 17:56+0200\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: צוות התרגום של KDE ישראל\n"
 "Language: he\n"
@@ -7195,10 +7195,9 @@ msgstr "התחלה"
 
 #: data/effects/copychannelstostereo.xml:9
 #: data/effects/copychannelstostereo.xml:13
-#, fuzzy, kde-format
-#| msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+#, kde-format
 msgid "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"
-msgstr "1,2,3,4,5,6,7,8,9,10,11,12,13,1,15,16"
+msgstr "1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16"
 
 #: data/effects/copychannelstostereo.xml:12
 #, kde-format
@@ -13654,10 +13653,9 @@ msgid "Horn Frequency"
 msgstr "תדירות נמוכה"
 
 #: data/effects/ladspa/ladspa_2149.xml:15
-#, fuzzy, kde-format
-#| msgid "Distance"
+#, kde-format
 msgid "Mic Distance"
-msgstr "מרחק"
+msgstr "מרחק ממיקרופון"
 
 #: data/effects/ladspa/ladspa_2149.xml:18
 #, kde-format
@@ -16315,10 +16313,9 @@ msgid "Ultra-High Definition (4K)"
 msgstr ""
 
 #: data/profiles.xml:43
-#, fuzzy, kde-format
-#| msgid "Feather Alpha"
+#, kde-format
 msgid "Video with Alpha"
-msgstr "אלפא בתצורת נוצה"
+msgstr "וידאו עם שקיפות"
 
 #: data/profiles.xml:58
 #, kde-format
@@ -16326,10 +16323,9 @@ msgid "Old-TV definition (DVD...)"
 msgstr ""
 
 #: data/profiles.xml:75
-#, fuzzy, kde-format
-#| msgid "AMF hardware acceleration"
+#, kde-format
 msgid "Hardware Accelerated (experimental)"
-msgstr "האצת חומרה AMF"
+msgstr "מואץ חומרה (ניסיוני)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, profile_audioonly)
 #: data/profiles.xml:116 src/ui/configtranscode_ui.ui:76
@@ -19103,16 +19099,14 @@ msgid "Please set a default application to open audio files"
 msgstr "נא להגדיר יישום ברירת מחדל לפתיחת קובצי שמע"
 
 #: src/bin/bin.cpp:5080
-#, fuzzy, kde-format
-#| msgid "Enter path for your audio editing application"
+#, kde-format
 msgid "Enter path for your video editing application"
-msgstr "נא למלא את הנתיב ליישום עריכת השמע שלך"
+msgstr "נא למלא את הנתיב ליישום עריכת הווידאו שלך"
 
 #: src/bin/bin.cpp:5092
-#, fuzzy, kde-format
-#| msgid "Please set a default application to open audio files"
+#, kde-format
 msgid "Please set a default application to open video files"
-msgstr "נא להגדיר יישום ברירת מחדל לפתיחת קובצי שמע"
+msgstr "נא להגדיר יישום ברירת מחדל לפתיחת קובצי וידאו"
 
 #: src/bin/bin.cpp:5102 src/core.cpp:669 src/doc/kdenlivedoc.cpp:169
 #: src/jobs/cliploadtask.cpp:487 src/jobs/cliploadtask.cpp:499
@@ -19785,7 +19779,7 @@ msgstr[3] "%1 רצועות שמע"
 msgid "Timeline sequence"
 msgstr "רצף ציר הזמן"
 
-#: src/bin/projectclip.cpp:550 src/timeline2/view/qml/Clip.qml:1415
+#: src/bin/projectclip.cpp:550 src/timeline2/view/qml/Clip.qml:1420
 #, kde-format
 msgctxt "@label The first letter of Proxy, used as abbreviation"
 msgid "P"
@@ -21781,10 +21775,9 @@ msgid "Enter path to the Glaxnimate application"
 msgstr "נא למלא את נתיב היישום Glaxnimate"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:859
-#, fuzzy, kde-format
-#| msgid "Enter path to the audio editing application"
+#, kde-format
 msgid "Enter path to the video editing application"
-msgstr "נא למלא את הנתיב ליישום עריכת השמע"
+msgstr "נא למלא את הנתיב ליישום עריכת הווידאו"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:941
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:988
@@ -25179,7 +25172,7 @@ msgid "Clip in Timeline"
 msgstr "סרטון בציר הזמן"
 
 #. i18n: ectx: Menu (sequence)
-#: src/kdenliveui.rc:96 src/timeline2/view/qml/Timeline.qml:1072
+#: src/kdenliveui.rc:96 src/timeline2/view/qml/Timeline.qml:1113
 #, kde-format
 msgid "Sequence"
 msgstr "רצף"
@@ -28798,10 +28791,9 @@ msgstr ""
 "התקנת Kdenlive או הגדרות מנהל ההתקן שגויים. נא לתקן זאת."
 
 #: src/monitor/view/AudioView.qml:326
-#, fuzzy, kde-format
-#| msgid "Click to reset Audio Waveform Zoom"
+#, kde-format
 msgid "Click to refresh audio waveform"
-msgstr "לחיצה תאפס את התקריב על צורת גל של שמע"
+msgstr "לחיצה כאן תרענן את צורת גל השמע"
 
 #: src/monitor/view/ClipMonitor.qml:365 src/monitor/view/ProjectMonitor.qml:195
 #, kde-format
@@ -32380,8 +32372,7 @@ msgid "Could not add bin clip"
 msgstr "לא ניתן להוסיף סרטון מהסל"
 
 #: src/timeline2/model/timelinefunctions.cpp:2571
-#, fuzzy, kde-format
-#| msgid "All clips were not successfully copied"
+#, kde-format
 msgid "Not all clips were copied successfully"
 msgstr "לא כל הסרטונים הועתקו בהצלחה"
 
@@ -32867,12 +32858,12 @@ msgid "Stop"
 msgstr "עצירה"
 
 #: src/timeline2/view/qml/AudioRecordButton.qml:257
-#: src/timeline2/view/qml/Timeline.qml:2162
+#: src/timeline2/view/qml/Timeline.qml:2205
 #, kde-format
 msgid "Paused"
 msgstr "מושהה"
 
-#: src/timeline2/view/qml/Clip.qml:227 src/timeline2/view/qml/Clip.qml:1197
+#: src/timeline2/view/qml/Clip.qml:227 src/timeline2/view/qml/Clip.qml:1202
 #, kde-format
 msgid "%1 (%2-%3), Position: %4, Duration: %5"
 msgstr "%1 (%2-%3), מקום: %4, משך: %5"
@@ -32884,32 +32875,32 @@ msgstr "%1 (%2-%3), מקום: %4, משך: %5"
 msgid "Position: %1"
 msgstr "מקום :%1"
 
-#: src/timeline2/view/qml/Clip.qml:540
+#: src/timeline2/view/qml/Clip.qml:544
 #, kde-format
 msgid "Mix duration: %1, Cut at: %2"
 msgstr "משך תערובת: %1, חיתוך ב־: %2"
 
-#: src/timeline2/view/qml/Clip.qml:598
+#: src/timeline2/view/qml/Clip.qml:602
 #, kde-format
 msgid "+%1, Mix duration: %2"
 msgstr "‎+%1, משך ערבוב: %2"
 
-#: src/timeline2/view/qml/Clip.qml:600
+#: src/timeline2/view/qml/Clip.qml:604
 #, kde-format
 msgid "-%1, Mix duration: %2"
 msgstr "‎-%1, משך ערבוב: %2"
 
-#: src/timeline2/view/qml/Clip.qml:603 src/timeline2/view/qml/Clip.qml:618
+#: src/timeline2/view/qml/Clip.qml:607 src/timeline2/view/qml/Clip.qml:622
 #, kde-format
 msgid "Mix duration: %1"
 msgstr "‫משך ערבוב: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1078
+#: src/timeline2/view/qml/Clip.qml:1083
 #, kde-format
 msgid "In:%1, Position:%2"
 msgstr "כניסה:%1, מקום:%2"
 
-#: src/timeline2/view/qml/Clip.qml:1081 src/timeline2/view/qml/Clip.qml:1187
+#: src/timeline2/view/qml/Clip.qml:1086 src/timeline2/view/qml/Clip.qml:1192
 #, kde-format
 msgid ""
 "<b>Ctrl drag</b> to change speed, <b>Double click</b> to mix with adjacent "
@@ -32918,54 +32909,54 @@ msgstr ""
 "<b>Ctrl וגרירה</b> כדי לשנות מהירות, <b>לחיצה כפולה</b> כדי לערבב עם סרטונים "
 "סמוכים"
 
-#: src/timeline2/view/qml/Clip.qml:1083
+#: src/timeline2/view/qml/Clip.qml:1088
 #, kde-format
 msgid "<b>Drag</b> to change mix duration"
 msgstr "יש <b>לגרור</b> כדי לשנות את משך הערבוב"
 
-#: src/timeline2/view/qml/Clip.qml:1184
+#: src/timeline2/view/qml/Clip.qml:1189
 #, kde-format
 msgid "Out:%1, Position:%2"
 msgstr "יציאה:%1, מקום:%2"
 
-#: src/timeline2/view/qml/Clip.qml:1323
+#: src/timeline2/view/qml/Clip.qml:1328
 #, kde-format
 msgid "Offset: -%1"
 msgstr "היסט: ‎-%1"
 
-#: src/timeline2/view/qml/Clip.qml:1323
+#: src/timeline2/view/qml/Clip.qml:1328
 #, kde-format
 msgid "Offset: %1"
 msgstr "היסט: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1324
+#: src/timeline2/view/qml/Clip.qml:1329
 #, kde-format
 msgid " <b>Click</b> to align clips"
 msgstr " <b>לחיצה</b> תיישר את הסרטונים"
 
-#: src/timeline2/view/qml/Clip.qml:1571 src/timeline2/view/qml/Clip.qml:1612
+#: src/timeline2/view/qml/Clip.qml:1577 src/timeline2/view/qml/Clip.qml:1618
 #, kde-format
 msgid "<b>Click</b> to add composition"
 msgstr "יש <b>ללחוץ</b> כדי להוסיף תרכובת"
 
-#: src/timeline2/view/qml/Clip.qml:1693 src/timeline2/view/qml/Clip.qml:1700
+#: src/timeline2/view/qml/Clip.qml:1699 src/timeline2/view/qml/Clip.qml:1706
 #, kde-format
 msgid "Fade out: %1"
 msgstr "יציאה מעומעמת: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1704 src/timeline2/view/qml/Clip.qml:1815
+#: src/timeline2/view/qml/Clip.qml:1710 src/timeline2/view/qml/Clip.qml:1821
 #, kde-format
 msgid "<b>Drag</b> to adjust fade, <b>Click</b> to add default duration fade"
 msgstr ""
 "יש <b>לגרור</b> כדי לשנות את העמעום, או <b>ללחוץ</b> כדי להוסיף את משך "
 "העמעום כברירת המחדל"
 
-#: src/timeline2/view/qml/Clip.qml:1804 src/timeline2/view/qml/Clip.qml:1811
+#: src/timeline2/view/qml/Clip.qml:1810 src/timeline2/view/qml/Clip.qml:1817
 #, kde-format
 msgid "Fade in: %1"
 msgstr "כניסה מעומעמת: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1899
+#: src/timeline2/view/qml/Clip.qml:1905
 #, kde-format
 msgid "Slip Clip"
 msgstr "החלקת קטע"
@@ -33029,28 +33020,28 @@ msgstr "הצגה"
 msgid "Hide"
 msgstr "הסתרה"
 
-#: src/timeline2/view/qml/Timeline.qml:1066
+#: src/timeline2/view/qml/Timeline.qml:1107
 #, kde-format
 msgid "Show sequence effects"
 msgstr "הצגת אפקטים על רצפים"
 
-#: src/timeline2/view/qml/Timeline.qml:1795
+#: src/timeline2/view/qml/Timeline.qml:1838
 #, kde-format
 msgid "<b>Double click</b> to add a subtitle"
 msgstr "<b>לחיצה כפולה</b> להוספת כתובית"
 
-#: src/timeline2/view/qml/Timeline.qml:1989
+#: src/timeline2/view/qml/Timeline.qml:2032
 #, kde-format
 msgid "Offset: %1, Position: %2"
 msgstr "היסט: %1, מקום: %2"
 
-#: src/timeline2/view/qml/Timeline.qml:2151
-#: src/timeline2/view/qml/Timeline.qml:2160
+#: src/timeline2/view/qml/Timeline.qml:2194
+#: src/timeline2/view/qml/Timeline.qml:2203
 #, kde-format
 msgid "Recording"
 msgstr "הקלטה"
 
-#: src/timeline2/view/qml/Timeline.qml:2254
+#: src/timeline2/view/qml/Timeline.qml:2297
 #, kde-format
 msgid "Multicam In"
 msgstr "ריבוי מצלמות נכנס"
@@ -35154,10 +35145,9 @@ msgstr "עריכת הנפשה:"
 
 #. i18n: ectx: property (placeholderText), widget (QLineEdit, kcfg_defaultvideoapp)
 #: src/ui/configenv_ui.ui:429
-#, fuzzy, kde-format
-#| msgid "Path to Glaxnimate executable"
+#, kde-format
 msgid "Path to video editor executable"
-msgstr "נתיב לקובץ הפעלה של Glaxnimate"
+msgstr "נתיב לקובץ ההפעלה של עורך הווידאו"
 
 #. i18n: ectx: property (text), widget (QLabel, label_19)
 #: src/ui/configenv_ui.ui:445

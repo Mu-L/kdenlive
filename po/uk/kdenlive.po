@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-02-13 00:43+0000\n"
-"PO-Revision-Date: 2026-02-12 12:21+0200\n"
+"POT-Creation-Date: 2026-02-14 00:43+0000\n"
+"PO-Revision-Date: 2026-02-13 09:17+0200\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <trans-uk@lists.fedoraproject.org>\n"
 "Language: uk\n"
@@ -12015,40 +12015,39 @@ msgstr ""
 #: data/effects/frei0r/frei0r_ndvi.xml:4
 #, kde-format
 msgid "NDVI"
-msgstr ""
+msgstr "NDVI"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:5
 #, kde-format
 msgid "This filter creates a false image from a visible + infrared source"
 msgstr ""
+"Цей фільтр створює фальшиве зображення на основі даних джерел у видимому та "
+"інфрачервоному діапазоні"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:8
-#, fuzzy, kde-format
-#| msgid "Color Matrix"
+#, kde-format
 msgid "Color Map"
-msgstr "Матриця кольорів"
+msgstr "Карта кольорів"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:9
 #, kde-format
 msgid "Earth,Grayscale,Heat,Rainbow"
-msgstr ""
+msgstr "Земля,Відтінки сірого,Спека,Веселка"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:13
 #, kde-format
 msgid "The number of color levels to use in the false image"
-msgstr ""
+msgstr "Кількість рівнів кольорів у фіктивному зображенні"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:16
-#, fuzzy, kde-format
-#| msgid "Scale"
+#, kde-format
 msgid "VIS Scale"
-msgstr "Масштаб"
+msgstr "Масштаб VIS"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:20
-#, fuzzy, kde-format
-#| msgid "X Offset"
+#, kde-format
 msgid "VIS Offset"
-msgstr "Зміщення за X"
+msgstr "Зсув VIS"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:22
 #, no-c-format, kde-format
@@ -12056,24 +12055,25 @@ msgid ""
 "An offset to be applied to<br>\n"
 "        the visible component (mapped to [-100%, 100%])"
 msgstr ""
+"Зсув, який слід застосувати до видимого компонента (відображений на [-100%, "
+"100%])"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:25
-#, fuzzy, kde-format
-#| msgid "Scale"
+#, kde-format
 msgid "NIR Scale"
-msgstr "Масштаб"
+msgstr "Масштаб NIR"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:26
-#, fuzzy, kde-format
-#| msgid "The background color to be applied to the entire frame."
+#, kde-format
 msgid "A scaling factor to be applied to the near-infrared component"
-msgstr "Колір тла, який має бути застосовано до усього кадру."
+msgstr ""
+"Коефіцієнт масштабування, який слід застосувати до компонента у ближньому "
+"інфрачервоному світлі"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:29
-#, fuzzy, kde-format
-#| msgid "X Offset"
+#, kde-format
 msgid "NIR Offset"
-msgstr "Зміщення за X"
+msgstr "Зсув NIR"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:31
 #, no-c-format, kde-format
@@ -12081,68 +12081,64 @@ msgid ""
 "An offset to be applied to<br>\n"
 "        the near-infrared component (mapped to [-100%, 100%])"
 msgstr ""
+"Зсув, який слід застосувати до компонента у ближньому інфрачервоному світлі "
+"(відображений на [-100%, 100%])"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:34
-#, fuzzy, kde-format
-#| msgid "4 Channels"
+#, kde-format
 msgid "Visible Channel"
-msgstr "4 канали"
+msgstr "Видимий канал"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:35
 #, kde-format
 msgid "The channel to use for the visible component"
-msgstr ""
+msgstr "Канал для видимого компонента"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:36
 #: data/effects/frei0r/frei0r_ndvi.xml:41
-#, fuzzy, kde-format
-#| msgid "Red,Green,Blue,Luma"
+#, kde-format
 msgid "Red,Green,Blue"
-msgstr "червоний,зелений,синій,яскравість"
+msgstr "Червоний,Зелений,Синій"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:39
-#, fuzzy, kde-format
-#| msgid "Channel"
+#, kde-format
 msgid "NIR Channel"
-msgstr "Канал"
+msgstr "Канал NIR"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:40
 #, kde-format
 msgid "The channel to use for the near-infrared component"
-msgstr ""
+msgstr "Канал для компонента ближнього інфрачервоного діапазону"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:44
-#, fuzzy, kde-format
-#| msgid "Calculating..."
+#, kde-format
 msgid "Index Calculation"
-msgstr "Обчислення…"
+msgstr "Обчислення покажчика"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:45
 #, kde-format
 msgid "The index calculation to use"
-msgstr ""
+msgstr "Використаний спосіб обчислення покажчика"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:46
 #, kde-format
 msgid "NDVI,VI"
-msgstr ""
+msgstr "NDVI,VI"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:49
-#, fuzzy, kde-format
-#| msgid "Legend unit"
+#, kde-format
 msgid "Legend"
-msgstr "Одиниця умовних позначень"
+msgstr "Умовні позначення"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:50
 #, kde-format
 msgid "Control legend display"
-msgstr ""
+msgstr "Керування показом умовних позначень"
 
 #: data/effects/frei0r/frei0r_ndvi.xml:51
-#, fuzzy, kde-format
-#| msgid "Bottom"
+#, kde-format
 msgid "Off,Bottom"
-msgstr "Внизу"
+msgstr "Вимкнути,Внизу"
 
 #: data/effects/frei0r/frei0r_nervous.xml:4
 #, kde-format
@@ -12893,32 +12889,27 @@ msgid "Interval"
 msgstr "Інтервал"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:4
-#, fuzzy, kde-format
-#| msgid "3 point balance"
+#, kde-format
 msgid "3-Point Balance"
 msgstr "Баланс за 3 точками"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:5
-#, fuzzy, kde-format
-#| msgid "Balances colors along with 3 points"
+#, kde-format
 msgid "Adjust color balance with 3 color points"
-msgstr "Збалансування кольорів за допомогою трьох базових точок"
+msgstr "Збалансування кольорів за допомогою трьох точок кольорів"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:8
-#, fuzzy, kde-format
-#| msgid "Black color"
+#, kde-format
 msgid "Black Color"
 msgstr "Чорний колір"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:11
-#, fuzzy, kde-format
-#| msgid "Gray color"
+#, kde-format
 msgid "Gray Color"
 msgstr "Сірий колір"
 
 #: data/effects/frei0r/frei0r_three_point_balance.xml:14
-#, fuzzy, kde-format
-#| msgid "White color"
+#, kde-format
 msgid "White Color"
 msgstr "Білий колір"
 
@@ -20674,7 +20665,7 @@ msgstr[3] "%1 звукова доріжка"
 msgid "Timeline sequence"
 msgstr "Послідовність монтажного столу"
 
-#: src/bin/projectclip.cpp:550 src/timeline2/view/qml/Clip.qml:1415
+#: src/bin/projectclip.cpp:550 src/timeline2/view/qml/Clip.qml:1420
 #, kde-format
 msgctxt "@label The first letter of Proxy, used as abbreviation"
 msgid "P"
@@ -26184,7 +26175,7 @@ msgid "Clip in Timeline"
 msgstr "Кліп на монтажному столі"
 
 #. i18n: ectx: Menu (sequence)
-#: src/kdenliveui.rc:96 src/timeline2/view/qml/Timeline.qml:1072
+#: src/kdenliveui.rc:96 src/timeline2/view/qml/Timeline.qml:1113
 #, kde-format
 msgid "Sequence"
 msgstr "Послідовність"
@@ -34045,12 +34036,12 @@ msgid "Stop"
 msgstr "Зупинити"
 
 #: src/timeline2/view/qml/AudioRecordButton.qml:257
-#: src/timeline2/view/qml/Timeline.qml:2162
+#: src/timeline2/view/qml/Timeline.qml:2205
 #, kde-format
 msgid "Paused"
 msgstr "Призупинено"
 
-#: src/timeline2/view/qml/Clip.qml:227 src/timeline2/view/qml/Clip.qml:1197
+#: src/timeline2/view/qml/Clip.qml:227 src/timeline2/view/qml/Clip.qml:1202
 #, kde-format
 msgid "%1 (%2-%3), Position: %4, Duration: %5"
 msgstr "%1 (%2–%3), позиція: %4, тривалість: %5"
@@ -34062,32 +34053,32 @@ msgstr "%1 (%2–%3), позиція: %4, тривалість: %5"
 msgid "Position: %1"
 msgstr "Позиція: %1"
 
-#: src/timeline2/view/qml/Clip.qml:540
+#: src/timeline2/view/qml/Clip.qml:544
 #, kde-format
 msgid "Mix duration: %1, Cut at: %2"
 msgstr "Тривалість мікшування: %1, обрізано на: %2"
 
-#: src/timeline2/view/qml/Clip.qml:598
+#: src/timeline2/view/qml/Clip.qml:602
 #, kde-format
 msgid "+%1, Mix duration: %2"
 msgstr "+%1, тривалість мікшування: %2"
 
-#: src/timeline2/view/qml/Clip.qml:600
+#: src/timeline2/view/qml/Clip.qml:604
 #, kde-format
 msgid "-%1, Mix duration: %2"
 msgstr "-%1, тривалість мікшування: %2"
 
-#: src/timeline2/view/qml/Clip.qml:603 src/timeline2/view/qml/Clip.qml:618
+#: src/timeline2/view/qml/Clip.qml:607 src/timeline2/view/qml/Clip.qml:622
 #, kde-format
 msgid "Mix duration: %1"
 msgstr "Тривалість мікшування: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1078
+#: src/timeline2/view/qml/Clip.qml:1083
 #, kde-format
 msgid "In:%1, Position:%2"
 msgstr "Вхід: %1, позиція: %2"
 
-#: src/timeline2/view/qml/Clip.qml:1081 src/timeline2/view/qml/Clip.qml:1187
+#: src/timeline2/view/qml/Clip.qml:1086 src/timeline2/view/qml/Clip.qml:1192
 #, kde-format
 msgid ""
 "<b>Ctrl drag</b> to change speed, <b>Double click</b> to mix with adjacent "
@@ -34096,54 +34087,54 @@ msgstr ""
 "<b>Ctrl + перетягування</b> — змінити швидкість, <b>подвійне клацання</b> — "
 "мікшувати із сусіднім кліпом"
 
-#: src/timeline2/view/qml/Clip.qml:1083
+#: src/timeline2/view/qml/Clip.qml:1088
 #, kde-format
 msgid "<b>Drag</b> to change mix duration"
 msgstr "<b>Перетягніть</b>, щоб змінити тривалість мікшування"
 
-#: src/timeline2/view/qml/Clip.qml:1184
+#: src/timeline2/view/qml/Clip.qml:1189
 #, kde-format
 msgid "Out:%1, Position:%2"
 msgstr "Вихід: %1, позиція: %2"
 
-#: src/timeline2/view/qml/Clip.qml:1323
+#: src/timeline2/view/qml/Clip.qml:1328
 #, kde-format
 msgid "Offset: -%1"
 msgstr "Зміщення: –%1"
 
-#: src/timeline2/view/qml/Clip.qml:1323
+#: src/timeline2/view/qml/Clip.qml:1328
 #, kde-format
 msgid "Offset: %1"
 msgstr "Зміщення: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1324
+#: src/timeline2/view/qml/Clip.qml:1329
 #, kde-format
 msgid " <b>Click</b> to align clips"
 msgstr " <b>Клацніть</b>, щоб вирівняти кліпи"
 
-#: src/timeline2/view/qml/Clip.qml:1571 src/timeline2/view/qml/Clip.qml:1612
+#: src/timeline2/view/qml/Clip.qml:1577 src/timeline2/view/qml/Clip.qml:1618
 #, kde-format
 msgid "<b>Click</b> to add composition"
 msgstr "<b>Клацніть</b>, щоб додати композицію"
 
-#: src/timeline2/view/qml/Clip.qml:1693 src/timeline2/view/qml/Clip.qml:1700
+#: src/timeline2/view/qml/Clip.qml:1699 src/timeline2/view/qml/Clip.qml:1706
 #, kde-format
 msgid "Fade out: %1"
 msgstr "Зменшення гучності: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1704 src/timeline2/view/qml/Clip.qml:1815
+#: src/timeline2/view/qml/Clip.qml:1710 src/timeline2/view/qml/Clip.qml:1821
 #, kde-format
 msgid "<b>Drag</b> to adjust fade, <b>Click</b> to add default duration fade"
 msgstr ""
 "<b>Перетягування</b> — коригування згасання, <b>клацання</b> — додавання "
 "згасання із типовою тривалістю"
 
-#: src/timeline2/view/qml/Clip.qml:1804 src/timeline2/view/qml/Clip.qml:1811
+#: src/timeline2/view/qml/Clip.qml:1810 src/timeline2/view/qml/Clip.qml:1817
 #, kde-format
 msgid "Fade in: %1"
 msgstr "Збільшення гучності: %1"
 
-#: src/timeline2/view/qml/Clip.qml:1899
+#: src/timeline2/view/qml/Clip.qml:1905
 #, kde-format
 msgid "Slip Clip"
 msgstr "Зсунути кліп"
@@ -34208,28 +34199,28 @@ msgstr "Показати"
 msgid "Hide"
 msgstr "Приховати"
 
-#: src/timeline2/view/qml/Timeline.qml:1066
+#: src/timeline2/view/qml/Timeline.qml:1107
 #, kde-format
 msgid "Show sequence effects"
 msgstr "Показати ефекти послідовності"
 
-#: src/timeline2/view/qml/Timeline.qml:1795
+#: src/timeline2/view/qml/Timeline.qml:1838
 #, kde-format
 msgid "<b>Double click</b> to add a subtitle"
 msgstr "<b>Подвійне клацання</b> — додати субтитри"
 
-#: src/timeline2/view/qml/Timeline.qml:1989
+#: src/timeline2/view/qml/Timeline.qml:2032
 #, kde-format
 msgid "Offset: %1, Position: %2"
 msgstr "Зсув: %1, позиція: %2"
 
-#: src/timeline2/view/qml/Timeline.qml:2151
-#: src/timeline2/view/qml/Timeline.qml:2160
+#: src/timeline2/view/qml/Timeline.qml:2194
+#: src/timeline2/view/qml/Timeline.qml:2203
 #, kde-format
 msgid "Recording"
 msgstr "Записування"
 
-#: src/timeline2/view/qml/Timeline.qml:2254
+#: src/timeline2/view/qml/Timeline.qml:2297
 #, kde-format
 msgid "Multicam In"
 msgstr "Вхід мультикаму"
