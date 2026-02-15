@@ -463,13 +463,10 @@ void MainWindow::init()
     m_compositionList = new TransitionListWidget(includeList, tenBit, this);
     m_compositionListDock = addDock(i18n("Compositions"), QStringLiteral("transition_list"), m_compositionList, KDDockWidgets::Location_None, m_projectBinDock);
 
-    m_undoView = new QUndoView();
-    m_undoView->setCleanIcon(QIcon::fromTheme(QStringLiteral("edit-clear")));
-    m_undoView->setEmptyLabel(i18n("Clean"));
-    m_undoView->setGroup(m_commandStack);
-    QAction *clearStack = new QAction(QIcon::fromTheme(QStringLiteral("edit-clear-history")), i18n("Clear Undo History"), this);
-    m_undoView->addAction(clearStack);
-    connect(clearStack, &QAction::triggered, this, [this]() {
+    // Clear history action
+    QAction *cleanHistory = new QAction(QIcon::fromTheme(QStringLiteral("edit-clear-history")), i18n("Clear Undo History"), this);
+    addAction(QStringLiteral("clear_undo_history"), cleanHistory);
+    connect(cleanHistory, &QAction::triggered, this, [this]() {
         if (KMessageBox::warningContinueCancel(this, i18n("This will clear all undo history, you will not be able to undo any previous action.")) !=
             KMessageBox::Continue) {
             return;
@@ -479,12 +476,22 @@ void MainWindow::init()
             s->clear();
         }
     });
+
+    m_undoView = new QUndoView();
+    m_undoView->setCleanIcon(QIcon::fromTheme(QStringLiteral("edit-clear")));
+    m_undoView->setEmptyLabel(i18n("Clean"));
+    m_undoView->setGroup(m_commandStack);
+    m_undoView->addAction(cleanHistory);
+
     m_undoView->setContextMenuPolicy(Qt::ActionsContextMenu);
     m_undoViewDock = addDock(i18n("Undo History"), QStringLiteral("undo_history"), m_undoView, KDDockWidgets::Location_None, m_projectBinDock);
 
-    // Color and icon theme stuff
-    connect(m_commandStack, &QUndoGroup::cleanChanged, m_saveAction, &QAction::setDisabled);
+    connect(m_commandStack, &QUndoGroup::cleanChanged, [this, cleanHistory](bool isClean) {
+        m_saveAction->setDisabled(isClean);
+        cleanHistory->setDisabled(isClean);
+    });
 
+    // Color and icon theme stuff
     QStringList stylesToHide = {
         QStringLiteral("windowsvista"), // recoloring does not work well
         QStringLiteral("Windows"),

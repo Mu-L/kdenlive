@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <!DOCTYPE kpartgui SYSTEM "kpartgui.dtd">
-<kpartgui name="kdenlive" version="243" translationDomain="kdenlive">
+<kpartgui name="kdenlive" version="247" translationDomain="kdenlive">
   <MenuBar>
     <Menu name="file">
       <Action name="file_new"/>
@@ -20,7 +20,15 @@
       <Action name="open_backup"/>
       <Action name="project_settings"/>
     </Menu>
-    <Menu name="edit">
+    <Menu name="edit" noMerge="1">
+      <text>Edit</text>
+      <Action name="edit_undo"/>
+      <Action name="edit_redo"/>
+      <Action name="clear_undo_history"/>
+      <Separator/>
+      <Action name="edit_cut"/>
+      <Action name="edit_copy"/>
+      <Action name="edit_paste"/>
       <Separator/>
       <Menu name="video_effects_menu">
         <text>Add Effects</text>
