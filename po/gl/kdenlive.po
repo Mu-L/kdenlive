@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-25 02:43+0000\n"
+"POT-Creation-Date: 2026-04-26 02:37+0000\n"
 "PO-Revision-Date: 2025-06-21 12:22+0200\n"
 "Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.gal>\n"
 "Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
@@ -7450,7 +7450,7 @@ msgstr "Duración"
 
 #. i18n: ectx: Menu (subtitles)
 #: data/effects/avfilter/subtitles.xml:4 src/bin/model/subtitlemodel.cpp:88
-#: src/core.cpp:1120 src/kdenliveui.rc:192 src/mainwindow.cpp:270
+#: src/core.cpp:1121 src/kdenliveui.rc:192 src/mainwindow.cpp:270
 #: src/project/dialogs/archivewidget.cpp:105
 #: src/project/dialogs/projectsettings.cpp:434
 #, kde-format
@@ -17589,7 +17589,7 @@ msgstr "Estilizar"
 msgid "Motion"
 msgstr "Movemento"
 
-#: data/kdenliveeffectscategory.rc:54 src/doc/documentvalidator.cpp:2502
+#: data/kdenliveeffectscategory.rc:54 src/doc/documentvalidator.cpp:2512
 #, kde-format
 msgid "GPU Effects"
 msgstr "Efectos da GPU"
@@ -20114,7 +20114,7 @@ msgstr "Fragmento orixinal ausente"
 #: src/bin/bin.cpp:2182 src/bin/bin.cpp:2879
 #: src/effects/effectlist/view/effectlistwidget.cpp:185
 #: src/renderpresets/renderpresetrepository.cpp:169
-#: src/renderpresets/renderpresetrepository.cpp:474
+#: src/renderpresets/renderpresetrepository.cpp:471
 #, kde-format
 msgid "Unable to write to file %1"
 msgstr "Non é posíbel escribir no ficheiro %1"
@@ -20687,7 +20687,7 @@ msgstr "Defina a aplicación predeterminada para abrir ficheiros de son"
 #: src/jobs/filtertask.cpp:98 src/jobs/filtertask.cpp:139
 #: src/layouts/layoutmanagerdialog.cpp:212
 #: src/profiles/profilerepository.cpp:172
-#: src/renderpresets/renderpresetrepository.cpp:418
+#: src/renderpresets/renderpresetrepository.cpp:415
 #, kde-format
 msgid "Cannot open file %1"
 msgstr "Non é posíbel abrir o ficheiro %1"
@@ -21495,7 +21495,7 @@ msgstr "Lendo os fragmentos do proxecto…"
 msgid "Loading project clips…"
 msgstr "Cargando os fragmentos do proxecto…"
 
-#: src/bin/projectsubclip.cpp:43 src/doc/documentvalidator.cpp:2399
+#: src/bin/projectsubclip.cpp:43 src/doc/documentvalidator.cpp:2409
 #, kde-format
 msgid "Zone %1"
 msgstr "Zona %1"
@@ -21849,23 +21849,23 @@ msgctxt "Luma transition name"
 msgid "Clock Top"
 msgstr "Reloxo superior"
 
-#: src/core.cpp:1066
+#: src/core.cpp:1067
 #, kde-format
 msgid "Your project profile is invalid, rendering might fail."
 msgstr "O perfil de proxecto é incorrecto, a renderización podería fallar."
 
-#: src/core.cpp:1430
+#: src/core.cpp:1431
 #, kde-format
 msgid "Loading clips"
 msgstr "Cargando os fragmentos"
 
-#: src/core.cpp:1925
+#: src/core.cpp:1926
 #, fuzzy, kde-format
 #| msgid "Marker 2"
 msgid "Marker %1"
 msgstr "Marcador 2"
 
-#: src/core.cpp:2287
+#: src/core.cpp:2288
 #, kde-format
 msgid ""
 "This will open a browser to display Kdenlive's online documentation at the "
@@ -21876,12 +21876,12 @@ msgstr ""
 "no seguinte URL:\n"
 " %1"
 
-#: src/core.cpp:2288 src/core.cpp:2299
+#: src/core.cpp:2289 src/core.cpp:2300
 #, kde-format
 msgid "Open Browser"
 msgstr "Abrir o navegador"
 
-#: src/core.cpp:2298
+#: src/core.cpp:2299
 #, fuzzy, kde-format
 #| msgid ""
 #| "This will open a browser to display Kdenlive's online documentation at "
@@ -22315,8 +22315,8 @@ msgstr "Exportar os datos das guías"
 #: src/project/dialogs/archivewidget.cpp:908
 #: src/project/projectmanager.cpp:1981 src/project/projectmanager.cpp:1987
 #: src/render/renderrequest.cpp:324
-#: src/renderpresets/renderpresetrepository.cpp:424
-#: src/renderpresets/renderpresetrepository.cpp:480
+#: src/renderpresets/renderpresetrepository.cpp:421
+#: src/renderpresets/renderpresetrepository.cpp:477
 #: src/timeline2/view/timelinecontroller.cpp:5475
 #: src/timeline2/view/timelinecontroller.cpp:5480
 #: src/titler/titlewidget.cpp:2347
@@ -22420,7 +22420,7 @@ msgstr "Ante a dúbida, probe:<br/><b>Unicode (UTF-8)</b>."
 
 #: src/dialogs/importsubtitle.cpp:46 src/dialogs/importsubtitle.cpp:79
 #: src/project/dialogs/guideslist.cpp:406 src/project/projectmanager.cpp:1870
-#: src/renderpresets/renderpresetrepository.cpp:357
+#: src/renderpresets/renderpresetrepository.cpp:354
 #, kde-format
 msgid "Cannot read file %1"
 msgstr "Non é posíbel ler o ficheiro %1"
@@ -23227,7 +23227,7 @@ msgstr "Miscelánea"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:220
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:903
-#: src/doc/documentvalidator.cpp:2511
+#: src/doc/documentvalidator.cpp:2521
 #: src/transitions/transitionsrepository.cpp:225
 #, kde-format
 msgid "auto"
@@ -25758,7 +25758,7 @@ msgstr ""
 msgid "Update Text Clips"
 msgstr "Actualizar os fragmentos de texto"
 
-#: src/doc/documentvalidator.cpp:722 src/doc/documentvalidator.cpp:2502
+#: src/doc/documentvalidator.cpp:722 src/doc/documentvalidator.cpp:2512
 #, kde-format
 msgid "Convert"
 msgstr "Converter"
@@ -25773,7 +25773,7 @@ msgstr "Non é posíbel recuperar este ficheiro de proxecto"
 msgid "extra audio"
 msgstr "son adicional"
 
-#: src/doc/documentvalidator.cpp:2199
+#: src/doc/documentvalidator.cpp:2209
 #, kde-format
 msgid ""
 "The subtitle file:<br/>%1<br/>already exists. Do you want to overwrite it?"
@@ -25782,12 +25782,12 @@ msgstr ""
 "%1<br/>\n"
 "xa existe. Quéreo substituír?"
 
-#: src/doc/documentvalidator.cpp:2200 src/mainwindow.cpp:3813
+#: src/doc/documentvalidator.cpp:2210 src/mainwindow.cpp:3813
 #, kde-format
 msgid "Overwrite"
 msgstr "Sobrescribir"
 
-#: src/doc/documentvalidator.cpp:2500
+#: src/doc/documentvalidator.cpp:2510
 #, kde-format
 msgid ""
 "The project file uses some GPU effects. GPU acceleration is not currently "
@@ -25800,14 +25800,14 @@ msgstr ""
 "Quere converter o proxecto a unha versión que non use a GPU?\n"
 "A conversión podería ocasionar unha perda de datos."
 
-#: src/doc/documentvalidator.cpp:2595
+#: src/doc/documentvalidator.cpp:2605
 #, kde-format
 msgid "The following filters/transitions were converted to non GPU versions:"
 msgstr ""
 "Os seguintes filtros e transicións convertéronse aos seus equivalentes que "
 "non fan uso da GPU:"
 
-#: src/doc/documentvalidator.cpp:2598
+#: src/doc/documentvalidator.cpp:2608
 #, kde-format
 msgid "The following filters/transitions were deleted from the project:"
 msgstr "Os seguintes filtros e transicións elimináronse do proxecto:"
@@ -33645,12 +33645,12 @@ msgstr "Personalizado"
 msgid "10 Bit"
 msgstr ""
 
-#: src/renderpresets/renderpresetrepository.cpp:393
+#: src/renderpresets/renderpresetrepository.cpp:390
 #, kde-format
 msgid "Preset already exists"
 msgstr "A predefinición xa existe"
 
-#: src/renderpresets/renderpresetrepository.cpp:394
+#: src/renderpresets/renderpresetrepository.cpp:391
 #, kde-format
 msgid ""
 "This preset name already exists. Change the name if you do not want to "

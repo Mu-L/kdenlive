@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 16.08.0\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-25 02:43+0000\n"
+"POT-Creation-Date: 2026-04-26 02:37+0000\n"
 "PO-Revision-Date: 2025-12-16 22:24+0900\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Traditional Chinese <zh-l10n@lists.slat.org>\n"
@@ -7109,7 +7109,7 @@ msgstr "持續時間"
 
 #. i18n: ectx: Menu (subtitles)
 #: data/effects/avfilter/subtitles.xml:4 src/bin/model/subtitlemodel.cpp:88
-#: src/core.cpp:1120 src/kdenliveui.rc:192 src/mainwindow.cpp:270
+#: src/core.cpp:1121 src/kdenliveui.rc:192 src/mainwindow.cpp:270
 #: src/project/dialogs/archivewidget.cpp:105
 #: src/project/dialogs/projectsettings.cpp:434
 #, kde-format
@@ -16511,7 +16511,7 @@ msgstr "風格"
 msgid "Motion"
 msgstr "動態"
 
-#: data/kdenliveeffectscategory.rc:54 src/doc/documentvalidator.cpp:2502
+#: data/kdenliveeffectscategory.rc:54 src/doc/documentvalidator.cpp:2512
 #, kde-format
 msgid "GPU Effects"
 msgstr "GPU 效果"
@@ -18945,7 +18945,7 @@ msgstr "缺乏來源素材"
 #: src/bin/bin.cpp:2182 src/bin/bin.cpp:2879
 #: src/effects/effectlist/view/effectlistwidget.cpp:185
 #: src/renderpresets/renderpresetrepository.cpp:169
-#: src/renderpresets/renderpresetrepository.cpp:474
+#: src/renderpresets/renderpresetrepository.cpp:471
 #, kde-format
 msgid "Unable to write to file %1"
 msgstr "無法寫入到檔案 %1"
@@ -19499,7 +19499,7 @@ msgstr "請設定用於開啟音訊檔案的應用程式"
 #: src/jobs/filtertask.cpp:98 src/jobs/filtertask.cpp:139
 #: src/layouts/layoutmanagerdialog.cpp:212
 #: src/profiles/profilerepository.cpp:172
-#: src/renderpresets/renderpresetrepository.cpp:418
+#: src/renderpresets/renderpresetrepository.cpp:415
 #, kde-format
 msgid "Cannot open file %1"
 msgstr "無法開啟檔案 %1"
@@ -20281,7 +20281,7 @@ msgstr "讀取專案素材中…"
 msgid "Loading project clips…"
 msgstr "載入專案素材中…"
 
-#: src/bin/projectsubclip.cpp:43 src/doc/documentvalidator.cpp:2399
+#: src/bin/projectsubclip.cpp:43 src/doc/documentvalidator.cpp:2409
 #, kde-format
 msgid "Zone %1"
 msgstr "區段 %1"
@@ -20629,22 +20629,22 @@ msgctxt "Luma transition name"
 msgid "Clock Top"
 msgstr "時鐘頂部"
 
-#: src/core.cpp:1066
+#: src/core.cpp:1067
 #, kde-format
 msgid "Your project profile is invalid, rendering might fail."
 msgstr "您的專案編碼方案是無效的，算繪可能會失敗。"
 
-#: src/core.cpp:1430
+#: src/core.cpp:1431
 #, kde-format
 msgid "Loading clips"
 msgstr "載入素材中"
 
-#: src/core.cpp:1925
+#: src/core.cpp:1926
 #, kde-format
 msgid "Marker %1"
 msgstr "標記 %1"
 
-#: src/core.cpp:2287
+#: src/core.cpp:2288
 #, kde-format
 msgid ""
 "This will open a browser to display Kdenlive's online documentation at the "
@@ -20654,12 +20654,12 @@ msgstr ""
 "這會開啟瀏覽器來在以下網址查看 Kdenlive 的線上說明文件：\n"
 " %1"
 
-#: src/core.cpp:2288 src/core.cpp:2299
+#: src/core.cpp:2289 src/core.cpp:2300
 #, kde-format
 msgid "Open Browser"
 msgstr "開啟瀏覽器"
 
-#: src/core.cpp:2298
+#: src/core.cpp:2299
 #, fuzzy, kde-format
 #| msgid ""
 #| "This will open a browser to display Kdenlive's online documentation at "
@@ -21076,8 +21076,8 @@ msgstr "匯出標記資料"
 #: src/project/dialogs/archivewidget.cpp:908
 #: src/project/projectmanager.cpp:1981 src/project/projectmanager.cpp:1987
 #: src/render/renderrequest.cpp:324
-#: src/renderpresets/renderpresetrepository.cpp:424
-#: src/renderpresets/renderpresetrepository.cpp:480
+#: src/renderpresets/renderpresetrepository.cpp:421
+#: src/renderpresets/renderpresetrepository.cpp:477
 #: src/timeline2/view/timelinecontroller.cpp:5475
 #: src/timeline2/view/timelinecontroller.cpp:5480
 #: src/titler/titlewidget.cpp:2347
@@ -21168,7 +21168,7 @@ msgstr "若不確定，請試試看：<br/><b>Unicode (UTF-8)</b>。"
 
 #: src/dialogs/importsubtitle.cpp:46 src/dialogs/importsubtitle.cpp:79
 #: src/project/dialogs/guideslist.cpp:406 src/project/projectmanager.cpp:1870
-#: src/renderpresets/renderpresetrepository.cpp:357
+#: src/renderpresets/renderpresetrepository.cpp:354
 #, kde-format
 msgid "Cannot read file %1"
 msgstr "無法讀取檔案 %1"
@@ -21961,7 +21961,7 @@ msgstr "其它"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:220
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:903
-#: src/doc/documentvalidator.cpp:2511
+#: src/doc/documentvalidator.cpp:2521
 #: src/transitions/transitionsrepository.cpp:225
 #, kde-format
 msgid "auto"
@@ -24392,7 +24392,7 @@ msgstr ""
 msgid "Update Text Clips"
 msgstr "更新文字素材"
 
-#: src/doc/documentvalidator.cpp:722 src/doc/documentvalidator.cpp:2502
+#: src/doc/documentvalidator.cpp:722 src/doc/documentvalidator.cpp:2512
 #, kde-format
 msgid "Convert"
 msgstr "轉換"
@@ -24407,18 +24407,18 @@ msgstr "無法復原這個專案檔案"
 msgid "extra audio"
 msgstr "額外音訊"
 
-#: src/doc/documentvalidator.cpp:2199
+#: src/doc/documentvalidator.cpp:2209
 #, kde-format
 msgid ""
 "The subtitle file:<br/>%1<br/>already exists. Do you want to overwrite it?"
 msgstr "字幕檔案：<br/>%1<br/>已經存在。您是否要覆寫它?"
 
-#: src/doc/documentvalidator.cpp:2200 src/mainwindow.cpp:3813
+#: src/doc/documentvalidator.cpp:2210 src/mainwindow.cpp:3813
 #, kde-format
 msgid "Overwrite"
 msgstr "覆寫"
 
-#: src/doc/documentvalidator.cpp:2500
+#: src/doc/documentvalidator.cpp:2510
 #, kde-format
 msgid ""
 "The project file uses some GPU effects. GPU acceleration is not currently "
@@ -24430,12 +24430,12 @@ msgstr ""
 "您要將它轉換為不需要 GPU 的版本嗎？\n"
 "這可能會造成資料遺失。"
 
-#: src/doc/documentvalidator.cpp:2595
+#: src/doc/documentvalidator.cpp:2605
 #, kde-format
 msgid "The following filters/transitions were converted to non GPU versions:"
 msgstr "以下過濾器/轉場特效已轉換為不使用 GPU 的版本："
 
-#: src/doc/documentvalidator.cpp:2598
+#: src/doc/documentvalidator.cpp:2608
 #, kde-format
 msgid "The following filters/transitions were deleted from the project:"
 msgstr "以下過濾器/轉場特效已自專案中刪除："
@@ -31930,12 +31930,12 @@ msgstr "自訂"
 msgid "10 Bit"
 msgstr "10 位元"
 
-#: src/renderpresets/renderpresetrepository.cpp:393
+#: src/renderpresets/renderpresetrepository.cpp:390
 #, kde-format
 msgid "Preset already exists"
 msgstr "預設檔已經存在"
 
-#: src/renderpresets/renderpresetrepository.cpp:394
+#: src/renderpresets/renderpresetrepository.cpp:391
 #, kde-format
 msgid ""
 "This preset name already exists. Change the name if you do not want to "

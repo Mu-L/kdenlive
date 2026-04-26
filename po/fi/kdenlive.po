@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-25 02:43+0000\n"
+"POT-Creation-Date: 2026-04-26 02:37+0000\n"
 "PO-Revision-Date: 2026-02-09 16:55+0200\n"
 "Last-Translator: Tommi Nieminen <translator@legisign.org>\n"
 "Language-Team: Finnish <kde-i18n-doc@kde.org>\n"
@@ -7448,7 +7448,7 @@ msgstr "Kesto"
 
 #. i18n: ectx: Menu (subtitles)
 #: data/effects/avfilter/subtitles.xml:4 src/bin/model/subtitlemodel.cpp:88
-#: src/core.cpp:1120 src/kdenliveui.rc:192 src/mainwindow.cpp:270
+#: src/core.cpp:1121 src/kdenliveui.rc:192 src/mainwindow.cpp:270
 #: src/project/dialogs/archivewidget.cpp:105
 #: src/project/dialogs/projectsettings.cpp:434
 #, kde-format
@@ -17380,7 +17380,7 @@ msgstr "Tyyli"
 msgid "Motion"
 msgstr "Liike"
 
-#: data/kdenliveeffectscategory.rc:54 src/doc/documentvalidator.cpp:2502
+#: data/kdenliveeffectscategory.rc:54 src/doc/documentvalidator.cpp:2512
 #, kde-format
 msgid "GPU Effects"
 msgstr "GPU-tehosteet"
@@ -19909,7 +19909,7 @@ msgstr "Lähdeleike puuttuu"
 #: src/bin/bin.cpp:2182 src/bin/bin.cpp:2879
 #: src/effects/effectlist/view/effectlistwidget.cpp:185
 #: src/renderpresets/renderpresetrepository.cpp:169
-#: src/renderpresets/renderpresetrepository.cpp:474
+#: src/renderpresets/renderpresetrepository.cpp:471
 #, kde-format
 msgid "Unable to write to file %1"
 msgstr "Tiedostoa %1 ei voitu kirjoittaa"
@@ -20477,7 +20477,7 @@ msgstr "Aseta oletussovellus äänitiedostojen avaamiseen"
 #: src/jobs/filtertask.cpp:98 src/jobs/filtertask.cpp:139
 #: src/layouts/layoutmanagerdialog.cpp:212
 #: src/profiles/profilerepository.cpp:172
-#: src/renderpresets/renderpresetrepository.cpp:418
+#: src/renderpresets/renderpresetrepository.cpp:415
 #, kde-format
 msgid "Cannot open file %1"
 msgstr "Tiedostoa %1 ei voi avata"
@@ -21273,7 +21273,7 @@ msgstr "Luetaan projektin leikkeitä…"
 msgid "Loading project clips…"
 msgstr "Ladataan projektin leikkeitä…"
 
-#: src/bin/projectsubclip.cpp:43 src/doc/documentvalidator.cpp:2399
+#: src/bin/projectsubclip.cpp:43 src/doc/documentvalidator.cpp:2409
 #, kde-format
 msgid "Zone %1"
 msgstr "Vyöhyke %1"
@@ -21625,23 +21625,23 @@ msgctxt "Luma transition name"
 msgid "Clock Top"
 msgstr "Kello myötäpäivään"
 
-#: src/core.cpp:1066
+#: src/core.cpp:1067
 #, kde-format
 msgid "Your project profile is invalid, rendering might fail."
 msgstr "Projektin profiili on virheellinen: hahmonnus voi epäonnistua."
 
-#: src/core.cpp:1430
+#: src/core.cpp:1431
 #, kde-format
 msgid "Loading clips"
 msgstr "Avataan leikkeitä"
 
-#: src/core.cpp:1925
+#: src/core.cpp:1926
 #, fuzzy, kde-format
 #| msgid "Marker 2"
 msgid "Marker %1"
 msgstr "Merkki 2"
 
-#: src/core.cpp:2287
+#: src/core.cpp:2288
 #, kde-format
 msgid ""
 "This will open a browser to display Kdenlive's online documentation at the "
@@ -21651,12 +21651,12 @@ msgstr ""
 "Tämä avaa selaimen ja näyttää Kdenliven online-ohjeet osoitteessa:\n"
 " %1"
 
-#: src/core.cpp:2288 src/core.cpp:2299
+#: src/core.cpp:2289 src/core.cpp:2300
 #, kde-format
 msgid "Open Browser"
 msgstr "Avaa selaimeen"
 
-#: src/core.cpp:2298
+#: src/core.cpp:2299
 #, fuzzy, kde-format
 #| msgid ""
 #| "This will open a browser to display Kdenlive's online documentation at "
@@ -22087,8 +22087,8 @@ msgstr "Vie opastetiedot"
 #: src/project/dialogs/archivewidget.cpp:908
 #: src/project/projectmanager.cpp:1981 src/project/projectmanager.cpp:1987
 #: src/render/renderrequest.cpp:324
-#: src/renderpresets/renderpresetrepository.cpp:424
-#: src/renderpresets/renderpresetrepository.cpp:480
+#: src/renderpresets/renderpresetrepository.cpp:421
+#: src/renderpresets/renderpresetrepository.cpp:477
 #: src/timeline2/view/timelinecontroller.cpp:5475
 #: src/timeline2/view/timelinecontroller.cpp:5480
 #: src/titler/titlewidget.cpp:2347
@@ -22191,7 +22191,7 @@ msgstr "Ellet ole varma, kokeile:<br/><b>Unicode (UTF-8)</b>."
 
 #: src/dialogs/importsubtitle.cpp:46 src/dialogs/importsubtitle.cpp:79
 #: src/project/dialogs/guideslist.cpp:406 src/project/projectmanager.cpp:1870
-#: src/renderpresets/renderpresetrepository.cpp:357
+#: src/renderpresets/renderpresetrepository.cpp:354
 #, kde-format
 msgid "Cannot read file %1"
 msgstr "Tiedostoa %1 ei voi lukea"
@@ -22991,7 +22991,7 @@ msgstr "Sekalaiset"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:220
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:903
-#: src/doc/documentvalidator.cpp:2511
+#: src/doc/documentvalidator.cpp:2521
 #: src/transitions/transitionsrepository.cpp:225
 #, kde-format
 msgid "auto"
@@ -25449,7 +25449,7 @@ msgstr ""
 msgid "Update Text Clips"
 msgstr "Päivitä tekstileikkeet"
 
-#: src/doc/documentvalidator.cpp:722 src/doc/documentvalidator.cpp:2502
+#: src/doc/documentvalidator.cpp:722 src/doc/documentvalidator.cpp:2512
 #, kde-format
 msgid "Convert"
 msgstr "Muunna"
@@ -25464,18 +25464,18 @@ msgstr "Tätä projektitia ei voida palauttaa"
 msgid "extra audio"
 msgstr "lisä-ääni"
 
-#: src/doc/documentvalidator.cpp:2199
+#: src/doc/documentvalidator.cpp:2209
 #, kde-format
 msgid ""
 "The subtitle file:<br/>%1<br/>already exists. Do you want to overwrite it?"
 msgstr "Tekstitystiedosto<br/>%1<br/>on jo olemassa. Haluatko korvata sen?"
 
-#: src/doc/documentvalidator.cpp:2200 src/mainwindow.cpp:3813
+#: src/doc/documentvalidator.cpp:2210 src/mainwindow.cpp:3813
 #, kde-format
 msgid "Overwrite"
 msgstr "Korvaa"
 
-#: src/doc/documentvalidator.cpp:2500
+#: src/doc/documentvalidator.cpp:2510
 #, kde-format
 msgid ""
 "The project file uses some GPU effects. GPU acceleration is not currently "
@@ -25488,12 +25488,12 @@ msgstr ""
 "Haluatko muuntaa projektin versioksi ilman GPU:ta?\n"
 "Tämä voi johtaa tietojen katoamiseen."
 
-#: src/doc/documentvalidator.cpp:2595
+#: src/doc/documentvalidator.cpp:2605
 #, kde-format
 msgid "The following filters/transitions were converted to non GPU versions:"
 msgstr "Seuraavat suodattimet/siirtymät muutettiin versioksi ilman GPU:ta:"
 
-#: src/doc/documentvalidator.cpp:2598
+#: src/doc/documentvalidator.cpp:2608
 #, kde-format
 msgid "The following filters/transitions were deleted from the project:"
 msgstr "Seuraavat suodattimet/siirtymät poistettiin projektista:"
@@ -33226,12 +33226,12 @@ msgstr "Mukautettu"
 msgid "10 Bit"
 msgstr ""
 
-#: src/renderpresets/renderpresetrepository.cpp:393
+#: src/renderpresets/renderpresetrepository.cpp:390
 #, kde-format
 msgid "Preset already exists"
 msgstr "Esiasetus on jo olemassa"
 
-#: src/renderpresets/renderpresetrepository.cpp:394
+#: src/renderpresets/renderpresetrepository.cpp:391
 #, kde-format
 msgid ""
 "This preset name already exists. Change the name if you do not want to "
