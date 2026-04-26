@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 18.12\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-25 00:44+0000\n"
+"POT-Creation-Date: 2026-04-26 00:43+0000\n"
 "PO-Revision-Date: 2026-03-24 17:29+0300\n"
 "Last-Translator: Olesya Gerasimenko <goa@altlinux.org>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -7331,7 +7331,7 @@ msgstr "Длительность"
 
 #. i18n: ectx: Menu (subtitles)
 #: data/effects/avfilter/subtitles.xml:4 src/bin/model/subtitlemodel.cpp:88
-#: src/core.cpp:1120 src/kdenliveui.rc:193 src/mainwindow.cpp:270
+#: src/core.cpp:1121 src/kdenliveui.rc:193 src/mainwindow.cpp:270
 #: src/project/dialogs/archivewidget.cpp:105
 #: src/project/dialogs/projectsettings.cpp:434
 #, kde-format
@@ -9764,7 +9764,7 @@ msgstr "Коррекция RGB"
 msgid "Simple color adjustment"
 msgstr "Простая цветокоррекция"
 
-#: data/effects/frei0r/frei0r_coloradj_rgb.xml:8 src/doc/kdenlivedoc.cpp:2618
+#: data/effects/frei0r/frei0r_coloradj_rgb.xml:8 src/doc/kdenlivedoc.cpp:2621
 #: src/scopes/colorscopes/colorplaneexport.cpp:231
 #: src/scopes/colorscopes/colorplaneexport.cpp:259
 #, kde-format
@@ -9773,7 +9773,7 @@ msgstr "Красный"
 
 #: data/effects/frei0r/frei0r_coloradj_rgb.xml:11
 #: data/effects/hsl_primaries.xml:18 data/effects/hsl_primaries.xml:36
-#: data/effects/hsl_primaries.xml:54 src/doc/kdenlivedoc.cpp:2619
+#: data/effects/hsl_primaries.xml:54 src/doc/kdenlivedoc.cpp:2622
 #: src/scopes/colorscopes/colorplaneexport.cpp:232
 #: src/scopes/colorscopes/colorplaneexport.cpp:260
 #: src/scopes/colorscopes/vectorscope.cpp:68
@@ -9784,7 +9784,7 @@ msgstr "Зелёный"
 
 #: data/effects/frei0r/frei0r_coloradj_rgb.xml:14
 #: data/effects/hsl_primaries.xml:24 data/effects/hsl_primaries.xml:42
-#: data/effects/hsl_primaries.xml:60 src/doc/kdenlivedoc.cpp:2620
+#: data/effects/hsl_primaries.xml:60 src/doc/kdenlivedoc.cpp:2623
 #: src/scopes/colorscopes/colorplaneexport.cpp:233
 #: src/scopes/colorscopes/colorplaneexport.cpp:261
 #, kde-format
@@ -13881,14 +13881,14 @@ msgid "<b><u>Hue Shift</u></b> Red"
 msgstr "Смещение оттенка красного"
 
 #: data/effects/hsl_primaries.xml:15 data/effects/hsl_primaries.xml:33
-#: data/effects/hsl_primaries.xml:51 src/doc/kdenlivedoc.cpp:2621
+#: data/effects/hsl_primaries.xml:51 src/doc/kdenlivedoc.cpp:2624
 #: src/scopes/colorscopes/waveform.cpp:47
 #, kde-format
 msgid "Yellow"
 msgstr "Жёлтый"
 
 #: data/effects/hsl_primaries.xml:21 data/effects/hsl_primaries.xml:39
-#: data/effects/hsl_primaries.xml:57 src/doc/kdenlivedoc.cpp:2622
+#: data/effects/hsl_primaries.xml:57 src/doc/kdenlivedoc.cpp:2625
 #, kde-format
 msgid "Cyan"
 msgstr "Бирюзовый"
@@ -16970,7 +16970,7 @@ msgstr "Стилизация"
 msgid "Motion"
 msgstr "Движение"
 
-#: data/kdenliveeffectscategory.rc:54 src/doc/documentvalidator.cpp:2502
+#: data/kdenliveeffectscategory.rc:54 src/doc/documentvalidator.cpp:2512
 #, kde-format
 msgid "GPU Effects"
 msgstr "Эффекты GPU"
@@ -19450,7 +19450,7 @@ msgstr "Отсутствует исходный клип"
 #: src/bin/bin.cpp:2190 src/bin/bin.cpp:2887
 #: src/effects/effectlist/view/effectlistwidget.cpp:185
 #: src/renderpresets/renderpresetrepository.cpp:169
-#: src/renderpresets/renderpresetrepository.cpp:474
+#: src/renderpresets/renderpresetrepository.cpp:471
 #, kde-format
 msgid "Unable to write to file %1"
 msgstr "Не удалось осуществить запись в файл «%1»"
@@ -20027,7 +20027,7 @@ msgstr ""
 #: src/jobs/filtertask.cpp:98 src/jobs/filtertask.cpp:139
 #: src/layouts/layoutmanagerdialog.cpp:212
 #: src/profiles/profilerepository.cpp:205
-#: src/renderpresets/renderpresetrepository.cpp:418
+#: src/renderpresets/renderpresetrepository.cpp:415
 #, kde-format
 msgid "Cannot open file %1"
 msgstr "Не удалось открыть файл «%1»"
@@ -20823,7 +20823,7 @@ msgstr "Чтение клипов проекта…"
 msgid "Loading project clips…"
 msgstr "Загрузка клипов проекта…"
 
-#: src/bin/projectsubclip.cpp:43 src/doc/documentvalidator.cpp:2399
+#: src/bin/projectsubclip.cpp:43 src/doc/documentvalidator.cpp:2409
 #, kde-format
 msgid "Zone %1"
 msgstr "Участок %1"
@@ -21176,22 +21176,22 @@ msgctxt "Luma transition name"
 msgid "Clock Top"
 msgstr "Часы"
 
-#: src/core.cpp:1066
+#: src/core.cpp:1067
 #, kde-format
 msgid "Your project profile is invalid, rendering might fail."
 msgstr "Недопустимый профиль проекта, возможен сбой во время сборки."
 
-#: src/core.cpp:1430
+#: src/core.cpp:1431
 #, kde-format
 msgid "Loading clips"
 msgstr "Загрузка клипов"
 
-#: src/core.cpp:1925
+#: src/core.cpp:1926
 #, fuzzy, kde-format
 msgid "Marker %1"
 msgstr "Маркер 2"
 
-#: src/core.cpp:2287
+#: src/core.cpp:2288
 #, kde-format
 msgid ""
 "This will open a browser to display Kdenlive's online documentation at the "
@@ -21202,12 +21202,12 @@ msgstr ""
 "по следующему адресу:\n"
 " %1"
 
-#: src/core.cpp:2288 src/core.cpp:2299
+#: src/core.cpp:2289 src/core.cpp:2300
 #, kde-format
 msgid "Open Browser"
 msgstr "Открыть браузер"
 
-#: src/core.cpp:2298
+#: src/core.cpp:2299
 #, fuzzy, kde-format
 msgid ""
 "This will open a browser to display a link:\n"
@@ -21659,8 +21659,8 @@ msgstr "Экспорт данных направляющих"
 #: src/project/dialogs/archivewidget.cpp:908
 #: src/project/projectmanager.cpp:1981 src/project/projectmanager.cpp:1987
 #: src/render/renderrequest.cpp:324
-#: src/renderpresets/renderpresetrepository.cpp:424
-#: src/renderpresets/renderpresetrepository.cpp:480
+#: src/renderpresets/renderpresetrepository.cpp:421
+#: src/renderpresets/renderpresetrepository.cpp:477
 #: src/timeline2/view/timelinecontroller.cpp:5624
 #: src/timeline2/view/timelinecontroller.cpp:5629
 #: src/titler/titlewidget.cpp:2360
@@ -21753,7 +21753,7 @@ msgstr ""
 
 #: src/dialogs/importsubtitle.cpp:46 src/dialogs/importsubtitle.cpp:79
 #: src/project/dialogs/guideslist.cpp:406 src/project/projectmanager.cpp:1870
-#: src/renderpresets/renderpresetrepository.cpp:357
+#: src/renderpresets/renderpresetrepository.cpp:354
 #, kde-format
 msgid "Cannot read file %1"
 msgstr "Не удалось прочитать файл %1"
@@ -22560,7 +22560,7 @@ msgstr "Разное"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:237
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:927
-#: src/doc/documentvalidator.cpp:2511
+#: src/doc/documentvalidator.cpp:2521
 #: src/transitions/transitionsrepository.cpp:225
 #, kde-format
 msgid "auto"
@@ -25036,7 +25036,7 @@ msgstr ""
 msgid "Update Text Clips"
 msgstr "Обновить текстовые клипы"
 
-#: src/doc/documentvalidator.cpp:722 src/doc/documentvalidator.cpp:2502
+#: src/doc/documentvalidator.cpp:722 src/doc/documentvalidator.cpp:2512
 #, kde-format
 msgid "Convert"
 msgstr "Преобразовать"
@@ -25051,18 +25051,18 @@ msgstr "Не удалось восстановить файл проекта"
 msgid "extra audio"
 msgstr "дополнительный звук"
 
-#: src/doc/documentvalidator.cpp:2199
+#: src/doc/documentvalidator.cpp:2209
 #, kde-format
 msgid ""
 "The subtitle file:<br/>%1<br/>already exists. Do you want to overwrite it?"
 msgstr "Файл с субтитрами уже существует:<br/>%1<br/>. Перезаписать его?"
 
-#: src/doc/documentvalidator.cpp:2200 src/mainwindow.cpp:3892
+#: src/doc/documentvalidator.cpp:2210 src/mainwindow.cpp:3892
 #, kde-format
 msgid "Overwrite"
 msgstr "Заменить"
 
-#: src/doc/documentvalidator.cpp:2500
+#: src/doc/documentvalidator.cpp:2510
 #, kde-format
 msgid ""
 "The project file uses some GPU effects. GPU acceleration is not currently "
@@ -25075,14 +25075,14 @@ msgstr ""
 "Преобразовать проект в версию, не требующую использования GPU?\n"
 "Это может привести к потере данных."
 
-#: src/doc/documentvalidator.cpp:2595
+#: src/doc/documentvalidator.cpp:2605
 #, kde-format
 msgid "The following filters/transitions were converted to non GPU versions:"
 msgstr ""
 "Следующие фильтры/переходы были преобразованы в версии, которые не требуют "
 "использования GPU:"
 
-#: src/doc/documentvalidator.cpp:2598
+#: src/doc/documentvalidator.cpp:2608
 #, kde-format
 msgid "The following filters/transitions were deleted from the project:"
 msgstr "Следующие фильтры/переходы были удалены из проекта:"
@@ -25177,7 +25177,7 @@ msgstr ""
 msgid "Error moving project folder: %1"
 msgstr "Ошибка при перемещении папки проекта: %1"
 
-#: src/doc/kdenlivedoc.cpp:1135 src/doc/kdenlivedoc.cpp:2579
+#: src/doc/kdenlivedoc.cpp:1135 src/doc/kdenlivedoc.cpp:2582
 #: src/project/dialogs/archivewidget.cpp:248
 #, kde-format
 msgid "Untitled"
@@ -25273,14 +25273,14 @@ msgid ""
 "discarded."
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:1900
+#: src/doc/kdenlivedoc.cpp:1903
 #, fuzzy, kde-format
 #| msgid "Warning"
 msgctxt "@title:window"
 msgid "Warning"
 msgstr "Предупреждение"
 
-#: src/doc/kdenlivedoc.cpp:1902
+#: src/doc/kdenlivedoc.cpp:1905
 #, kde-format
 msgid ""
 "Project file <b>%1</b> contains unexpected parameters for proxy creation. "
@@ -25288,7 +25288,7 @@ msgid ""
 "b></code><br><br>These parameters will be discarded unless you allow them."
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:1993
+#: src/doc/kdenlivedoc.cpp:1996
 #, kde-format
 msgctxt "@label:textbox"
 msgid ""
@@ -25298,14 +25298,14 @@ msgstr ""
 "В проекте используется нестандартная частота кадров (%1); это приведёт к "
 "некорректному размещению клипов и смещению кадров."
 
-#: src/doc/kdenlivedoc.cpp:2112
+#: src/doc/kdenlivedoc.cpp:2115
 #, kde-format
 msgid "Warning: non standard fps, adjusting to closest integer. "
 msgstr ""
 "Предупреждение: нестандартная кадровая частота, выполнена корректировка до "
 "ближайшего целого числа."
 
-#: src/doc/kdenlivedoc.cpp:2130
+#: src/doc/kdenlivedoc.cpp:2133
 #, kde-format
 msgid ""
 "Your default project profile is %1, but your clip's profile (%2) is %3.\n"
@@ -25315,43 +25315,43 @@ msgstr ""
 "%3.\n"
 "Изменить профиль по умолчанию для будущих проектов?"
 
-#: src/doc/kdenlivedoc.cpp:2132
+#: src/doc/kdenlivedoc.cpp:2135
 #, kde-format
 msgid "Change default project profile"
 msgstr "Изменить профиль проекта по умолчанию"
 
-#: src/doc/kdenlivedoc.cpp:2132
+#: src/doc/kdenlivedoc.cpp:2135
 #, kde-format
 msgid "Change default to %1"
 msgstr "Изменить профиль по умолчанию на %1"
 
-#: src/doc/kdenlivedoc.cpp:2133
+#: src/doc/kdenlivedoc.cpp:2136
 #, kde-format
 msgid "Keep current default %1"
 msgstr "Оставить текущий профиль по умолчанию %1"
 
-#: src/doc/kdenlivedoc.cpp:2133
+#: src/doc/kdenlivedoc.cpp:2136
 #, kde-format
 msgid "Ask me later"
 msgstr "Напомнить позже"
 
-#: src/doc/kdenlivedoc.cpp:2153
+#: src/doc/kdenlivedoc.cpp:2156
 #, kde-format
 msgid "Switch"
 msgstr "Переключить"
 
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#: src/doc/kdenlivedoc.cpp:2155 src/ui/titlewidget_ui.ui:186
+#: src/doc/kdenlivedoc.cpp:2158 src/ui/titlewidget_ui.ui:186
 #, kde-format
 msgid "Cancel"
 msgstr "Отменить"
 
-#: src/doc/kdenlivedoc.cpp:2157
+#: src/doc/kdenlivedoc.cpp:2160
 #, kde-format
 msgid "Switch to clip (%1) profile %2?"
 msgstr "Переключить на профиль %2 клипа (%1)?"
 
-#: src/doc/kdenlivedoc.cpp:2162
+#: src/doc/kdenlivedoc.cpp:2165
 #, kde-format
 msgid ""
 "\n"
@@ -25360,7 +25360,7 @@ msgstr ""
 "\n"
 "Для профиля используется кадровая частота оригинала %1"
 
-#: src/doc/kdenlivedoc.cpp:2166
+#: src/doc/kdenlivedoc.cpp:2169
 #, kde-format
 msgid ""
 "No profile found for your clip %1.\n"
@@ -25370,7 +25370,7 @@ msgstr ""
 "Создать и использовать новый профиль (%2×%3, %4 кадров/с)?%5"
 
 #. i18n: ectx: property (text), widget (QLabel, label_category)
-#: src/doc/kdenlivedoc.cpp:2976 src/ui/markerdialog_ui.ui:121
+#: src/doc/kdenlivedoc.cpp:2979 src/ui/markerdialog_ui.ui:121
 #: src/ui/multiplemarkerdialog_ui.ui:68
 #, kde-format
 msgid "Category"
@@ -32858,12 +32858,12 @@ msgstr "Пользовательские"
 msgid "10 Bit"
 msgstr "10 бит"
 
-#: src/renderpresets/renderpresetrepository.cpp:393
+#: src/renderpresets/renderpresetrepository.cpp:390
 #, kde-format
 msgid "Preset already exists"
 msgstr "Предустановка уже существует"
 
-#: src/renderpresets/renderpresetrepository.cpp:394
+#: src/renderpresets/renderpresetrepository.cpp:391
 #, kde-format
 msgid ""
 "This preset name already exists. Change the name if you do not want to "

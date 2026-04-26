@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-25 00:44+0000\n"
+"POT-Creation-Date: 2026-04-26 00:43+0000\n"
 "PO-Revision-Date: 2024-09-22 14:33+0300\n"
 "Last-Translator: Antonis Geralis <capoiosct@gmail.com>\n"
 "Language-Team: Greek <kde-i18n-el@kde.org>\n"
@@ -7374,7 +7374,7 @@ msgstr "Διάρκεια"
 
 #. i18n: ectx: Menu (subtitles)
 #: data/effects/avfilter/subtitles.xml:4 src/bin/model/subtitlemodel.cpp:88
-#: src/core.cpp:1120 src/kdenliveui.rc:193 src/mainwindow.cpp:270
+#: src/core.cpp:1121 src/kdenliveui.rc:193 src/mainwindow.cpp:270
 #: src/project/dialogs/archivewidget.cpp:105
 #: src/project/dialogs/projectsettings.cpp:434
 #, fuzzy, kde-format
@@ -9812,7 +9812,7 @@ msgstr "Προσαρμογή RGB"
 msgid "Simple color adjustment"
 msgstr "Απλή χρωματική προσαρμογή"
 
-#: data/effects/frei0r/frei0r_coloradj_rgb.xml:8 src/doc/kdenlivedoc.cpp:2618
+#: data/effects/frei0r/frei0r_coloradj_rgb.xml:8 src/doc/kdenlivedoc.cpp:2621
 #: src/scopes/colorscopes/colorplaneexport.cpp:231
 #: src/scopes/colorscopes/colorplaneexport.cpp:259
 #, kde-format
@@ -9821,7 +9821,7 @@ msgstr "Κόκκινο"
 
 #: data/effects/frei0r/frei0r_coloradj_rgb.xml:11
 #: data/effects/hsl_primaries.xml:18 data/effects/hsl_primaries.xml:36
-#: data/effects/hsl_primaries.xml:54 src/doc/kdenlivedoc.cpp:2619
+#: data/effects/hsl_primaries.xml:54 src/doc/kdenlivedoc.cpp:2622
 #: src/scopes/colorscopes/colorplaneexport.cpp:232
 #: src/scopes/colorscopes/colorplaneexport.cpp:260
 #: src/scopes/colorscopes/vectorscope.cpp:68
@@ -9832,7 +9832,7 @@ msgstr "Πράσινο"
 
 #: data/effects/frei0r/frei0r_coloradj_rgb.xml:14
 #: data/effects/hsl_primaries.xml:24 data/effects/hsl_primaries.xml:42
-#: data/effects/hsl_primaries.xml:60 src/doc/kdenlivedoc.cpp:2620
+#: data/effects/hsl_primaries.xml:60 src/doc/kdenlivedoc.cpp:2623
 #: src/scopes/colorscopes/colorplaneexport.cpp:233
 #: src/scopes/colorscopes/colorplaneexport.cpp:261
 #, kde-format
@@ -13843,14 +13843,14 @@ msgid "<b><u>Hue Shift</u></b> Red"
 msgstr "Μετατόπιση απόχρωσης"
 
 #: data/effects/hsl_primaries.xml:15 data/effects/hsl_primaries.xml:33
-#: data/effects/hsl_primaries.xml:51 src/doc/kdenlivedoc.cpp:2621
+#: data/effects/hsl_primaries.xml:51 src/doc/kdenlivedoc.cpp:2624
 #: src/scopes/colorscopes/waveform.cpp:47
 #, kde-format
 msgid "Yellow"
 msgstr "Κίτρινο"
 
 #: data/effects/hsl_primaries.xml:21 data/effects/hsl_primaries.xml:39
-#: data/effects/hsl_primaries.xml:57 src/doc/kdenlivedoc.cpp:2622
+#: data/effects/hsl_primaries.xml:57 src/doc/kdenlivedoc.cpp:2625
 #, kde-format
 msgid "Cyan"
 msgstr ""
@@ -16964,7 +16964,7 @@ msgstr "Σταθεροποίηση"
 msgid "Motion"
 msgstr "Κίνηση"
 
-#: data/kdenliveeffectscategory.rc:54 src/doc/documentvalidator.cpp:2502
+#: data/kdenliveeffectscategory.rc:54 src/doc/documentvalidator.cpp:2512
 #, fuzzy, kde-format
 #| msgid "effect"
 msgid "GPU Effects"
@@ -19563,7 +19563,7 @@ msgstr "Κλιπ που δεν έχει βρεθεί"
 #: src/bin/bin.cpp:2190 src/bin/bin.cpp:2887
 #: src/effects/effectlist/view/effectlistwidget.cpp:185
 #: src/renderpresets/renderpresetrepository.cpp:169
-#: src/renderpresets/renderpresetrepository.cpp:474
+#: src/renderpresets/renderpresetrepository.cpp:471
 #, kde-format
 msgid "Unable to write to file %1"
 msgstr "Αδυναμία εγγραφής στο αρχείο %1"
@@ -20173,7 +20173,7 @@ msgstr ""
 #: src/jobs/filtertask.cpp:98 src/jobs/filtertask.cpp:139
 #: src/layouts/layoutmanagerdialog.cpp:212
 #: src/profiles/profilerepository.cpp:205
-#: src/renderpresets/renderpresetrepository.cpp:418
+#: src/renderpresets/renderpresetrepository.cpp:415
 #, fuzzy, kde-format
 msgid "Cannot open file %1"
 msgstr "Αδυναμία ανοίγματος αρχείου"
@@ -21017,7 +21017,7 @@ msgstr "Φόρτωση έργου"
 msgid "Loading project clips…"
 msgstr "Φόρτωση έργου"
 
-#: src/bin/projectsubclip.cpp:43 src/doc/documentvalidator.cpp:2399
+#: src/bin/projectsubclip.cpp:43 src/doc/documentvalidator.cpp:2409
 #, fuzzy, kde-format
 msgid "Zone %1"
 msgstr "Αρχή ζώνης: %1 "
@@ -21382,7 +21382,7 @@ msgctxt "Luma transition name"
 msgid "Clock Top"
 msgstr ""
 
-#: src/core.cpp:1066
+#: src/core.cpp:1067
 #, fuzzy, kde-format
 #| msgid ""
 #| "Document project folder is invalid, setting it to the default one: %1"
@@ -21391,19 +21391,19 @@ msgstr ""
 "Ο κατάλογος έργου του εγγράφου είναι μη έγκυρος, επαναφορά της προεπιλογής: "
 "%1"
 
-#: src/core.cpp:1430
+#: src/core.cpp:1431
 #, fuzzy, kde-format
 #| msgid "Adding clips"
 msgid "Loading clips"
 msgstr "Προστίθενται κλιπ"
 
-#: src/core.cpp:1925
+#: src/core.cpp:1926
 #, fuzzy, kde-format
 #| msgid "Marker 2"
 msgid "Marker %1"
 msgstr "Δείκτης 2"
 
-#: src/core.cpp:2287
+#: src/core.cpp:2288
 #, kde-format
 msgid ""
 "This will open a browser to display Kdenlive's online documentation at the "
@@ -21411,13 +21411,13 @@ msgid ""
 " %1"
 msgstr ""
 
-#: src/core.cpp:2288 src/core.cpp:2299
+#: src/core.cpp:2289 src/core.cpp:2300
 #, fuzzy, kde-format
 #| msgid "Media players"
 msgid "Open Browser"
 msgstr "Αναπαραγωγείς μέσων"
 
-#: src/core.cpp:2298
+#: src/core.cpp:2299
 #, kde-format
 msgid ""
 "This will open a browser to display a link:\n"
@@ -21857,8 +21857,8 @@ msgstr "Προσθήκη δείκτη"
 #: src/project/dialogs/archivewidget.cpp:908
 #: src/project/projectmanager.cpp:1981 src/project/projectmanager.cpp:1987
 #: src/render/renderrequest.cpp:324
-#: src/renderpresets/renderpresetrepository.cpp:424
-#: src/renderpresets/renderpresetrepository.cpp:480
+#: src/renderpresets/renderpresetrepository.cpp:421
+#: src/renderpresets/renderpresetrepository.cpp:477
 #: src/timeline2/view/timelinecontroller.cpp:5624
 #: src/timeline2/view/timelinecontroller.cpp:5629
 #: src/titler/titlewidget.cpp:2360
@@ -21955,7 +21955,7 @@ msgstr ""
 
 #: src/dialogs/importsubtitle.cpp:46 src/dialogs/importsubtitle.cpp:79
 #: src/project/dialogs/guideslist.cpp:406 src/project/projectmanager.cpp:1870
-#: src/renderpresets/renderpresetrepository.cpp:357
+#: src/renderpresets/renderpresetrepository.cpp:354
 #, fuzzy, kde-format
 #| msgid "Cannot create consumer %1."
 msgid "Cannot read file %1"
@@ -22801,7 +22801,7 @@ msgstr "Διάφορα"
 
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:237
 #: src/dialogs/settings/kdenlivesettingsdialog.cpp:927
-#: src/doc/documentvalidator.cpp:2511
+#: src/doc/documentvalidator.cpp:2521
 #: src/transitions/transitionsrepository.cpp:225
 #, kde-format
 msgid "auto"
@@ -25321,7 +25321,7 @@ msgstr ""
 msgid "Update Text Clips"
 msgstr "Ανανέωση των κλιπ τίτλου"
 
-#: src/doc/documentvalidator.cpp:722 src/doc/documentvalidator.cpp:2502
+#: src/doc/documentvalidator.cpp:722 src/doc/documentvalidator.cpp:2512
 #, fuzzy, kde-format
 #| msgid "Invert"
 msgid "Convert"
@@ -25338,20 +25338,20 @@ msgstr "Αδυναμία ανοίγματος του αρχείου %1 του έ
 msgid "extra audio"
 msgstr "Εξαγωγή σε"
 
-#: src/doc/documentvalidator.cpp:2199
+#: src/doc/documentvalidator.cpp:2209
 #, fuzzy, kde-format
 #| msgid "Output file already exists. Do you want to overwrite it?"
 msgid ""
 "The subtitle file:<br/>%1<br/>already exists. Do you want to overwrite it?"
 msgstr "Το αρχείο υπάρχει ήδη. Επιθυμείτε την αντικατάστασή του;"
 
-#: src/doc/documentvalidator.cpp:2200 src/mainwindow.cpp:3892
+#: src/doc/documentvalidator.cpp:2210 src/mainwindow.cpp:3892
 #, fuzzy, kde-format
 #| msgid "Overwrite mode"
 msgid "Overwrite"
 msgstr "Λειτουργία αντικατάστασης"
 
-#: src/doc/documentvalidator.cpp:2500
+#: src/doc/documentvalidator.cpp:2510
 #, kde-format
 msgid ""
 "The project file uses some GPU effects. GPU acceleration is not currently "
@@ -25360,12 +25360,12 @@ msgid ""
 "This might result in data loss."
 msgstr ""
 
-#: src/doc/documentvalidator.cpp:2595
+#: src/doc/documentvalidator.cpp:2605
 #, kde-format
 msgid "The following filters/transitions were converted to non GPU versions:"
 msgstr ""
 
-#: src/doc/documentvalidator.cpp:2598
+#: src/doc/documentvalidator.cpp:2608
 #, fuzzy, kde-format
 #| msgid "The following effects were imported from the project:"
 msgid "The following filters/transitions were deleted from the project:"
@@ -25471,7 +25471,7 @@ msgstr ""
 msgid "Error moving project folder: %1"
 msgstr "Φάκελος έργου: %1"
 
-#: src/doc/kdenlivedoc.cpp:1135 src/doc/kdenlivedoc.cpp:2579
+#: src/doc/kdenlivedoc.cpp:1135 src/doc/kdenlivedoc.cpp:2582
 #: src/project/dialogs/archivewidget.cpp:248
 #, kde-format
 msgid "Untitled"
@@ -25562,14 +25562,14 @@ msgid ""
 "discarded."
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:1900
+#: src/doc/kdenlivedoc.cpp:1903
 #, fuzzy, kde-format
 #| msgid "Scanning"
 msgctxt "@title:window"
 msgid "Warning"
 msgstr "Σάρωση"
 
-#: src/doc/kdenlivedoc.cpp:1902
+#: src/doc/kdenlivedoc.cpp:1905
 #, kde-format
 msgid ""
 "Project file <b>%1</b> contains unexpected parameters for proxy creation. "
@@ -25577,7 +25577,7 @@ msgid ""
 "b></code><br><br>These parameters will be discarded unless you allow them."
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:1993
+#: src/doc/kdenlivedoc.cpp:1996
 #, kde-format
 msgctxt "@label:textbox"
 msgid ""
@@ -25585,67 +25585,67 @@ msgid ""
 "misplaced clips and frame offset."
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:2112
+#: src/doc/kdenlivedoc.cpp:2115
 #, kde-format
 msgid "Warning: non standard fps, adjusting to closest integer. "
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:2130
+#: src/doc/kdenlivedoc.cpp:2133
 #, kde-format
 msgid ""
 "Your default project profile is %1, but your clip's profile (%2) is %3.\n"
 "Do you want to change default profile for future projects?"
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:2132
+#: src/doc/kdenlivedoc.cpp:2135
 #, fuzzy, kde-format
 #| msgid "Change project profile"
 msgid "Change default project profile"
 msgstr "Αλλαγή προφίλ έργου"
 
-#: src/doc/kdenlivedoc.cpp:2132
+#: src/doc/kdenlivedoc.cpp:2135
 #, kde-format
 msgid "Change default to %1"
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:2133
+#: src/doc/kdenlivedoc.cpp:2136
 #, fuzzy, kde-format
 #| msgid "Delete current file"
 msgid "Keep current default %1"
 msgstr "Διαγραφή του τρέχοντος αρχείου"
 
-#: src/doc/kdenlivedoc.cpp:2133
+#: src/doc/kdenlivedoc.cpp:2136
 #, kde-format
 msgid "Ask me later"
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:2153
+#: src/doc/kdenlivedoc.cpp:2156
 #, fuzzy, kde-format
 #| msgid "Switch monitor"
 msgid "Switch"
 msgstr "Εναλλαγή επισκόπησης"
 
 #. i18n: ectx: property (text), widget (QPushButton, cancelButton)
-#: src/doc/kdenlivedoc.cpp:2155 src/ui/titlewidget_ui.ui:186
+#: src/doc/kdenlivedoc.cpp:2158 src/ui/titlewidget_ui.ui:186
 #, fuzzy, kde-format
 #| msgid "Configure job"
 msgid "Cancel"
 msgstr "Διαμόρφωση εργασίας"
 
-#: src/doc/kdenlivedoc.cpp:2157
+#: src/doc/kdenlivedoc.cpp:2160
 #, fuzzy, kde-format
 #| msgid "Show all profiles"
 msgid "Switch to clip (%1) profile %2?"
 msgstr "Εμφάνιση όλων των προφίλ"
 
-#: src/doc/kdenlivedoc.cpp:2162
+#: src/doc/kdenlivedoc.cpp:2165
 #, kde-format
 msgid ""
 "\n"
 "Profile fps adjusted from original %1"
 msgstr ""
 
-#: src/doc/kdenlivedoc.cpp:2166
+#: src/doc/kdenlivedoc.cpp:2169
 #, kde-format
 msgid ""
 "No profile found for your clip %1.\n"
@@ -25653,7 +25653,7 @@ msgid ""
 msgstr ""
 
 #. i18n: ectx: property (text), widget (QLabel, label_category)
-#: src/doc/kdenlivedoc.cpp:2976 src/ui/markerdialog_ui.ui:121
+#: src/doc/kdenlivedoc.cpp:2979 src/ui/markerdialog_ui.ui:121
 #: src/ui/multiplemarkerdialog_ui.ui:68
 #, kde-format
 msgid "Category"
@@ -33353,13 +33353,13 @@ msgstr "Προσαρμογή"
 msgid "10 Bit"
 msgstr ""
 
-#: src/renderpresets/renderpresetrepository.cpp:393
+#: src/renderpresets/renderpresetrepository.cpp:390
 #, fuzzy, kde-format
 #| msgid "Profile already exists"
 msgid "Preset already exists"
 msgstr "Το προφίλ αυτό υπάρχει ήδη"
 
-#: src/renderpresets/renderpresetrepository.cpp:394
+#: src/renderpresets/renderpresetrepository.cpp:391
 #, fuzzy, kde-format
 #| msgid ""
 #| "This profile name already exists. Change the name if you don't want to "
