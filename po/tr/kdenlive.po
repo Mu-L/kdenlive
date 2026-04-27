@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-26 00:43+0000\n"
-"PO-Revision-Date: 2026-04-20 18:29+0300\n"
+"PO-Revision-Date: 2026-04-26 13:23+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -20698,11 +20698,9 @@ msgid "Subtitle %1"
 msgstr "Altyazı %1"
 
 #: src/bin/model/subtitlemodel.cpp:2002
-#, fuzzy, kde-format
-#| msgctxt "@info:status"
-#| msgid "Cannot cut overlapping subtitles"
+#, kde-format
 msgid "Cannot create more than %1 layers in subtitles."
-msgstr "Üst üste binen altyazılar kesilemiyor"
+msgstr "Altyazı olarak %1 katmandan fazlası oluşturulamaz."
 
 #: src/bin/model/subtitlemodel.cpp:2194
 #, kde-format
@@ -21586,6 +21584,8 @@ msgid ""
 "Your proxy parameters contains forbidden keywords, please remove them: <b>"
 "%1</b>."
 msgstr ""
+"Vekil parametrelerinizde izin verilmeyen anahtar sözcükler var, lütfen "
+"onları kaldırın: <b>%1</b>."
 
 #: src/dialogs/encodingprofilesdialog.cpp:164
 #: src/dialogs/encodingprofilesdialog.cpp:233
@@ -21594,13 +21594,14 @@ msgid ""
 "Your proxy parameters contains unknown parameters: <br><b>%1</b><br>Do you "
 "want to always allow them ?"
 msgstr ""
+"Vekil parametrelerinizde bilinmeyen parametreler var: <br><b>%1</"
+"b><br>Bunlara her zaman izin vermek istiyor musunuz?"
 
 #: src/dialogs/encodingprofilesdialog.cpp:166
 #: src/dialogs/encodingprofilesdialog.cpp:235
-#, fuzzy, kde-format
-#| msgid "Additional Parameters:"
+#, kde-format
 msgid "Always Allow Parameters"
-msgstr "Ek parametreler:"
+msgstr "Parametrelere Her Zaman İzin Ver"
 
 #: src/dialogs/encodingprofilesdialog.cpp:280
 #, kde-format
@@ -25310,10 +25311,12 @@ msgid ""
 "\"><b>%2 -i input.mp4 %3 out.%4</b></code><br><br>These parameters will be "
 "discarded."
 msgstr ""
+"Proje dosyası <b>%1</b> içinde şüpheli vekil parametreler var. Bu komut "
+"yürütülebilir:<br><br><code style=\"background-color:darkred;color:white"
+"\"><b>%2 -i girdi.mp4 %3 çıktı.%4</b></code><br><br>Bu parametreler atılacak."
 
 #: src/doc/kdenlivedoc.cpp:1903
-#, fuzzy, kde-format
-#| msgid "Warning"
+#, kde-format
 msgctxt "@title:window"
 msgid "Warning"
 msgstr "Uyarı"
@@ -25325,6 +25328,9 @@ msgid ""
 "This command might be executed:<br><br><code><b>%2 -i input.mp4 %3 out.%4</"
 "b></code><br><br>These parameters will be discarded unless you allow them."
 msgstr ""
+"Proje dosyası <b>%1</b> içinde vekil oluşturma için beklenmedik parametreler "
+"var. Bu komut yürütülebilir:<br><br><code><b>%2 -i girdi.mp4 %3 çıktı.%4</"
+"b></code><br><br>İzin vermediğiniz sürece, bu parametreler atılacaktır."
 
 #: src/doc/kdenlivedoc.cpp:1996
 #, kde-format
@@ -25347,8 +25353,8 @@ msgid ""
 "Your default project profile is %1, but your clip's profile (%2) is %3.\n"
 "Do you want to change default profile for future projects?"
 msgstr ""
-"Öntanımlı proje profiliniz %1 ancak klip profiliniz %2 (%3).\n"
-"Gelecek projeler için öntanımlı profilinizi değiştirmek ister misiniz?"
+"Öntanımlı proje profiliniz %1; ancak klip profiliniz %2 (%3).\n"
+"Gelecek projeler için öntanımlı profilinizi değiştirmek istiyor musunuz?"
 
 #: src/doc/kdenlivedoc.cpp:2135
 #, kde-format
@@ -25358,7 +25364,7 @@ msgstr "Öntanımlı proje profilini değiştir"
 #: src/doc/kdenlivedoc.cpp:2135
 #, kde-format
 msgid "Change default to %1"
-msgstr "Varsayılanı %1 olarak değiştir"
+msgstr "Öntanımlıyı %1 olarak değiştir"
 
 #: src/doc/kdenlivedoc.cpp:2136
 #, kde-format
@@ -37115,7 +37121,7 @@ msgstr "Video kamera vekil klipleri:"
 #: src/ui/configproxy_ui.ui:193
 #, kde-format
 msgid "Allowed FFmpeg parameters for proxy clips"
-msgstr ""
+msgstr "Vekil klipler için FFmpeg parametrelerine izin ver"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableproxy)
 #: src/ui/configproxy_ui.ui:218
@@ -39070,18 +39076,15 @@ msgstr "Projede kullanılan klipler:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, allowOnce)
 #: src/ui/proxywarn_ui.ui:30
-#, fuzzy, kde-format
-#| msgctxt "@info:whatsthis"
-#| msgid "Displays the parameters for the selected profile"
+#, kde-format
 msgid "Allow using these parameters for this project"
-msgstr "Seçili profil için olan parametreleri görüntüler."
+msgstr "Bu proje için bu parametreleri kullanmaya izin ver"
 
 #. i18n: ectx: property (text), widget (QCheckBox, allowAlways)
 #: src/ui/proxywarn_ui.ui:88
-#, fuzzy, kde-format
-#| msgid "Use sensor response parameters"
+#, kde-format
 msgid "Always allow these parameters"
-msgstr "Algılayıcı yanıt parametrelerini kullan"
+msgstr "Bu parametrelere her zaman izin ver"
 
 #. i18n: ectx: property (text), widget (KMessageWidget, allowWarning)
 #: src/ui/proxywarn_ui.ui:95
@@ -39090,6 +39093,8 @@ msgid ""
 "If you are not the author of this project or don't understand the "
 "parameters, this might compromise your system's security."
 msgstr ""
+"Bu projenin sahibi değilseniz veya parametreleri anlamıyorsanız bu, "
+"sisteminizin güvenliğini tehlikeye atabilir."
 
 #. i18n: ectx: property (text), widget (QLabel, label_text)
 #: src/ui/qtextclip_ui.ui:39
