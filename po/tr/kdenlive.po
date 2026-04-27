@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2026-04-26 02:37+0000\n"
-"PO-Revision-Date: 2026-03-20 13:07+0300\n"
+"PO-Revision-Date: 2026-04-26 13:22+0300\n"
 "Last-Translator: Emir SARI <emir_sari@icloud.com>\n"
 "Language-Team: Turkish <kde-l10n-tr@kde.org>\n"
 "Language: tr\n"
@@ -20666,11 +20666,9 @@ msgid "Subtitle %1"
 msgstr "Altyazı %1"
 
 #: src/bin/model/subtitlemodel.cpp:2002
-#, fuzzy, kde-format
-#| msgctxt "@info:status"
-#| msgid "Cannot cut overlapping subtitles"
+#, kde-format
 msgid "Cannot create more than %1 layers in subtitles."
-msgstr "Üst üste binen altyazılar kesilemiyor"
+msgstr "Altyazı olarak %1 katmandan fazlası oluşturulamaz."
 
 #: src/bin/model/subtitlemodel.cpp:2194
 #, kde-format
@@ -25268,8 +25266,8 @@ msgid ""
 "Your default project profile is %1, but your clip's profile (%2) is %3.\n"
 "Do you want to change default profile for future projects?"
 msgstr ""
-"Öntanımlı proje profiliniz %1 ancak klip profiliniz %2 (%3).\n"
-"Gelecek projeler için öntanımlı profilinizi değiştirmek ister misiniz?"
+"Öntanımlı proje profiliniz %1; ancak klip profiliniz %2 (%3).\n"
+"Gelecek projeler için öntanımlı profilinizi değiştirmek istiyor musunuz?"
 
 #: src/doc/kdenlivedoc.cpp:2041
 #, kde-format
@@ -25279,7 +25277,7 @@ msgstr "Öntanımlı proje profilini değiştir"
 #: src/doc/kdenlivedoc.cpp:2041
 #, kde-format
 msgid "Change default to %1"
-msgstr "Varsayılanı %1 olarak değiştir"
+msgstr "Öntanımlıyı %1 olarak değiştir"
 
 #: src/doc/kdenlivedoc.cpp:2042
 #, kde-format
