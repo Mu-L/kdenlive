@@ -158,7 +158,8 @@ QVariant DocumentCheckerTreeModel::data(const QModelIndex &index, int role) cons
             }
         }
 
-        if (role == Qt::BackgroundRole && resource.status == DocumentChecker::MissingStatus::Missing && index.column() == 1) {
+        if (role == Qt::BackgroundRole && ((resource.status == DocumentChecker::MissingStatus::Missing && index.column() == 1) ||
+                                           resource.status == DocumentChecker::MissingStatus::Remote)) {
             KColorScheme scheme(qApp->palette().currentColorGroup(), KColorScheme::Window);
             return scheme.background(KColorScheme::NegativeBackground).color();
         }

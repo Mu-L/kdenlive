@@ -248,6 +248,7 @@ bool DocumentChecker::hasErrorInProject()
 
     m_safeImages.clear();
     m_safeFonts.clear();
+    QStringList remoteResources;
 
     const int taskCount = documentProducers.count() + documentChains.count() + documentTractors.count();
     Q_EMIT pCore->loadingMessageNewStage(i18n("Checking for missing items…"), taskCount);
@@ -266,6 +267,15 @@ bool DocumentChecker::hasErrorInProject()
         const QString id = e.attribute(QLatin1String("id"));
         int kid = Xml::getXmlProperty(e, "kdenlive:id").toInt();
         const QString resource = Xml::getXmlProperty(e, "resource");
+        if (resource.startsWith(QLatin1String("http:")) && !remoteResources.contains(resource)) {
+            // Trying to load resource from the web, warn user
+            DocumentResource item;
+            item.type = MissingType::Clip;
+            item.status = MissingStatus::Remote;
+            item.originalFilePath = resource;
+            m_items.push_back(item);
+            remoteResources << resource;
+        }
         if (!m_binIds.contains(id)) {
             if (timelinePreviewIds.contains(id)) {
                 // Timeline preview clip
@@ -293,6 +303,15 @@ bool DocumentChecker::hasErrorInProject()
         int kid = Xml::getXmlProperty(e, QStringLiteral("kdenlive:id")).toInt();
         const QString id = e.attribute(QLatin1String("id"));
         const QString resource = Xml::getXmlProperty(e, QStringLiteral("resource"));
+        if (resource.startsWith(QLatin1String("http:")) && !remoteResources.contains(resource)) {
+            // Trying to load resource from the web, warn user
+            DocumentResource item;
+            item.type = MissingType::Clip;
+            item.status = MissingStatus::Remote;
+            item.originalFilePath = resource;
+            m_items.push_back(item);
+            remoteResources << resource;
+        }
         if (!m_binIds.contains(id)) {
             // This is a timeline producer, ensure it has a bin entry and uuid_control
             timelineProducers.insert(kid, {id, resource});
@@ -1915,6 +1934,8 @@ QString DocumentChecker::readableNameForMissingStatus(MissingStatus type)
         return i18nc("status of a missing clip; fixed as in repaired", "Fixed");
     case MissingStatus::Reload:
         return i18nc("action that will be performed on a missing clip", "Reload");
+    case MissingStatus::Remote:
+        return i18nc("status of a remote clip", "Remote");
     case MissingStatus::Missing:
         return i18nc("status of a missing clip", "Missing");
     case MissingStatus::MissingButProxy:
