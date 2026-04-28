@@ -123,15 +123,13 @@ class TransitionPreviewGenerator:
 
             # First clip
             if self.image_path1 is None:
-                # #5fa6fc 263f4d
-                command.extend(['color:#253d4b', f'out={self.duration}', '-attach', 'qtext:A', 'size=100', 'fgcolour=white', 'bgcolour=transparent', 'valign=middle', 'halign=center', 'weight=800'])
+                command.extend(['color:0x253d4bff', f'out={self.duration}', '-attach', 'qtext:A', 'size=100', 'fgcolour=white', 'bgcolour=transparent', 'valign=middle', 'halign=center', 'weight=800'])
             else:
                 command.extend([self.image_path1, f'out={self.duration}'])
 
             # Second clip
             if self.image_path2 is None:
-                # #f1e38e
-                command.extend(['color:#91cdfa', f'out={self.duration}', '-attach', 'qtext:B', 'size=100', 'fgcolour=#505050', 'bgcolour=transparent', 'valign=middle', 'halign=center', 'weight=800'])
+                command.extend(['color:0x91cdfaff', f'out={self.duration}', '-attach', 'qtext:B', 'size=100', 'fgcolour=0x505050ff', 'bgcolour=transparent', 'valign=middle', 'halign=center', 'weight=800'])
             else:
                 command.extend([self.image_path2, f'out={self.duration}'])
 
@@ -207,13 +205,13 @@ class TransitionPreviewGenerator:
             
             # First clip
             if self.image_path1 is None:
-                command.extend(['color:#253d4b', f'out={self.duration}', '-attach', 'qtext:A', 'size=100', 'fgcolour=white', 'bgcolour=transparent', 'valign=middle', 'halign=center', 'weight=800'])
+                command.extend(['color:0x253d4bff', f'out={self.duration}', '-attach', 'qtext:A', 'size=100', 'fgcolour=white', 'bgcolour=transparent', 'valign=middle', 'halign=center', 'weight=800'])
             else:
                 command.extend([self.image_path1, f'out={self.duration}'])
             
             # Second clip
             if self.image_path2 is None:
-                command.extend(['color:#91cdfa', f'out={self.duration}', '-attach', 'qtext:B', 'size=100', 'fgcolour=#505050', 'bgcolour=transparent', 'valign=middle', 'halign=center', 'weight=800'])
+                command.extend(['color:0x91cdfaff', f'out={self.duration}', '-attach', 'qtext:B', 'size=100', 'fgcolour=0x505050ff', 'bgcolour=transparent', 'valign=middle', 'halign=center', 'weight=800'])
             else:
                 command.extend([self.image_path2, f'out={self.duration}'])
             
