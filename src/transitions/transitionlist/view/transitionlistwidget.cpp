@@ -184,6 +184,10 @@ void TransitionListWidget::exportCustomEffect(const QModelIndex &) {}
 
 void TransitionListWidget::generatePreviews()
 {
+    if (m_previewProcess) {
+        // Already running, abort
+        return;
+    }
     // Find the script in the standard install location
     QString scriptPath = QStandardPaths::locate(QStandardPaths::AppDataLocation, QStringLiteral("scripts/generate_transition_previews.py"));
 
