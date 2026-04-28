@@ -27,7 +27,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 class TransitionPreviewGenerator:
-    def __init__(self, output_dir, xml_dir=None, luma_path=None, image_path1=None, image_path2=None, size=(320, 180), duration=15, mix_duration=30):
+    def __init__(self, output_dir, xml_dir=None, luma_path=None, image_path1=None, image_path2=None, size=(320, 180), duration=15, mix_duration=30, file_format="webp"):
         """
         Initialize the preview generator
         
@@ -40,6 +40,7 @@ class TransitionPreviewGenerator:
             duration (int): Duration of each clip in frames
             mix_duration (int): Duration of transition in frames
             luma_path (str): Path to luma files
+            file_format (str) : File format (extension) for rendering
         """
         self.output_dir = Path(output_dir)
         self.xml_dir = xml_dir
@@ -49,6 +50,7 @@ class TransitionPreviewGenerator:
         self.image_path1 = image_path1
         self.image_path2 = image_path2
         self.luma_path = luma_path
+        self.file_format = file_format
         
         # Create output directory
         self.output_dir.mkdir(parents=True, exist_ok=True)
@@ -107,7 +109,7 @@ class TransitionPreviewGenerator:
         """
         file_path = Path(luma_id).stem
         logger.error(f"Processing luma: {luma_id}")
-        output_path = self.output_dir / f"{file_path}.webp"
+        output_path = self.output_dir / f"{file_path}.{self.file_format}"
 
         # Skip if preview already exists
         if output_path.exists():
@@ -141,10 +143,14 @@ class TransitionPreviewGenerator:
                 '-consumer', f'avformat:{output_path}',
                 f'width={self.width}',
                 f'height={self.height}',
-                'fps=10',
-                'quality=50',
-                'loop=0'
+                'fps=10'
             ])
+            if str(output_path).endswith("webp"):
+                # webp format
+                command.extend([
+                    'quality=50',
+                    'loop=0'
+                ])
 
             logger.info(f"Generating preview for {luma_id}...")
             logger.info(f"Command: {' '.join(command)}")
@@ -189,7 +195,7 @@ class TransitionPreviewGenerator:
         except:
             logger.error(f"No preview param for transition {mlt_tag}")
 
-        output_path = self.output_dir / f"{transition_id}.webp"
+        output_path = self.output_dir / f"{transition_id}.{self.file_format}"
         
         # Skip if preview already exists
         if output_path.exists():
@@ -316,6 +322,11 @@ def main():
         default=10,
         help='Duration of each clip in frames'
     )
+    parser.add_argument(
+        '--file-format',
+        default="webp",
+        help='Output format for renders'
+    )
     
     parser.add_argument(
         '--mix-duration',
@@ -341,7 +352,9 @@ def main():
         size=(args.width, args.height),
         duration=args.duration,
         mix_duration=args.mix_duration,
-        luma_path=args.luma_path
+        luma_path=args.luma_path,
+        file_format=args.file_format
+
     )
     
     generator.generate_all_previews(max_workers=args.workers)

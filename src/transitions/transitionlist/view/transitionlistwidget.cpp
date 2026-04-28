@@ -250,6 +250,7 @@ void TransitionListWidget::generatePreviews()
     args << QStringLiteral("--output-dir") << outputDir;
     args << QStringLiteral("--width") << QStringLiteral("176");
     args << QStringLiteral("--height") << QStringLiteral("99");
+    args << QStringLiteral("--file-format") << QStringLiteral("gif");
 
     const QStringList lumaFolders = QStandardPaths::locateAll(QStandardPaths::AppLocalDataLocation, QStringLiteral("lumas"), QStandardPaths::LocateDirectory);
     QStringList encodedLumas;
