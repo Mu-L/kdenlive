@@ -142,11 +142,15 @@ QMovie *TransitionIconDelegate::getMovie(QString transitionId, bool animate) con
     }
 
     // Try to load the movie
-    const QString filePath = QStandardPaths::locate(QStandardPaths::AppDataLocation, QStringLiteral("transitions/previews/%1.webp").arg(transitionId));
+    QString filePath = QStandardPaths::locate(QStandardPaths::AppDataLocation, QStringLiteral("transitions/previews/%1.webp").arg(transitionId));
 
     if (filePath.isEmpty()) {
-        qDebug() << "No preview found for transition:" << transitionId;
-        return nullptr;
+        // Custom user generated transition preview are gif since webp not widely available in our binaries
+        filePath = QStandardPaths::locate(QStandardPaths::AppDataLocation, QStringLiteral("transitions/previews/%1.gif").arg(transitionId));
+        if (filePath.isEmpty()) {
+            qDebug() << "No preview found for transition:" << transitionId;
+            return nullptr;
+        }
     }
     if (animate) {
         m_currentTransitionId = transitionId;
