@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive 18.12\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-26 00:43+0000\n"
+"POT-Creation-Date: 2026-04-28 00:44+0000\n"
 "PO-Revision-Date: 2026-03-24 17:29+0300\n"
 "Last-Translator: Olesya Gerasimenko <goa@altlinux.org>\n"
 "Language-Team: Basealt Translation Team\n"
@@ -16168,7 +16168,7 @@ msgstr "SoX"
 msgid "Process audio using a SoX effect"
 msgstr "Обработка звука с использованием эффекта SoX"
 
-#: data/effects/sox/sox.xml:8 src/doc/documentchecker.cpp:1899
+#: data/effects/sox/sox.xml:8 src/doc/documentchecker.cpp:1918
 #: src/monitor/view/MonitorSplit.qml:103
 #, kde-format
 msgid "Effect"
@@ -20774,8 +20774,8 @@ msgstr "Идентификатор"
 msgid "Usage"
 msgstr "Использование"
 
-#: src/bin/projectitemmodel.cpp:352 src/doc/documentchecker.cpp:1877
-#: src/doc/documentchecker.cpp:1907 src/doc/documentchecker.cpp:1927
+#: src/bin/projectitemmodel.cpp:352 src/doc/documentchecker.cpp:1896
+#: src/doc/documentchecker.cpp:1926 src/doc/documentchecker.cpp:1948
 #: src/mltcontroller/clipcontroller.cpp:537
 #: src/profiles/profilerepository.cpp:149
 #, kde-format
@@ -24747,12 +24747,12 @@ msgstr "Аппаратные кодировщики не были найдены
 msgid "hardware encoders found and enabled (%1)."
 msgstr "Аппаратные кодировщики найдены и включены (%1)."
 
-#: src/doc/dcresolvedialog.cpp:57
+#: src/doc/dcresolvedialog.cpp:58
 #, kde-format
 msgid "Recursive search: processing clips"
 msgstr "Рекурсивный поиск: обработка клипов"
 
-#: src/doc/dcresolvedialog.cpp:66
+#: src/doc/dcresolvedialog.cpp:67
 #, kde-format
 msgid "Recursive search: done in %1 s"
 msgstr "Рекурсивный поиск: выполнен за %1 с"
@@ -24767,12 +24767,19 @@ msgstr "Укажите новый адрес папки"
 msgid "Enter new location for file"
 msgstr "Укажите новое расположение файла"
 
-#: src/doc/dcresolvedialog.cpp:194
+#: src/doc/dcresolvedialog.cpp:191
+#, kde-format
+msgid ""
+"This project want to load resources from internet.<br><b>This can be a "
+"security risk, abort loading</b> unless you fully trust the remote resources."
+msgstr ""
+
+#: src/doc/dcresolvedialog.cpp:202
 #, kde-format
 msgid "The project contains:"
 msgstr "Проект содержит:"
 
-#: src/doc/dcresolvedialog.cpp:200
+#: src/doc/dcresolvedialog.cpp:208
 #, kde-format
 msgid "One missing clip"
 msgid_plural "%1 missing clips"
@@ -24781,7 +24788,7 @@ msgstr[1] "%1 отсутствующих клипа"
 msgstr[2] "%1 отсутствующих клипов"
 msgstr[3] "Один отсутствующий клип"
 
-#: src/doc/dcresolvedialog.cpp:203
+#: src/doc/dcresolvedialog.cpp:211
 #, kde-format
 msgid "One missing source with available proxy"
 msgid_plural "%1 missing sources with available proxy"
@@ -24790,7 +24797,7 @@ msgstr[1] "%1 отсутствующих источника с доступны�
 msgstr[2] "%1 отсутствующих источников с доступными прокси"
 msgstr[3] "Один отсутствующий источник с доступным прокси"
 
-#: src/doc/dcresolvedialog.cpp:206
+#: src/doc/dcresolvedialog.cpp:214
 #, kde-format
 msgid "One placeholder clip"
 msgid_plural "%1 placeholder clips"
@@ -24799,7 +24806,7 @@ msgstr[1] "%1 клипа-заполнителя"
 msgstr[2] "%1 клипов-заполнителей"
 msgstr[3] "Один клип-заполнитель"
 
-#: src/doc/dcresolvedialog.cpp:209
+#: src/doc/dcresolvedialog.cpp:217
 #, kde-format
 msgid "One removed clip"
 msgid_plural "%1 removed clips"
@@ -24808,7 +24815,7 @@ msgstr[1] "%1 удалённых клипа"
 msgstr[2] "%1 удалённых клипов"
 msgstr[3] "Один удалённый клип"
 
-#: src/doc/dcresolvedialog.cpp:218
+#: src/doc/dcresolvedialog.cpp:226
 #, kde-format
 msgid "One missing proxy"
 msgid_plural "%1 missing proxies"
@@ -24817,7 +24824,7 @@ msgstr[1] "%1 отсутствующих прокси"
 msgstr[2] "%1 отсутствующих прокси"
 msgstr[3] "Один отсутствующий прокси"
 
-#: src/doc/dcresolvedialog.cpp:221
+#: src/doc/dcresolvedialog.cpp:229
 #, kde-format
 msgid "One proxy can be recovered"
 msgid_plural "%1 proxies can be recovered"
@@ -24826,7 +24833,7 @@ msgstr[1] "Можно восстановить %1 прокси"
 msgstr[2] "Можно восстановить %1 прокси"
 msgstr[3] "Можно восстановить один прокси"
 
-#: src/doc/dcresolvedialog.cpp:238
+#: src/doc/dcresolvedialog.cpp:246
 #, kde-format
 msgctxt "@title:window"
 msgid "Clips Folder"
@@ -24837,7 +24844,7 @@ msgstr "Папка с клипами"
 msgid "Applying fixes…"
 msgstr "Применение исправлений…"
 
-#: src/doc/documentchecker.cpp:177 src/doc/documentchecker.cpp:253
+#: src/doc/documentchecker.cpp:177 src/doc/documentchecker.cpp:254
 #, kde-format
 msgid "Checking for missing items…"
 msgstr "Проверка наличия отсутствующих элементов…"
@@ -24848,114 +24855,121 @@ msgid ""
 "The document id of your project was invalid, a new one has been created."
 msgstr "Идентификатор документа проекта неверен. Создан новый идентификатор."
 
-#: src/doc/documentchecker.cpp:1867
+#: src/doc/documentchecker.cpp:1886
 #, kde-format
 msgid "Video clip"
 msgstr "Видеоклип"
 
-#: src/doc/documentchecker.cpp:1869
+#: src/doc/documentchecker.cpp:1888
 #, kde-format
 msgid "Slideshow clip"
 msgstr "Клип слайд-шоу"
 
-#: src/doc/documentchecker.cpp:1871
+#: src/doc/documentchecker.cpp:1890
 #, kde-format
 msgid "Image clip"
 msgstr "Клип изображений"
 
-#: src/doc/documentchecker.cpp:1873
+#: src/doc/documentchecker.cpp:1892
 #, kde-format
 msgid "Playlist clip"
 msgstr "Клип списка воспроизведения"
 
-#: src/doc/documentchecker.cpp:1875 src/doc/documentchecker.cpp:1891
+#: src/doc/documentchecker.cpp:1894 src/doc/documentchecker.cpp:1910
 #, kde-format
 msgid "Title Image"
 msgstr "Изображение титров"
 
-#: src/doc/documentchecker.cpp:1887
+#: src/doc/documentchecker.cpp:1906
 #, kde-format
 msgid "Clip"
 msgstr "Клип"
 
-#: src/doc/documentchecker.cpp:1889
+#: src/doc/documentchecker.cpp:1908
 #, kde-format
 msgid "Title Font"
 msgstr "Шрифт титров"
 
-#: src/doc/documentchecker.cpp:1893
+#: src/doc/documentchecker.cpp:1912
 #, kde-format
 msgid "Luma file"
 msgstr "Файл каше"
 
-#: src/doc/documentchecker.cpp:1895
+#: src/doc/documentchecker.cpp:1914
 #, kde-format
 msgid "Asset file"
 msgstr "Файл ресурса"
 
-#: src/doc/documentchecker.cpp:1897
+#: src/doc/documentchecker.cpp:1916
 #: src/mltcontroller/clippropertiescontroller.cpp:701
 #, kde-format
 msgid "Proxy clip"
 msgstr "Прокси-клип"
 
-#: src/doc/documentchecker.cpp:1901
+#: src/doc/documentchecker.cpp:1920
 #, kde-format
 msgid "Transition"
 msgstr "Переход"
 
-#: src/doc/documentchecker.cpp:1903
+#: src/doc/documentchecker.cpp:1922
 #, kde-format
 msgid "Unreferenced clip"
 msgstr "Клип без ссылок"
 
-#: src/doc/documentchecker.cpp:1905
+#: src/doc/documentchecker.cpp:1924
 #, kde-format
 msgid "Corrupted sequence"
 msgstr "Повреждённая последовательность"
 
-#: src/doc/documentchecker.cpp:1915
+#: src/doc/documentchecker.cpp:1934
 #, fuzzy, kde-format
 msgctxt "status of a missing clip; fixed as in repaired"
 msgid "Fixed"
 msgstr "Фиксированная"
 
-#: src/doc/documentchecker.cpp:1917
+#: src/doc/documentchecker.cpp:1936
 #, fuzzy, kde-format
 msgctxt "action that will be performed on a missing clip"
 msgid "Reload"
 msgstr "Обновить"
 
-#: src/doc/documentchecker.cpp:1919
+#: src/doc/documentchecker.cpp:1938
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "status of a remote clip"
+msgid "Remote"
+msgstr "Удалить"
+
+#: src/doc/documentchecker.cpp:1940
 #, fuzzy, kde-format
 msgctxt "status of a missing clip"
 msgid "Missing"
 msgstr "Отсутствует"
 
-#: src/doc/documentchecker.cpp:1921
+#: src/doc/documentchecker.cpp:1942
 #, fuzzy, kde-format
 msgctxt "status of a missing clip"
 msgid "Missing, but proxy available"
 msgstr "Отсутствует, но доступен прокси"
 
-#: src/doc/documentchecker.cpp:1923
+#: src/doc/documentchecker.cpp:1944
 #, fuzzy, kde-format
 msgctxt "status of a missing clip"
 msgid "Placeholder"
 msgstr "Заполнитель"
 
-#: src/doc/documentchecker.cpp:1925
+#: src/doc/documentchecker.cpp:1946
 #, fuzzy, kde-format
 msgctxt "action that will be performed on a missing clip"
 msgid "Remove"
 msgstr "Удалить"
 
-#: src/doc/documentchecker.cpp:1936
+#: src/doc/documentchecker.cpp:1957
 #, kde-format
 msgid "The project file contains missing clips or files."
 msgstr "Файл проекта ссылается на отсутствующие клипы или файлы."
 
-#: src/doc/documentchecker.cpp:1939
+#: src/doc/documentchecker.cpp:1960
 #, kde-format
 msgid "Missing proxies can be recreated on opening."
 msgstr "Отсутствующие прокси могут быть восстановлены при открытии."
@@ -38876,25 +38890,25 @@ msgid "Search Manually"
 msgstr "Найти вручную"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeSelected)
-#: src/ui/missingclips_ui.ui:152
+#: src/ui/missingclips_ui.ui:151
 #, kde-format
 msgid "Remove"
 msgstr "Удалить"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/missingclips_ui.ui:170
+#: src/ui/missingclips_ui.ui:168
 #, kde-format
 msgid "All Missing Items:"
 msgstr "Все отсутствующие элементы:"
 
 #. i18n: ectx: property (text), widget (QPushButton, recursiveSearch)
-#: src/ui/missingclips_ui.ui:177
+#: src/ui/missingclips_ui.ui:175
 #, kde-format
 msgid "Search Recursively"
 msgstr "Рекурсивный поиск"
 
 #. i18n: ectx: property (text), widget (QPushButton, usePlaceholders)
-#: src/ui/missingclips_ui.ui:188
+#: src/ui/missingclips_ui.ui:185
 #, kde-format
 msgid "Use Placeholders"
 msgstr "Использовать заполнители"

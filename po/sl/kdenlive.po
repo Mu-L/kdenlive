@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive Trunk\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-26 00:43+0000\n"
-"PO-Revision-Date: 2026-04-07 20:58+0200\n"
+"POT-Creation-Date: 2026-04-28 00:44+0000\n"
+"PO-Revision-Date: 2026-04-27 12:02+0200\n"
 "Last-Translator: Martin Srebotnjak <miles@filmsi.net>\n"
 "Language-Team: Slovenian <lugos-slo@lugos.si>\n"
 "Language: sl\n"
@@ -16283,7 +16283,7 @@ msgstr "SoX"
 msgid "Process audio using a SoX effect"
 msgstr "Obdelajte zvok z učinkom SoX"
 
-#: data/effects/sox/sox.xml:8 src/doc/documentchecker.cpp:1899
+#: data/effects/sox/sox.xml:8 src/doc/documentchecker.cpp:1918
 #: src/monitor/view/MonitorSplit.qml:103
 #, kde-format
 msgid "Effect"
@@ -20696,11 +20696,9 @@ msgid "Subtitle %1"
 msgstr "Podnaslov %1"
 
 #: src/bin/model/subtitlemodel.cpp:2002
-#, fuzzy, kde-format
-#| msgctxt "@info:status"
-#| msgid "Cannot cut overlapping subtitles"
+#, kde-format
 msgid "Cannot create more than %1 layers in subtitles."
-msgstr "Prekrivajočih se podnaslovov ni možno rezati"
+msgstr "V podnapisih ni možno ustvariti več kot %1 plasti."
 
 #: src/bin/model/subtitlemodel.cpp:2194
 #, kde-format
@@ -20854,8 +20852,8 @@ msgstr "Id"
 msgid "Usage"
 msgstr "Uporaba"
 
-#: src/bin/projectitemmodel.cpp:352 src/doc/documentchecker.cpp:1877
-#: src/doc/documentchecker.cpp:1907 src/doc/documentchecker.cpp:1927
+#: src/bin/projectitemmodel.cpp:352 src/doc/documentchecker.cpp:1896
+#: src/doc/documentchecker.cpp:1926 src/doc/documentchecker.cpp:1948
 #: src/mltcontroller/clipcontroller.cpp:537
 #: src/profiles/profilerepository.cpp:149
 #, kde-format
@@ -21590,6 +21588,8 @@ msgid ""
 "Your proxy parameters contains forbidden keywords, please remove them: <b>"
 "%1</b>."
 msgstr ""
+"Vaši parametri posrednih posnetkov vsebujejo prepovedane ključne besede, "
+"zato jih odtranite: <b>%1</b>."
 
 #: src/dialogs/encodingprofilesdialog.cpp:164
 #: src/dialogs/encodingprofilesdialog.cpp:233
@@ -21598,13 +21598,14 @@ msgid ""
 "Your proxy parameters contains unknown parameters: <br><b>%1</b><br>Do you "
 "want to always allow them ?"
 msgstr ""
+"Vaši parametri posrednih posnetkov vsebujejo neznane parametre: <br><b>%1</"
+"b><br>Ali jih želite vedno dovoliti?"
 
 #: src/dialogs/encodingprofilesdialog.cpp:166
 #: src/dialogs/encodingprofilesdialog.cpp:235
-#, fuzzy, kde-format
-#| msgid "Additional Parameters:"
+#, kde-format
 msgid "Always Allow Parameters"
-msgstr "Dodatni parametri:"
+msgstr "Vedno dovoli parametre"
 
 #: src/dialogs/encodingprofilesdialog.cpp:280
 #, kde-format
@@ -24815,12 +24816,12 @@ msgstr "Ni najdenih strojnih kodirnikov."
 msgid "hardware encoders found and enabled (%1)."
 msgstr "najdeni in omogočeni strojni kodirniki (%1)."
 
-#: src/doc/dcresolvedialog.cpp:57
+#: src/doc/dcresolvedialog.cpp:58
 #, kde-format
 msgid "Recursive search: processing clips"
 msgstr "Rekurzivno iskanje: obdelovanje posnetkov"
 
-#: src/doc/dcresolvedialog.cpp:66
+#: src/doc/dcresolvedialog.cpp:67
 #, kde-format
 msgid "Recursive search: done in %1 s"
 msgstr "Rekurzivno iskanje: opravljeno v %1 s"
@@ -24835,12 +24836,19 @@ msgstr "Vnesite novo mesto za mapo"
 msgid "Enter new location for file"
 msgstr "Vnesite novo mesto za datoteko"
 
-#: src/doc/dcresolvedialog.cpp:194
+#: src/doc/dcresolvedialog.cpp:191
+#, kde-format
+msgid ""
+"This project want to load resources from internet.<br><b>This can be a "
+"security risk, abort loading</b> unless you fully trust the remote resources."
+msgstr ""
+
+#: src/doc/dcresolvedialog.cpp:202
 #, kde-format
 msgid "The project contains:"
 msgstr "Projekt vsebuje:"
 
-#: src/doc/dcresolvedialog.cpp:200
+#: src/doc/dcresolvedialog.cpp:208
 #, kde-format
 msgid "One missing clip"
 msgid_plural "%1 missing clips"
@@ -24849,7 +24857,7 @@ msgstr[1] "%1 manjkajoči posnetek"
 msgstr[2] "%1 manjkajoča posnetka"
 msgstr[3] "%1 manjkajoči posnetki"
 
-#: src/doc/dcresolvedialog.cpp:203
+#: src/doc/dcresolvedialog.cpp:211
 #, kde-format
 msgid "One missing source with available proxy"
 msgid_plural "%1 missing sources with available proxy"
@@ -24859,7 +24867,7 @@ msgstr[1] "%1 manjkajoči izvorni posnetek z razpoložljivim posrednim posnetkom
 msgstr[2] "%1 manjkajoča izvorna posnetka z razpoložljivim posrednim posnetkom"
 msgstr[3] "%1 manjkajoči izvorni posnetki z razpoložljivim posrednim posnetkom"
 
-#: src/doc/dcresolvedialog.cpp:206
+#: src/doc/dcresolvedialog.cpp:214
 #, kde-format
 msgid "One placeholder clip"
 msgid_plural "%1 placeholder clips"
@@ -24868,7 +24876,7 @@ msgstr[1] "%1 nadomestni posnetek"
 msgstr[2] "%1 nadomestna posnetka"
 msgstr[3] "%1 nadomestni posnetki"
 
-#: src/doc/dcresolvedialog.cpp:209
+#: src/doc/dcresolvedialog.cpp:217
 #, kde-format
 msgid "One removed clip"
 msgid_plural "%1 removed clips"
@@ -24877,7 +24885,7 @@ msgstr[1] "%1 odstranjeni posnetek"
 msgstr[2] "%1 odstranjena posnetka"
 msgstr[3] "%1 odstranjeni posnetki"
 
-#: src/doc/dcresolvedialog.cpp:218
+#: src/doc/dcresolvedialog.cpp:226
 #, kde-format
 msgid "One missing proxy"
 msgid_plural "%1 missing proxies"
@@ -24886,7 +24894,7 @@ msgstr[1] "%1 manjkajoči posredni posnetek"
 msgstr[2] "%1 manjkajoča posredna posnetka"
 msgstr[3] "%1 manjkajoči posredni posnetki"
 
-#: src/doc/dcresolvedialog.cpp:221
+#: src/doc/dcresolvedialog.cpp:229
 #, kde-format
 msgid "One proxy can be recovered"
 msgid_plural "%1 proxies can be recovered"
@@ -24895,7 +24903,7 @@ msgstr[1] "Obnoviti je možno %1 posredni posnetek"
 msgstr[2] "Obnoviti je možno %1 posredna posnetka"
 msgstr[3] "Obnoviti je možno %1 posredne posnetke"
 
-#: src/doc/dcresolvedialog.cpp:238
+#: src/doc/dcresolvedialog.cpp:246
 #, kde-format
 msgctxt "@title:window"
 msgid "Clips Folder"
@@ -24906,7 +24914,7 @@ msgstr "Mapa s posnetki"
 msgid "Applying fixes…"
 msgstr "Uveljavljanje popravkov …"
 
-#: src/doc/documentchecker.cpp:177 src/doc/documentchecker.cpp:253
+#: src/doc/documentchecker.cpp:177 src/doc/documentchecker.cpp:254
 #, kde-format
 msgid "Checking for missing items…"
 msgstr "Preverjanje manjkajočih elementov …"
@@ -24917,114 +24925,121 @@ msgid ""
 "The document id of your project was invalid, a new one has been created."
 msgstr "ID dokumenta vašega projekta je bil neveljaven, ustvarjen je bil nov."
 
-#: src/doc/documentchecker.cpp:1867
+#: src/doc/documentchecker.cpp:1886
 #, kde-format
 msgid "Video clip"
 msgstr "Video posnetek"
 
-#: src/doc/documentchecker.cpp:1869
+#: src/doc/documentchecker.cpp:1888
 #, kde-format
 msgid "Slideshow clip"
 msgstr "Predstavitveni posnetek"
 
-#: src/doc/documentchecker.cpp:1871
+#: src/doc/documentchecker.cpp:1890
 #, kde-format
 msgid "Image clip"
 msgstr "Posnetek iz slike"
 
-#: src/doc/documentchecker.cpp:1873
+#: src/doc/documentchecker.cpp:1892
 #, kde-format
 msgid "Playlist clip"
 msgstr "Posnetek seznama predvajanja"
 
-#: src/doc/documentchecker.cpp:1875 src/doc/documentchecker.cpp:1891
+#: src/doc/documentchecker.cpp:1894 src/doc/documentchecker.cpp:1910
 #, kde-format
 msgid "Title Image"
 msgstr "Slika naslova"
 
-#: src/doc/documentchecker.cpp:1887
+#: src/doc/documentchecker.cpp:1906
 #, kde-format
 msgid "Clip"
 msgstr "Posnetek"
 
-#: src/doc/documentchecker.cpp:1889
+#: src/doc/documentchecker.cpp:1908
 #, kde-format
 msgid "Title Font"
 msgstr "Pisava naslova"
 
-#: src/doc/documentchecker.cpp:1893
+#: src/doc/documentchecker.cpp:1912
 #, kde-format
 msgid "Luma file"
 msgstr "Datoteka svetilnosti"
 
-#: src/doc/documentchecker.cpp:1895
+#: src/doc/documentchecker.cpp:1914
 #, kde-format
 msgid "Asset file"
 msgstr "Datoteka sredstev"
 
-#: src/doc/documentchecker.cpp:1897
+#: src/doc/documentchecker.cpp:1916
 #: src/mltcontroller/clippropertiescontroller.cpp:701
 #, kde-format
 msgid "Proxy clip"
 msgstr "Posredni posnetek"
 
-#: src/doc/documentchecker.cpp:1901
+#: src/doc/documentchecker.cpp:1920
 #, kde-format
 msgid "Transition"
 msgstr "Prehod"
 
-#: src/doc/documentchecker.cpp:1903
+#: src/doc/documentchecker.cpp:1922
 #, kde-format
 msgid "Unreferenced clip"
 msgstr "Posnetek brez sklicev"
 
-#: src/doc/documentchecker.cpp:1905
+#: src/doc/documentchecker.cpp:1924
 #, kde-format
 msgid "Corrupted sequence"
 msgstr "Okvarjeno zaporedje"
 
-#: src/doc/documentchecker.cpp:1915
+#: src/doc/documentchecker.cpp:1934
 #, kde-format
 msgctxt "status of a missing clip; fixed as in repaired"
 msgid "Fixed"
 msgstr "Popravljeno"
 
-#: src/doc/documentchecker.cpp:1917
+#: src/doc/documentchecker.cpp:1936
 #, kde-format
 msgctxt "action that will be performed on a missing clip"
 msgid "Reload"
 msgstr "Znova naloži"
 
-#: src/doc/documentchecker.cpp:1919
+#: src/doc/documentchecker.cpp:1938
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "status of a remote clip"
+msgid "Remote"
+msgstr "Odstrani"
+
+#: src/doc/documentchecker.cpp:1940
 #, kde-format
 msgctxt "status of a missing clip"
 msgid "Missing"
 msgstr "Manjka"
 
-#: src/doc/documentchecker.cpp:1921
+#: src/doc/documentchecker.cpp:1942
 #, kde-format
 msgctxt "status of a missing clip"
 msgid "Missing, but proxy available"
 msgstr "Manjka, vendar je na voljo posredni posnetek"
 
-#: src/doc/documentchecker.cpp:1923
+#: src/doc/documentchecker.cpp:1944
 #, kde-format
 msgctxt "status of a missing clip"
 msgid "Placeholder"
 msgstr "Ograda"
 
-#: src/doc/documentchecker.cpp:1925
+#: src/doc/documentchecker.cpp:1946
 #, kde-format
 msgctxt "action that will be performed on a missing clip"
 msgid "Remove"
 msgstr "Odstrani"
 
-#: src/doc/documentchecker.cpp:1936
+#: src/doc/documentchecker.cpp:1957
 #, kde-format
 msgid "The project file contains missing clips or files."
 msgstr "Datoteka projekta vsebuje manjkajoče posnetke ali datoteke."
 
-#: src/doc/documentchecker.cpp:1939
+#: src/doc/documentchecker.cpp:1960
 #, kde-format
 msgid "Missing proxies can be recreated on opening."
 msgstr "Manjkajoče posredne posnetke lahko obnovite ob odpiranju."
@@ -25342,10 +25357,13 @@ msgid ""
 "\"><b>%2 -i input.mp4 %3 out.%4</b></code><br><br>These parameters will be "
 "discarded."
 msgstr ""
+"Projektna datoteka  <b>%1</b> vsebuje sumljive parametre posrednih "
+"posnetkov. Ta ukaz se bo morda izvedel:<br><br><code style=\"background-"
+"color:darkred;color:white\"><b>%2 -i vhod.mp4 %3 izhod.%4</b></"
+"code><br><br>Ti parametri bodo opuščeni."
 
 #: src/doc/kdenlivedoc.cpp:1903
-#, fuzzy, kde-format
-#| msgid "Warning"
+#, kde-format
 msgctxt "@title:window"
 msgid "Warning"
 msgstr "Opozorilo"
@@ -25357,6 +25375,10 @@ msgid ""
 "This command might be executed:<br><br><code><b>%2 -i input.mp4 %3 out.%4</"
 "b></code><br><br>These parameters will be discarded unless you allow them."
 msgstr ""
+"Projektna datoteka <b>%1</b> vsebuje nepričakovane parametre za izdelavo "
+"posrednih posnetkov. Ta ukaz se bo morda izvršil:<br><br><code><b>%2 -i vhod."
+"mp4 %3 izhod.%4</b></code><br><br>Ti parametri bodo opuščeni, razen če jih "
+"dovolite."
 
 #: src/doc/kdenlivedoc.cpp:1996
 #, kde-format
@@ -27313,19 +27335,17 @@ msgstr "Izrisovanje predogleda"
 #: src/mainwindow.cpp:671 src/mainwindow.cpp:753 src/mainwindow.cpp:2206
 #, kde-format
 msgid "Identify Gaps"
-msgstr ""
+msgstr "Identificiraj vrzeli"
 
 #: src/mainwindow.cpp:672 src/mainwindow.cpp:754
-#, fuzzy, kde-format
-#| msgid "Add Tracks"
+#, kde-format
 msgid "All Tracks"
-msgstr "Dodaj steze"
+msgstr "Vse steze"
 
 #: src/mainwindow.cpp:675 src/mainwindow.cpp:757
-#, fuzzy, kde-format
-#| msgid "Delete Track"
+#, kde-format
 msgid "Selected Track"
-msgstr "Izbriši stezo"
+msgstr "Izbrana steza"
 
 #: src/mainwindow.cpp:679
 #, kde-format
@@ -28374,25 +28394,19 @@ msgstr ""
 "lahko odprete v drugem zavihku časovnice."
 
 #: src/mainwindow.cpp:2101
-#, fuzzy, kde-format
-#| msgctxt "@title:window"
-#| msgid "Create New Sequence"
+#, kde-format
 msgid "Copy Selection to New Sequence"
-msgstr "Ustvari novo zaporedje"
+msgstr "Kopiraj izbor v novo zaporedje"
 
 #: src/mainwindow.cpp:2104
-#, fuzzy, kde-kuit-format
-#| msgctxt "@info:whatsthis"
-#| msgid ""
-#| "Adds the clip(s) currently selected in the timeline to a new sequence "
-#| "clip that can be opened in another timeline tab."
+#, kde-kuit-format
 msgctxt "@info:whatsthis"
 msgid ""
 "Copy the clip(s) currently selected in the timeline to a new sequence clip "
 "that can be opened in another timeline tab."
 msgstr ""
-"Trenutno izbrane posnetke na časovnici doda v nov posnetek zaporedja, ki ga "
-"lahko odprete v drugem zavihku časovnice."
+"Trenutno izbrane posnetke na časovnici kopira v nov posnetek zaporedja, ki "
+"ga lahko odprete v zavihku druge časovnice."
 
 #: src/mainwindow.cpp:2118
 #, kde-format
@@ -32116,10 +32130,9 @@ msgid "Create Sequence Clip"
 msgstr "Ustvari posnetek zaporedja"
 
 #: src/project/projectmanager.cpp:2476
-#, fuzzy, kde-format
-#| msgid "Switch to next Sequence"
+#, kde-format
 msgid "Copy clips to new Sequence"
-msgstr "Preklopi na naslednje zaporedje"
+msgstr "Kopiraj posnetke v novo zaporedje"
 
 #: src/project/transcodeseek.cpp:48 src/project/transcodeseek.cpp:61
 #, kde-format
@@ -33746,28 +33759,25 @@ msgid "Delete clips on track"
 msgstr "Izbriši posnetke s steze"
 
 #: src/timeline2/model/timelinefunctions.cpp:3146
-#, fuzzy, kde-format
-#| msgid "No clip selected in timeline"
+#, kde-format
 msgid "No clips found in timeline"
-msgstr "Na časovnici ni izbran noben posnetek"
+msgstr "Na časovnici ni najdenih posnetkov"
 
 #: src/timeline2/model/timelinefunctions.cpp:3175
-#, fuzzy, kde-format
-#| msgid "No clip selected in timeline"
+#, kde-format
 msgid "No gaps found in timeline"
-msgstr "Na časovnici ni izbran noben posnetek"
+msgstr "Na časovnici ni najdenih vrzeli"
 
 #: src/timeline2/model/timelinefunctions.cpp:3184
 #: src/timeline2/model/timelinefunctions.cpp:3216
 #, kde-format
 msgid "Gap"
-msgstr ""
+msgstr "Vrzel"
 
 #: src/timeline2/model/timelinefunctions.cpp:3209
-#, fuzzy, kde-format
-#| msgid "Cannot paste effect to selected track"
+#, kde-format
 msgid "No gaps found on selected track"
-msgstr "Ni možno prilepiti učinka na izbrano stezo"
+msgstr "Na izbrani stezi ni najdenih vrzeli"
 
 #: src/timeline2/model/timelineitemmodel.cpp:157
 #: src/timeline2/model/timelinemodel.cpp:5208
@@ -33882,10 +33892,9 @@ msgid "No available track for insert operation"
 msgstr "Nobene steze ni na voljo za vstavljanje"
 
 #: src/timeline2/model/timelinemodel.cpp:2010
-#, fuzzy, kde-format
-#| msgid "Fade out audio track"
+#, kde-format
 msgid "Failed to create audio tracks"
-msgstr "Utišanje zvočne steze"
+msgstr "Ustvarjanje zvočnih stez je spodletelo"
 
 #: src/timeline2/model/timelinemodel.cpp:2049
 #, kde-format
@@ -34149,34 +34158,32 @@ msgid "The video track needs %1 additional track before creating mirror track."
 msgid_plural ""
 "The video track needs %1 additional tracks before creating mirror track."
 msgstr[0] ""
+"Videosteza potrebuje %1 dodatnih stez, preden lahko ustvarite zrcalno stezo."
 msgstr[1] ""
+"Videosteza potrebuje %1 dodatno stezo, preden lahko ustvarite zrcalno stezo."
 msgstr[2] ""
+"Videosteza potrebuje %1 dodatni stezi, preden lahko ustvarite zrcalno stezo."
 msgstr[3] ""
+"Videosteza potrebuje %1 dodatne steze, preden lahko ustvarite zrcalno stezo."
 
 #: src/timeline2/view/dialogs/autotrackcreationdialog.cpp:25
-#, fuzzy, kde-format
-#| msgid ""
-#| "The selected clips %1 and %2 don't match, cannot replace audio nor video"
+#, kde-format
 msgid "The selected clip needs %1 additional audio track for %2 audio stream."
 msgid_plural ""
 "The selected clip needs %1 additional audio tracks for %2 audio streams."
 msgstr[0] ""
-"Izbrana posnetka %1 in %2 se ne ujemata, ni mogoče zamenjati ne zvoka ne "
-"videa"
+"Izbrani posnetek potrebuje %1 dodatnih zvočnih stez za %2 zvočnih tokov."
 msgstr[1] ""
-"Izbrana posnetka %1 in %2 se ne ujemata, ni mogoče zamenjati ne zvoka ne "
-"videa"
+"Izbrani posnetek potrebuje %1 dodatno zvočno stezo za %2 zvočnih tokov."
 msgstr[2] ""
-"Izbrana posnetka %1 in %2 se ne ujemata, ni mogoče zamenjati ne zvoka ne "
-"videa"
+"Izbrani posnetek potrebuje %1 dodatni zvočni stezi za %2 zvočnih tokov."
 msgstr[3] ""
-"Izbrana posnetka %1 in %2 se ne ujemata, ni mogoče zamenjati ne zvoka ne "
-"videa"
+"Izbrani posnetek potrebuje %1 dodatne zvočne steze za %2 zvočnih tokov."
 
 #: src/timeline2/view/dialogs/autotrackcreationdialog.cpp:27
 #, kde-format
 msgid "Create all required tracks (%1)"
-msgstr ""
+msgstr "Ustvari vse zahtevane steze (%1)"
 
 #: src/timeline2/view/dialogs/clipdurationdialog.cpp:114
 #, kde-format
@@ -34465,14 +34472,13 @@ msgstr "Skrij"
 
 #: src/timeline2/view/qml/Timeline.qml:902
 #: src/timeline2/view/qml/Timeline.qml:912
-#, fuzzy, kde-format
-#| msgid "Not enough audio tracks for all streams (%1)"
+#, kde-format
 msgid "Audio: %1 track for %2 streams"
 msgid_plural "Audio: %1 tracks for %2 streams"
-msgstr[0] "Ni dovolj zvočnih stez za vse tokove (%1)"
-msgstr[1] "Ni dovolj zvočnih stez za vse tokove (%1)"
-msgstr[2] "Ni dovolj zvočnih stez za vse tokove (%1)"
-msgstr[3] "Ni dovolj zvočnih stez za vse tokove (%1)"
+msgstr[0] "Zvok: %1 zvočnih stez za %2 tokov"
+msgstr[1] "Zvok: %1 zvočna steza za %2 tokov"
+msgstr[2] "Zvok: %1 zvočni stezi za %2 tokov"
+msgstr[3] "Zvok: %1 zvočne steze za %2 tokov"
 
 #: src/timeline2/view/qml/Timeline.qml:1190
 #, kde-format
@@ -35823,37 +35829,34 @@ msgstr "Prava velikost FFT: "
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, AutoTrackCreationDialog_UI)
 #: src/ui/autotrackcreationdialog_ui.ui:18
-#, fuzzy, kde-format
-#| msgid "Audio Tracks"
+#, kde-format
 msgid "Missing Audio Tracks"
-msgstr "Zvočne steze"
+msgstr "Manjkajo zvočne steze"
 
 #. i18n: ectx: property (text), widget (QLabel, mirrorInfoLabel)
 #: src/ui/autotrackcreationdialog_ui.ui:27
 #, kde-format
 msgid "This video track has missing audio tracks before creating mirror track."
 msgstr ""
+"Video stezi manjkajo zvočne steze, preden lahko ustvarite zrcalno stezo."
 
 #. i18n: ectx: property (text), widget (QLabel, infoLabel)
 #: src/ui/autotrackcreationdialog_ui.ui:37
-#, fuzzy, kde-format
-#| msgctxt "@info:whatsthis"
-#| msgid "When selected mutes all other audio tracks."
+#, kde-format
 msgid "The selected clip requires additional audio tracks."
-msgstr "Če je izbrano, utiša vse druge zvočne steze."
+msgstr "Izbrani posnetek zahteva dodatne zvočne steze."
 
 #. i18n: ectx: property (text), widget (QRadioButton, createAllRadio)
 #: src/ui/autotrackcreationdialog_ui.ui:44
-#, fuzzy, kde-format
-#| msgid "Create New Subtitle Track"
+#, kde-format
 msgid "Create all required tracks"
-msgstr "Ustvari novo stezo za podnaslove"
+msgstr "Ustvari vse zahtevane steze"
 
 #. i18n: ectx: property (text), widget (QRadioButton, createCustomRadio)
 #: src/ui/autotrackcreationdialog_ui.ui:56
 #, kde-format
 msgid "Create custom number of tracks:"
-msgstr ""
+msgstr "Ustvari naslednje število stez po meri:"
 
 #. i18n: ectx: property (placeholderText), widget (KListWidgetSearchLine, search_list)
 #: src/ui/backupdialog_ui.ui:24
@@ -37218,7 +37221,7 @@ msgstr "Posredni posnetki kamere:"
 #: src/ui/configproxy_ui.ui:193
 #, kde-format
 msgid "Allowed FFmpeg parameters for proxy clips"
-msgstr ""
+msgstr "Dovoljeni parametri FFmpe za posredne posnetke"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_enableproxy)
 #: src/ui/configproxy_ui.ui:218
@@ -38892,25 +38895,25 @@ msgid "Search Manually"
 msgstr "Poišči ročno"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeSelected)
-#: src/ui/missingclips_ui.ui:152
+#: src/ui/missingclips_ui.ui:151
 #, kde-format
 msgid "Remove"
 msgstr "Odstrani"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/missingclips_ui.ui:170
+#: src/ui/missingclips_ui.ui:168
 #, kde-format
 msgid "All Missing Items:"
 msgstr "Vsi manjkajoči predmeti:"
 
 #. i18n: ectx: property (text), widget (QPushButton, recursiveSearch)
-#: src/ui/missingclips_ui.ui:177
+#: src/ui/missingclips_ui.ui:175
 #, kde-format
 msgid "Search Recursively"
 msgstr "Išči rekurzivno"
 
 #. i18n: ectx: property (text), widget (QPushButton, usePlaceholders)
-#: src/ui/missingclips_ui.ui:188
+#: src/ui/missingclips_ui.ui:185
 #, kde-format
 msgid "Use Placeholders"
 msgstr "Uporabi ograde"
@@ -39169,18 +39172,15 @@ msgstr "Posnetki, uporabljeni v projektu:"
 
 #. i18n: ectx: property (text), widget (QCheckBox, allowOnce)
 #: src/ui/proxywarn_ui.ui:30
-#, fuzzy, kde-format
-#| msgctxt "@info:whatsthis"
-#| msgid "Displays the parameters for the selected profile"
+#, kde-format
 msgid "Allow using these parameters for this project"
-msgstr "Prikaže parametre za izbrani profil"
+msgstr "Dovoli rabo teh parametrov za ta projekt"
 
 #. i18n: ectx: property (text), widget (QCheckBox, allowAlways)
 #: src/ui/proxywarn_ui.ui:88
-#, fuzzy, kde-format
-#| msgid "Use sensor response parameters"
+#, kde-format
 msgid "Always allow these parameters"
-msgstr "Uporabi parametre odziva tipala"
+msgstr "Vedno dovoli te parametre"
 
 #. i18n: ectx: property (text), widget (KMessageWidget, allowWarning)
 #: src/ui/proxywarn_ui.ui:95
@@ -39189,6 +39189,8 @@ msgid ""
 "If you are not the author of this project or don't understand the "
 "parameters, this might compromise your system's security."
 msgstr ""
+"Če niste avtor_ica tega projekta ali ne razumete parametrov, lahko s tem "
+"kompromitirate varnost svojega sistema."
 
 #. i18n: ectx: property (text), widget (QLabel, label_text)
 #: src/ui/qtextclip_ui.ui:39

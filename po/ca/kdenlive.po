@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-26 00:43+0000\n"
+"POT-Creation-Date: 2026-04-28 00:44+0000\n"
 "PO-Revision-Date: 2026-04-25 09:05+0200\n"
 "Last-Translator: Josep M. Ferrer <txemaq@gmail.com>\n"
 "Language-Team: Catalan <kde-i18n-ca@kde.org>\n"
@@ -16452,7 +16452,7 @@ msgstr "SoX"
 msgid "Process audio using a SoX effect"
 msgstr "Procés d'àudio emprant un efecte SoX"
 
-#: data/effects/sox/sox.xml:8 src/doc/documentchecker.cpp:1899
+#: data/effects/sox/sox.xml:8 src/doc/documentchecker.cpp:1918
 #: src/monitor/view/MonitorSplit.qml:103
 #, kde-format
 msgid "Effect"
@@ -21038,8 +21038,8 @@ msgstr "ID"
 msgid "Usage"
 msgstr "Ús"
 
-#: src/bin/projectitemmodel.cpp:352 src/doc/documentchecker.cpp:1877
-#: src/doc/documentchecker.cpp:1907 src/doc/documentchecker.cpp:1927
+#: src/bin/projectitemmodel.cpp:352 src/doc/documentchecker.cpp:1896
+#: src/doc/documentchecker.cpp:1926 src/doc/documentchecker.cpp:1948
 #: src/mltcontroller/clipcontroller.cpp:537
 #: src/profiles/profilerepository.cpp:149
 #, kde-format
@@ -25033,12 +25033,12 @@ msgstr "No s'ha trobat cap codificador per maquinari."
 msgid "hardware encoders found and enabled (%1)."
 msgstr "S'han trobat i activat els codificadors per maquinari (%1)."
 
-#: src/doc/dcresolvedialog.cpp:57
+#: src/doc/dcresolvedialog.cpp:58
 #, kde-format
 msgid "Recursive search: processing clips"
 msgstr "Cerca recursiva: s'estan processant els clips"
 
-#: src/doc/dcresolvedialog.cpp:66
+#: src/doc/dcresolvedialog.cpp:67
 #, kde-format
 msgid "Recursive search: done in %1 s"
 msgstr "Cerca recursiva: s'ha efectuat en %1 s"
@@ -25053,54 +25053,61 @@ msgstr "Indiqueu la ubicació nova per a la carpeta"
 msgid "Enter new location for file"
 msgstr "Indiqueu la ubicació nova per al fitxer"
 
-#: src/doc/dcresolvedialog.cpp:194
+#: src/doc/dcresolvedialog.cpp:191
+#, kde-format
+msgid ""
+"This project want to load resources from internet.<br><b>This can be a "
+"security risk, abort loading</b> unless you fully trust the remote resources."
+msgstr ""
+
+#: src/doc/dcresolvedialog.cpp:202
 #, kde-format
 msgid "The project contains:"
 msgstr "El projecte conté:"
 
-#: src/doc/dcresolvedialog.cpp:200
+#: src/doc/dcresolvedialog.cpp:208
 #, kde-format
 msgid "One missing clip"
 msgid_plural "%1 missing clips"
 msgstr[0] "Un clip que manca"
 msgstr[1] "%1 clips que manquen"
 
-#: src/doc/dcresolvedialog.cpp:203
+#: src/doc/dcresolvedialog.cpp:211
 #, kde-format
 msgid "One missing source with available proxy"
 msgid_plural "%1 missing sources with available proxy"
 msgstr[0] "Un origen que manca amb intermediari disponible"
 msgstr[1] "%1 orígens que manquen amb intermediari disponible"
 
-#: src/doc/dcresolvedialog.cpp:206
+#: src/doc/dcresolvedialog.cpp:214
 #, kde-format
 msgid "One placeholder clip"
 msgid_plural "%1 placeholder clips"
 msgstr[0] "Un clip marcador de posició"
 msgstr[1] "%1 clips marcadors de posició"
 
-#: src/doc/dcresolvedialog.cpp:209
+#: src/doc/dcresolvedialog.cpp:217
 #, kde-format
 msgid "One removed clip"
 msgid_plural "%1 removed clips"
 msgstr[0] "Un clip eliminat"
 msgstr[1] "%1 clips eliminats"
 
-#: src/doc/dcresolvedialog.cpp:218
+#: src/doc/dcresolvedialog.cpp:226
 #, kde-format
 msgid "One missing proxy"
 msgid_plural "%1 missing proxies"
 msgstr[0] "Un intermediari que manca"
 msgstr[1] "%1 intermediaris que manquen"
 
-#: src/doc/dcresolvedialog.cpp:221
+#: src/doc/dcresolvedialog.cpp:229
 #, kde-format
 msgid "One proxy can be recovered"
 msgid_plural "%1 proxies can be recovered"
 msgstr[0] "Es pot recuperar un intermediari"
 msgstr[1] "Es poden recuperar %1 intermediaris"
 
-#: src/doc/dcresolvedialog.cpp:238
+#: src/doc/dcresolvedialog.cpp:246
 #, kde-format
 msgctxt "@title:window"
 msgid "Clips Folder"
@@ -25111,7 +25118,7 @@ msgstr "Carpeta dels clips"
 msgid "Applying fixes…"
 msgstr "S'estan aplicant correccions…"
 
-#: src/doc/documentchecker.cpp:177 src/doc/documentchecker.cpp:253
+#: src/doc/documentchecker.cpp:177 src/doc/documentchecker.cpp:254
 #, kde-format
 msgid "Checking for missing items…"
 msgstr "S'està comprovant si manquen elements…"
@@ -25122,114 +25129,121 @@ msgid ""
 "The document id of your project was invalid, a new one has been created."
 msgstr "L'ID del document del projecte no era vàlid, se n'ha creat un de nou."
 
-#: src/doc/documentchecker.cpp:1867
+#: src/doc/documentchecker.cpp:1886
 #, kde-format
 msgid "Video clip"
 msgstr "Clip de vídeo"
 
-#: src/doc/documentchecker.cpp:1869
+#: src/doc/documentchecker.cpp:1888
 #, kde-format
 msgid "Slideshow clip"
 msgstr "Clip de presentació de diapositives"
 
-#: src/doc/documentchecker.cpp:1871
+#: src/doc/documentchecker.cpp:1890
 #, kde-format
 msgid "Image clip"
 msgstr "Clip d'imatge"
 
-#: src/doc/documentchecker.cpp:1873
+#: src/doc/documentchecker.cpp:1892
 #, kde-format
 msgid "Playlist clip"
 msgstr "Clip de llista de reproducció"
 
-#: src/doc/documentchecker.cpp:1875 src/doc/documentchecker.cpp:1891
+#: src/doc/documentchecker.cpp:1894 src/doc/documentchecker.cpp:1910
 #, kde-format
 msgid "Title Image"
 msgstr "Imatge de títol"
 
-#: src/doc/documentchecker.cpp:1887
+#: src/doc/documentchecker.cpp:1906
 #, kde-format
 msgid "Clip"
 msgstr "Clip"
 
-#: src/doc/documentchecker.cpp:1889
+#: src/doc/documentchecker.cpp:1908
 #, kde-format
 msgid "Title Font"
 msgstr "Lletra del títol"
 
-#: src/doc/documentchecker.cpp:1893
+#: src/doc/documentchecker.cpp:1912
 #, kde-format
 msgid "Luma file"
 msgstr "Fitxer de luma"
 
-#: src/doc/documentchecker.cpp:1895
+#: src/doc/documentchecker.cpp:1914
 #, kde-format
 msgid "Asset file"
 msgstr "Fitxer d'actius"
 
-#: src/doc/documentchecker.cpp:1897
+#: src/doc/documentchecker.cpp:1916
 #: src/mltcontroller/clippropertiescontroller.cpp:701
 #, kde-format
 msgid "Proxy clip"
 msgstr "Clip intermediari"
 
-#: src/doc/documentchecker.cpp:1901
+#: src/doc/documentchecker.cpp:1920
 #, kde-format
 msgid "Transition"
 msgstr "Transició"
 
-#: src/doc/documentchecker.cpp:1903
+#: src/doc/documentchecker.cpp:1922
 #, kde-format
 msgid "Unreferenced clip"
 msgstr "Un clip no referenciat"
 
-#: src/doc/documentchecker.cpp:1905
+#: src/doc/documentchecker.cpp:1924
 #, kde-format
 msgid "Corrupted sequence"
 msgstr "Seqüència corrupta"
 
-#: src/doc/documentchecker.cpp:1915
+#: src/doc/documentchecker.cpp:1934
 #, kde-format
 msgctxt "status of a missing clip; fixed as in repaired"
 msgid "Fixed"
 msgstr "Corregit"
 
-#: src/doc/documentchecker.cpp:1917
+#: src/doc/documentchecker.cpp:1936
 #, kde-format
 msgctxt "action that will be performed on a missing clip"
 msgid "Reload"
 msgstr "Torna a carregar"
 
-#: src/doc/documentchecker.cpp:1919
+#: src/doc/documentchecker.cpp:1938
+#, fuzzy, kde-format
+#| msgid "Remove"
+msgctxt "status of a remote clip"
+msgid "Remote"
+msgstr "Elimina"
+
+#: src/doc/documentchecker.cpp:1940
 #, kde-format
 msgctxt "status of a missing clip"
 msgid "Missing"
 msgstr "Manca"
 
-#: src/doc/documentchecker.cpp:1921
+#: src/doc/documentchecker.cpp:1942
 #, kde-format
 msgctxt "status of a missing clip"
 msgid "Missing, but proxy available"
 msgstr "Manca, però hi ha disponible un intermediari"
 
-#: src/doc/documentchecker.cpp:1923
+#: src/doc/documentchecker.cpp:1944
 #, kde-format
 msgctxt "status of a missing clip"
 msgid "Placeholder"
 msgstr "Marcador de posició"
 
-#: src/doc/documentchecker.cpp:1925
+#: src/doc/documentchecker.cpp:1946
 #, kde-format
 msgctxt "action that will be performed on a missing clip"
 msgid "Remove"
 msgstr "Elimina"
 
-#: src/doc/documentchecker.cpp:1936
+#: src/doc/documentchecker.cpp:1957
 #, kde-format
 msgid "The project file contains missing clips or files."
 msgstr "El fitxer del projecte conté clips o fitxers que manquen."
 
-#: src/doc/documentchecker.cpp:1939
+#: src/doc/documentchecker.cpp:1960
 #, kde-format
 msgid "Missing proxies can be recreated on opening."
 msgstr "Els intermediaris que manquen es poden tornar a crear en obrir."
@@ -39155,25 +39169,25 @@ msgid "Search Manually"
 msgstr "Cerca manualment"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeSelected)
-#: src/ui/missingclips_ui.ui:152
+#: src/ui/missingclips_ui.ui:151
 #, kde-format
 msgid "Remove"
 msgstr "Elimina"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/missingclips_ui.ui:170
+#: src/ui/missingclips_ui.ui:168
 #, kde-format
 msgid "All Missing Items:"
 msgstr "Tots els elements que manquen:"
 
 #. i18n: ectx: property (text), widget (QPushButton, recursiveSearch)
-#: src/ui/missingclips_ui.ui:177
+#: src/ui/missingclips_ui.ui:175
 #, kde-format
 msgid "Search Recursively"
 msgstr "Cerca recursivament"
 
 #. i18n: ectx: property (text), widget (QPushButton, usePlaceholders)
-#: src/ui/missingclips_ui.ui:188
+#: src/ui/missingclips_ui.ui:185
 #, kde-format
 msgid "Use Placeholders"
 msgstr "Usa marcadors de posició"

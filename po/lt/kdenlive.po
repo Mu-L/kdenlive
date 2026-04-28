@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: l 10n\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2026-04-26 00:43+0000\n"
+"POT-Creation-Date: 2026-04-28 00:44+0000\n"
 "PO-Revision-Date: 2019-07-12 21:09+0300\n"
 "Last-Translator: Moo\n"
 "Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
@@ -16161,7 +16161,7 @@ msgstr ""
 msgid "Process audio using a SoX effect"
 msgstr ""
 
-#: data/effects/sox/sox.xml:8 src/doc/documentchecker.cpp:1899
+#: data/effects/sox/sox.xml:8 src/doc/documentchecker.cpp:1918
 #: src/monitor/view/MonitorSplit.qml:103
 #, kde-format
 msgid "Effect"
@@ -20987,8 +20987,8 @@ msgstr "I"
 msgid "Usage"
 msgstr ""
 
-#: src/bin/projectitemmodel.cpp:352 src/doc/documentchecker.cpp:1877
-#: src/doc/documentchecker.cpp:1907 src/doc/documentchecker.cpp:1927
+#: src/bin/projectitemmodel.cpp:352 src/doc/documentchecker.cpp:1896
+#: src/doc/documentchecker.cpp:1926 src/doc/documentchecker.cpp:1948
 #: src/mltcontroller/clipcontroller.cpp:537
 #: src/profiles/profilerepository.cpp:149
 #, kde-format
@@ -25035,12 +25035,12 @@ msgstr ""
 msgid "hardware encoders found and enabled (%1)."
 msgstr ""
 
-#: src/doc/dcresolvedialog.cpp:57
+#: src/doc/dcresolvedialog.cpp:58
 #, kde-format
 msgid "Recursive search: processing clips"
 msgstr ""
 
-#: src/doc/dcresolvedialog.cpp:66
+#: src/doc/dcresolvedialog.cpp:67
 #, fuzzy, kde-format
 #| msgid "Search"
 msgid "Recursive search: done in %1 s"
@@ -25056,13 +25056,20 @@ msgstr ""
 msgid "Enter new location for file"
 msgstr ""
 
-#: src/doc/dcresolvedialog.cpp:194
+#: src/doc/dcresolvedialog.cpp:191
+#, kde-format
+msgid ""
+"This project want to load resources from internet.<br><b>This can be a "
+"security risk, abort loading</b> unless you fully trust the remote resources."
+msgstr ""
+
+#: src/doc/dcresolvedialog.cpp:202
 #, fuzzy, kde-format
 #| msgid "Video Resolution"
 msgid "The project contains:"
 msgstr "Video skiriamoji geba"
 
-#: src/doc/dcresolvedialog.cpp:200
+#: src/doc/dcresolvedialog.cpp:208
 #, fuzzy, kde-format
 #| msgid "Analyse"
 msgid "One missing clip"
@@ -25072,7 +25079,7 @@ msgstr[1] "Analizuoti"
 msgstr[2] "Analizuoti"
 msgstr[3] "Analizuoti"
 
-#: src/doc/dcresolvedialog.cpp:203
+#: src/doc/dcresolvedialog.cpp:211
 #, fuzzy, kde-format
 #| msgid "Delete selected items"
 msgid "One missing source with available proxy"
@@ -25082,7 +25089,7 @@ msgstr[1] "Pašalinti pažymėtus elementus"
 msgstr[2] "Pašalinti pažymėtus elementus"
 msgstr[3] "Pašalinti pažymėtus elementus"
 
-#: src/doc/dcresolvedialog.cpp:206
+#: src/doc/dcresolvedialog.cpp:214
 #, fuzzy, kde-format
 #| msgid "Use as default"
 msgid "One placeholder clip"
@@ -25092,7 +25099,7 @@ msgstr[1] "Naudoti kaip numatytąjį"
 msgstr[2] "Naudoti kaip numatytąjį"
 msgstr[3] "Naudoti kaip numatytąjį"
 
-#: src/doc/dcresolvedialog.cpp:209
+#: src/doc/dcresolvedialog.cpp:217
 #, fuzzy, kde-format
 #| msgid "Cannot create temporary file"
 msgid "One removed clip"
@@ -25102,7 +25109,7 @@ msgstr[1] "Negaliu sukurti laikinos bylos!"
 msgstr[2] "Negaliu sukurti laikinos bylos!"
 msgstr[3] "Negaliu sukurti laikinos bylos!"
 
-#: src/doc/dcresolvedialog.cpp:218
+#: src/doc/dcresolvedialog.cpp:226
 #, fuzzy, kde-format
 #| msgid "Delete selected items"
 msgid "One missing proxy"
@@ -25112,7 +25119,7 @@ msgstr[1] "Pašalinti pažymėtus elementus"
 msgstr[2] "Pašalinti pažymėtus elementus"
 msgstr[3] "Pašalinti pažymėtus elementus"
 
-#: src/doc/dcresolvedialog.cpp:221
+#: src/doc/dcresolvedialog.cpp:229
 #, kde-format
 msgid "One proxy can be recovered"
 msgid_plural "%1 proxies can be recovered"
@@ -25121,7 +25128,7 @@ msgstr[1] ""
 msgstr[2] ""
 msgstr[3] ""
 
-#: src/doc/dcresolvedialog.cpp:238
+#: src/doc/dcresolvedialog.cpp:246
 #, fuzzy, kde-format
 #| msgid "Add folder"
 msgctxt "@title:window"
@@ -25133,7 +25140,7 @@ msgstr "Pridėti aplankalą"
 msgid "Applying fixes…"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:177 src/doc/documentchecker.cpp:253
+#: src/doc/documentchecker.cpp:177 src/doc/documentchecker.cpp:254
 #, fuzzy, kde-format
 #| msgid "Checking system"
 msgid "Checking for missing items…"
@@ -25145,124 +25152,131 @@ msgid ""
 "The document id of your project was invalid, a new one has been created."
 msgstr ""
 
-#: src/doc/documentchecker.cpp:1867
+#: src/doc/documentchecker.cpp:1886
 #, kde-format
 msgid "Video clip"
 msgstr "Video iškarpa"
 
-#: src/doc/documentchecker.cpp:1869
+#: src/doc/documentchecker.cpp:1888
 #, fuzzy, kde-format
 #| msgid "Slideshow"
 msgid "Slideshow clip"
 msgstr "Skaidrių peržiūra"
 
-#: src/doc/documentchecker.cpp:1871
+#: src/doc/documentchecker.cpp:1890
 #, kde-format
 msgid "Image clip"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:1873
+#: src/doc/documentchecker.cpp:1892
 #, kde-format
 msgid "Playlist clip"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:1875 src/doc/documentchecker.cpp:1891
+#: src/doc/documentchecker.cpp:1894 src/doc/documentchecker.cpp:1910
 #, kde-format
 msgid "Title Image"
 msgstr "Antraštės paveikslėlis"
 
-#: src/doc/documentchecker.cpp:1887
+#: src/doc/documentchecker.cpp:1906
 #, fuzzy, kde-format
 #| msgid "Clip"
 msgid "Clip"
 msgstr "Iškarpa"
 
-#: src/doc/documentchecker.cpp:1889
+#: src/doc/documentchecker.cpp:1908
 #, kde-format
 msgid "Title Font"
 msgstr "Antraštės šriftas"
 
-#: src/doc/documentchecker.cpp:1893
+#: src/doc/documentchecker.cpp:1912
 #, kde-format
 msgid "Luma file"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:1895
+#: src/doc/documentchecker.cpp:1914
 #, fuzzy, kde-format
 #| msgid "Delete files"
 msgid "Asset file"
 msgstr "Trinti failus"
 
-#: src/doc/documentchecker.cpp:1897
+#: src/doc/documentchecker.cpp:1916
 #: src/mltcontroller/clippropertiescontroller.cpp:701
 #, kde-format
 msgid "Proxy clip"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:1901
+#: src/doc/documentchecker.cpp:1920
 #, kde-format
 msgid "Transition"
 msgstr "Poslinkis"
 
-#: src/doc/documentchecker.cpp:1903
+#: src/doc/documentchecker.cpp:1922
 #, fuzzy, kde-format
 #| msgid "Cannot create temporary file"
 msgid "Unreferenced clip"
 msgstr "Negaliu sukurti laikinos bylos!"
 
-#: src/doc/documentchecker.cpp:1905
+#: src/doc/documentchecker.cpp:1924
 #, fuzzy, kde-format
 #| msgid "Create New Sequence"
 msgid "Corrupted sequence"
 msgstr "Sukurti naują seką"
 
-#: src/doc/documentchecker.cpp:1915
+#: src/doc/documentchecker.cpp:1934
 #, kde-format
 msgctxt "status of a missing clip; fixed as in repaired"
 msgid "Fixed"
 msgstr ""
 
-#: src/doc/documentchecker.cpp:1917
+#: src/doc/documentchecker.cpp:1936
 #, fuzzy, kde-format
 #| msgid "Delete selected items"
 msgctxt "action that will be performed on a missing clip"
 msgid "Reload"
 msgstr "Pašalinti pažymėtus elementus"
 
-#: src/doc/documentchecker.cpp:1919
+#: src/doc/documentchecker.cpp:1938
+#, fuzzy, kde-format
+#| msgid "Remove file"
+msgctxt "status of a remote clip"
+msgid "Remote"
+msgstr "Pašalinti failą"
+
+#: src/doc/documentchecker.cpp:1940
 #, fuzzy, kde-format
 #| msgid "Missing"
 msgctxt "status of a missing clip"
 msgid "Missing"
 msgstr "Trūksta"
 
-#: src/doc/documentchecker.cpp:1921
+#: src/doc/documentchecker.cpp:1942
 #, fuzzy, kde-format
 #| msgid "Effects"
 msgctxt "status of a missing clip"
 msgid "Missing, but proxy available"
 msgstr "Efektai"
 
-#: src/doc/documentchecker.cpp:1923
+#: src/doc/documentchecker.cpp:1944
 #, fuzzy, kde-format
 #| msgid "Use as default"
 msgctxt "status of a missing clip"
 msgid "Placeholder"
 msgstr "Naudoti kaip numatytąjį"
 
-#: src/doc/documentchecker.cpp:1925
+#: src/doc/documentchecker.cpp:1946
 #, fuzzy, kde-format
 #| msgid "Remove file"
 msgctxt "action that will be performed on a missing clip"
 msgid "Remove"
 msgstr "Pašalinti failą"
 
-#: src/doc/documentchecker.cpp:1936
+#: src/doc/documentchecker.cpp:1957
 #, kde-format
 msgid "The project file contains missing clips or files."
 msgstr ""
 
-#: src/doc/documentchecker.cpp:1939
+#: src/doc/documentchecker.cpp:1960
 #, kde-format
 msgid "Missing proxies can be recreated on opening."
 msgstr ""
@@ -39559,28 +39573,28 @@ msgid "Search Manually"
 msgstr "Ieškoti"
 
 #. i18n: ectx: property (text), widget (QPushButton, removeSelected)
-#: src/ui/missingclips_ui.ui:152
+#: src/ui/missingclips_ui.ui:151
 #, fuzzy, kde-format
 #| msgid "Remove file"
 msgid "Remove"
 msgstr "Pašalinti failą"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/missingclips_ui.ui:170
+#: src/ui/missingclips_ui.ui:168
 #, fuzzy, kde-format
 #| msgid "Missing item"
 msgid "All Missing Items:"
 msgstr "Trūkstantis elementas"
 
 #. i18n: ectx: property (text), widget (QPushButton, recursiveSearch)
-#: src/ui/missingclips_ui.ui:177
+#: src/ui/missingclips_ui.ui:175
 #, fuzzy, kde-format
 #| msgid "Search"
 msgid "Search Recursively"
 msgstr "Ieškoti"
 
 #. i18n: ectx: property (text), widget (QPushButton, usePlaceholders)
-#: src/ui/missingclips_ui.ui:188
+#: src/ui/missingclips_ui.ui:185
 #, fuzzy, kde-format
 #| msgid "Use as default"
 msgid "Use Placeholders"
