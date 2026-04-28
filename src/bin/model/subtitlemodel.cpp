@@ -680,7 +680,7 @@ int SubtitleModel::cutSubtitle(int layer, int position, Fun &undo, Fun &redo)
     GenTime pos(position, pCore->getCurrentFps());
     GenTime start = GenTime(-1);
     for (const auto &subtitles : m_subtitleList) {
-        if (subtitles.first.second <= pos && subtitles.second.endTime() > pos) {
+        if (subtitles.first.second <= pos && subtitles.second.endTime() > pos && subtitles.first.first == layer) {
             start = subtitles.first.second;
             break;
         }
